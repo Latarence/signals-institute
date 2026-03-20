@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contribute — The Signals Institute</title>
+<meta name="description" content="Support The Signals Institute's mission to expand access to advanced technology careers. Your contribution directly supports youth exposure, veteran transition, and community programs.">
+<meta name="keywords" content="donate, contribute, support, STEM education, veteran transition, youth programs">
+<meta name="author" content="The Signals Institute">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://thesignalsinstitute.com/contribute">
+<meta property="og:title" content="Contribute — The Signals Institute">
+<meta property="og:description" content="Support The Signals Institute's mission to expand access to advanced technology careers.">
+
+<link rel="canonical" href="https://thesignalsinstitute.com/contribute">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<script src="https://js.stripe.com/v3/"></script>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="index.html" class="nav-logo" aria-label="The Signals Institute">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAIcCAYAAAA5Xcd7AABU3klEQVR4XuzdCbx19dj/8afu5vtu1KxRaVJCnlDSLaGQWQqP4k+mhGTKUJ4iITI8j1mEQsiDjFHIFEUoFbojKU3GkOn7vy7XOefe57r3OWdNe++19v68X6/vS+6z12+tPZx91rV+v/X7/cd/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAMk3cGytGLWz+0BAAAAANBKVsS+VtXtn9sDAAAAAKCVRAEMAAAAAJgEogAGAAAAgPFnBdzaltPGNK/Lz7cfUQADAAAAwPizAm6jXNGNkavy8+1HFMAAAADI7ERvTcsDLC/vybMtK+XHYnTs/djJ8vz0Pm1tWTk/FhAFMAUwAAAAgp3crW7Z03KC5SLLMstve3KD5ULLJy33tCzJbWDwFAXuYZavWC6z3JTepx9bvms51LKFZVFuA5NJFMAUwAAAAJgpfu9vudjyO8s/Lf/qPfOb8g/LXy1XWo7N7WCw7DXf3PJRy68tf1O8T5n/m79Pv7F8wrJ5bgeTSRTAFMAAAACTzE7oFll2sXzMcq3l77NO9+bmRdYtlm9bHpDbRbMUQ9L/23Kp5c/qf3GiH3/sVZaXWNbP7WKyiAKYAhgAAGCS2QndYsVw2r/MPs8rzLf7kGW13DaaY6/v9ope9349vkX8VHGhg3u4J5gogCmAAQAAJpWdzK1heYjlZ+kkrwzvibxR0Tu5at4H6rPXdTvLpxRDz6vyIdFnKybN4p7gCSUKYApgAACASWQncitZbm95t6r3Kk7z7b13cqu8H9Rjr+nKliMUE5AVHfY8Fx8O/TjLWnk/mAyiAKYABgAAmER2IreaYpmjP6QTvKr+ZHl93g/qsdd0ieWHqn+RYtoFlm3yfjAZRAFMAQwAADCJFIWV9yw2xYfnftyyTt4XqrPXc0fFjM9N8QmxfKmrVfK+MP5EAUwBDAAAMIkUa8l+I53c1eHDc68RJ4iNstfzFEXvelN86aRXiBmhJ5IogCmAAQAAJpFiYqXL8tldTTdbDsr7QnX2ep6muHe3Sa+zbJj3hfEnCmAKYAAAgEkkCuBOEAUwGiQKYApgAACASSQK4E4QBTAaZO/7WpbjGszvVc8JWrHNqnlOfr79iAIYAABg8tiJ3AaWV+Wzuxr83tKvW7bP+0J19no+3HLT7Je6luss..." alt="The Signals Institute">
+  </a>
+
+  <ul class="nav-links" aria-label="Primary">
+    <li><a href="about.html">About</a></li>
+    <li><a href="pillars.html">Pillars</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contribute.html" class="active">Contribute</a></li>
+    <li><a class="nav-cta" href="contact.html">Contact</a></li>
+  </ul>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" type="button">Menu</button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu" data-open="false">
+  <ul class="mobile-links" aria-label="Mobile">
+    <li><a href="index.html"><span>01</span>Home</a></li>
+    <li><a href="about.html"><span>02</span>About</a></li>
+    <li><a href="pillars.html"><span>03</span>Pillars</a></li>
+    <li><a href="events.html"><span>04</span>Events</a></li>
+    <li><a href="contribute.html"><span>05</span>Contribute</a></li>
+    <li><a href="contact.html"><span>06</span>Contact</a></li>
+  </ul>
+</div>
+
+<header class="page-header">
+  <div class="section-label">Contribute</div>
+  <h1 class="section-title">Strength Through Connection. <em>Fund the Work.</em></h1>
+  <p>
+    Your contribution directly supports youth technical exposure, veteran transition,
+    curriculum development, and community-hosted research forums in Riviera Beach.
+  </p>
+</header>
+
+<section class="donate-section">
+  <div style="max-width:500px;margin:0 auto;text-align:left;position:relative;z-index:2;">
+    <div class="section-label" style="margin-bottom:2rem;">Make a donation</div>
+    
+    <div class="donation-amounts">
+      <button class="amt-btn" data-amount="25">$25</button>
+      <button class="amt-btn" data-amount="50">$50</button>
+      <button class="amt-btn selected" data-amount="100">$100</button>
+      <button class="amt-btn" data-amount="250">$250</button>
+    </div>
+    <div class="custom-amount">
+      <label>Custom amount</label>
+      <input type="number" id="custom-amount" min="1" placeholder="$">
+    </div>
+    <form id="payment-form">
+      <div id="card-element" style="padding:1rem;border:1px solid rgba(255,255,255,0.2);background:#111;border-radius:4px;margin-top:1rem;"></div>
+      <button class="btn-blue" id="submit-btn" style="margin-top:1.5rem;width:100%;" type="submit" disabled>
+        Donate <span id="btn-amount">$100</span>
+      </button>
+      <div id="payment-message" style="margin-top:1rem;font-size:0.85rem;"></div>
+      <div class="stripe-powered">Powered by Stripe</div>
+    </form>
+  </div>
+</section>
+
+<section class="challenge">
+  <div class="challenge-inner">
+    <div class="challenge-text reveal">
+      <div class="section-label">Where it goes</div>
+      <h2 class="section-title">Your impact.</h2>
+      <p>
+        Every dollar goes directly toward programs that create real pathways to technical careers.
+        We operate lean—no bloated overhead, just direct community impact.
+      </p>
+
+      <div class="challenge-cards">
+        <div class="challenge-card reveal reveal-delay-1">
+          <div class="challenge-card-num">Youth</div>
+          <h3>Exposure programs</h3>
+          <p>Summer camps, workshops, mentorship, and portfolio development for young people.</p>
+        </div>
+        <div class="challenge-card reveal reveal-delay-2">
+          <div class="challenge-card-num">Veterans</div>
+          <h3>Transition pathways</h3>
+          <p>Skills translation, technical training, and direct employer placement support.</p>
+        </div>
+        <div class="challenge-card reveal reveal-delay-3">
+          <div class="challenge-card-num">Community</div>
+          <h3>Engagement events</h3>
+          <p>Forums, workshops, and ongoing programming that builds technical culture.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="challenge-text reveal reveal-delay-1">
+      <div class="section-label amber">Our commitment</div>
+      <h2 class="section-title">Measurable outcomes.</h2>
+      <p>
+        We track every dollar by outcomes—not just activities. Placement rates, wages generated,
+        and durable participation in the technical workforce.
+      </p>
+
+      <div class="impact-numbers" style="margin-top:2rem;" aria-label="Impact metrics">
+        <div class="impact-num">
+          <div class="impact-val" style="font-size:2rem;">90%</div>
+          <div class="impact-label">Veteran placement rate</div>
+        </div>
+        <div class="impact-num">
+          <div class="impact-val" style="font-size:2rem;color:var(--green);">$4.5M+</div>
+          <div class="impact-label">New wages generated</div>
+        </div>
+        <div class="impact-num">
+          <div class="impact-val" style="font-size:2rem;color:var(--amber);">349+</div>
+          <div class="impact-label">People served</div>
+        </div>
+        <div class="impact-num">
+          <div class="impact-val" style="font-size:2rem;">100%</div>
+          <div class="impact-label">Program allocation</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo" aria-label="The Signals Institute">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAIcCAYAAAA5Xcd7AABU3klEQVR4XuzdCbx19dj/8afu5vtu1KxRaVJCnlDSLaGQWQqP4k+mhGTKUJ4iITI8j1mEQsiDjFHIFEUoFbojKU3GkOn7vy7XOefe57r3OWdNe++19v68X6/vS+6z12+tPZx91rV+v/X7/cd/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAMk3cGytGLWz+0BAAAAANBKVsS+VtXtn9sDAAAAAKCVRAEMAAAAAJgEogAGAAAAgPFnBdzaltPGNK/Lz7cfUQADAAAAwPizAm6jXNGNkavy8+1HFMAAAADI7ERvTcsDLC/vybMtK+XHYnTs/djJ8vz0Pm1tWTk/FhAFMAUwAAAAgp3crW7Z03KC5SLLMstve3KD5ULLJy33tCzJbWDwFAXuYZavWC6z3JTepx9bvms51LKFZVFuA5NJFMAUwAAAAJgpfu9vudjyO8s/Lf/qPfOb8g/LXy1XWo7N7WCw7DXf3PJRy68tf1O8T5n/m79Pv7F8wrJ5bgeTSRTAFMAAAACTzE7oFll2sXzMcq3l77NO9+bmRdYtlm9bHpDbRbMUQ9L/23Kp5c/qf3GiH3/sVZaXWNbP7WKyiAKYAhgAAGCS2QndYsVw2r/MPs8rzLf7kGW13DaaY6/v9ope9349vkX8VHGhg3u4J5gogCmAAQAAJpWdzK1heYjlZ+kkrwzvibxR0Tu5at4H6rPXdTvLpxRDz6vyIdFnKybN4p7gCSUKYApgAACASWQncitZbm95t6r3Kk7z7b13cqu8H9Rjr+nKliMUE5AVHfY8Fx8O/TjLWnk/mAyiAKYABgAAmER2IreaYpmjP6QTvKr+ZHl93g/qsdd0ieWHqn+RYtoFlm3yfjAZRAFMAQwAADCJFIWV9yw2xYfnftyyTt4XqrPXc0fFjM9N8QmxfKmrVfK+MP5EAUwBDAAAMIkUa8l+I53c1eHDc68RJ4iNstfzFEXvelN86aRXiBmhJ5IogCmAAQAAJpFiYqXL8tldTTdbDsr7QnX2ep6muHe3Sa+zbJj3hfEnCmAKYAAAgEkkCuBOEAUwGiQKYApgAACASSQK4E4QBTAaZO/7WpbjGszvVc8JWrHNqnlOfr79iAIYAABg8tiJ3AaWV+Wzuxr83tKvW7bP+0J19no+3HLT7Je6luss..." alt="The Signals Institute">
+  </div>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="pillars.html">Pillars</a>
+    <a href="events.html">Events</a>
+    <a href="contribute.html">Contribute</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="footer-social">
+    <a href="https://www.linkedin.com/company/the-signals-institute" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="footer-info">
+    Riviera Beach, Florida<br>
+    &copy; <span id="year"></span> The Signals Institute
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top" style="display:none;">
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+    <path d="M10 4l6 6h-4v6H8v-6H4l6-6z"/>
+  </svg>
+</button>
+
+<script src="main.js"></script>
+</body>
+</html>
