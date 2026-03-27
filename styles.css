@@ -57,6 +57,7 @@
     font-weight: 700 !important;
   }
   .nav-donate:hover { background: #f6b93b !important; color: var(--near-black) !important; }
+  .nav-donate { display: none; }
 
   /* ── HERO ── */
   .hero {
