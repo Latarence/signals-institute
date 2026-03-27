@@ -881,6 +881,9 @@
   .event-card-badge.youth { background: var(--blue); }
   .event-card-badge.community { background: var(--green); }
   .event-card-badge.veteran { background: var(--amber); }
+  .event-card-full.youth { border-top-color: var(--blue); }
+  .event-card-full.community { border-top-color: var(--green); }
+  .event-card-full.veteran { border-top-color: var(--amber); }
   .event-card-content {
     padding: 2rem;
     flex: 1;
