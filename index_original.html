@@ -1375,7 +1375,9 @@
     Send a note and we’ll respond with next steps.
   </p>
 
-  <form class="contact-form" action="mailto:annehuntingtonfoundation@gmail.com" method="post" enctype="text/plain">
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="458e4d03-b1b5-4c2f-9be2-65c54516742b">
+    <input type="hidden" name="subject" value="New Signals Institute Inquiry">
     <div class="field">
       <label for="name">Name</label>
       <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
