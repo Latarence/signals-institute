@@ -50,6 +50,13 @@
     font-weight: 700 !important;
   }
   .nav-cta:hover { background: #33bbf5 !important; color: var(--near-black) !important; }
+  .nav-donate {
+    background: var(--amber) !important;
+    color: var(--near-black) !important;
+    padding: 0.5rem 1.25rem;
+    font-weight: 700 !important;
+  }
+  .nav-donate:hover { background: #f6b93b !important; color: var(--near-black) !important; }
 
   /* ── HERO ── */
   .hero {
@@ -580,7 +587,7 @@
 
   /* ── DONATE ── */
   .donate-section {
-    padding: 8rem 4rem; text-align: center;
+    padding: 6rem 4rem; text-align: center;
     background: var(--card);
     border-top: 1px solid var(--border); position: relative; overflow: hidden;
   }
@@ -588,6 +595,15 @@
     content: ''; position: absolute; inset: 0;
     background: radial-gradient(ellipse 60% 70% at 50% 100%, rgba(0,168,232,0.08) 0%, transparent 70%);
     pointer-events: none;
+  }
+  .donate-section-inner {
+    max-width: 500px; margin: 0 auto; position: relative; z-index: 2;
+  }
+  .donate-intro {
+    font-size: 0.95rem; color: var(--text-dim); margin-bottom: 2rem; line-height: 1.6;
+  }
+  #card-element {
+    padding: 1rem; border: 1px solid var(--border); background: #111; border-radius: 4px; margin: 1.5rem 0;
   }
   .donation-amounts { display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center; }
   .amt-btn {
@@ -606,6 +622,39 @@
     color: #fff; font-size: 1rem;
   }
   .stripe-powered { text-align: center; margin-top: 1rem; font-size: 0.7rem; color: #666; }
+
+  /* ── CONNECT FORM ── */
+  .connect-section {
+    padding: 6rem 4rem;
+    background: var(--near-black);
+    border-bottom: 1px solid var(--border);
+  }
+  .connect-section-inner {
+    max-width: 700px; margin: 0 auto; position: relative; z-index: 2;
+  }
+  .connect-form {
+    display: flex; flex-direction: column; gap: 1.25rem; text-align: left;
+  }
+  .form-row {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
+  }
+  .connect-form .field select:disabled {
+    opacity: 0.5; cursor: not-allowed;
+  }
+  #submit-btn {
+    margin-top: 1.5rem; width: 100%;
+  }
+  #payment-message {
+    margin-top: 1rem; font-size: 0.85rem;
+  }
+
+  /* ── IMPACT SECTION ── */
+  .impact-section {
+    padding: 6rem 4rem; background: var(--near-black);
+  }
+  .impact-numbers {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 2rem;
+  }
 
   /* ── FOOTER ── */
   footer {
@@ -738,4 +787,6 @@
     .how-cards { grid-template-columns: 1fr; }
     .role-grid { flex-direction: column; gap: 1.5rem; }
     .principle-text { font-size: 1.3rem; }
+    .form-row { grid-template-columns: 1fr; }
+    .impact-numbers { grid-template-columns: repeat(2, 1fr); }
   }

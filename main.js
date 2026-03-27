@@ -76,6 +76,60 @@ if (backToTop) {
   });
 }
 
+// Dependent dropdowns for Connect form
+const interestOptions = {
+  student: ['Explore programs', 'Get mentorship', 'Stay informed', 'Join a camp'],
+  veteran: ['Career pathways', 'Training programs', 'Stay informed', 'Get hired'],
+  parent: ['Programs for my child', 'Volunteer', 'Stay informed'],
+  volunteer: ['Volunteer', 'Mentor', 'Host events', 'Stay informed'],
+  employer: ['Hire veterans', 'Corporate partnership', 'On-site programs'],
+  educator: ['Host programs', 'Partnership', 'Curriculum resources'],
+  funder: ['Donate', 'Apply for a grant', 'Corporate sponsorship'],
+  community: ['Stay informed', 'Volunteer', 'Learn more']
+};
+
+const identitySelect = document.getElementById('identity');
+const interestSelect = document.getElementById('interest');
+const combinedSelection = document.getElementById('combined-selection');
+
+if (identitySelect && interestSelect) {
+  identitySelect.addEventListener('change', function() {
+    const selectedIdentity = this.value;
+    
+    // Clear and reset interest dropdown
+    interestSelect.innerHTML = '<option value="">Select what you\'re looking for</option>';
+    
+    if (selectedIdentity && interestOptions[selectedIdentity]) {
+      // Enable dropdown and populate options
+      interestSelect.disabled = false;
+      interestOptions[selectedIdentity].forEach(option => {
+        const opt = document.createElement('option');
+        opt.value = option.toLowerCase().replace(/\s+/g, '-');
+        opt.textContent = option;
+        interestSelect.appendChild(opt);
+      });
+    } else {
+      // Disable dropdown if no identity selected
+      interestSelect.disabled = true;
+    }
+    
+    // Update combined selection field
+    updateCombinedSelection();
+  });
+
+  interestSelect.addEventListener('change', updateCombinedSelection);
+
+  function updateCombinedSelection() {
+    const identity = identitySelect.options[identitySelect.selectedIndex]?.text || '';
+    const interest = interestSelect.options[interestSelect.selectedIndex]?.text || '';
+    if (identity && interest) {
+      combinedSelection.value = `${identity} → ${interest}`;
+    } else {
+      combinedSelection.value = '';
+    }
+  }
+}
+
 // Stripe donation
 const STRIPE_PK = 'pk_live_51RwVImEgsINI6NxI8ZzueKx6Ld1KG9kMcRLiDUm3PEuwU3YzuPiORMKrFK9oGJ8GrCIC5pVfKCVJr8iirjUmQ3kA00KGoYKUNZ';
 let selectedAmount = 100;

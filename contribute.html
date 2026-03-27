@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contribute — The Signals Institute</title>
-<meta name="description" content="Support The Signals Institute's mission to expand access to advanced technology careers. Your contribution directly supports youth exposure, veteran transition, and community programs.">
-<meta name="keywords" content="donate, contribute, support, STEM education, veteran transition, youth programs">
+<title>Connect — The Signals Institute</title>
+<meta name="description" content="Connect with The Signals Institute. Volunteer, mentor, host programs, hire veterans, or stay informed about youth technical exposure and veteran transition programs in Riviera Beach.">
+<meta name="keywords" content="volunteer, mentor, hire veterans, partner, STEM education, Riviera Beach, youth programs, veteran transition">
 <meta name="author" content="The Signals Institute">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://thesignalsinstitute.com/contribute">
-<meta property="og:title" content="Contribute — The Signals Institute">
-<meta property="og:description" content="Support The Signals Institute's mission to expand access to advanced technology careers.">
+<meta property="og:title" content="Connect — The Signals Institute">
+<meta property="og:description" content="Build with us. Volunteer, mentor, host, or stay informed — there's a place for everyone.">
 
 <link rel="canonical" href="https://thesignalsinstitute.com/contribute">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,8 +41,8 @@
     <li><a href="about.html">About</a></li>
     <li><a href="pillars.html">Pillars</a></li>
     <li><a href="events.html">Events</a></li>
-    <li><a href="contribute.html" class="active">Contribute</a></li>
-    <li><a class="nav-cta" href="contact.html">Contact</a></li>
+    <li><a href="contribute.html" class="active">Connect</a></li>
+    <li><a class="nav-donate" href="#donate">Donate</a></li>
   </ul>
 
   <button class="menu-btn" id="menuBtn" aria-label="Open menu" type="button">Menu</button>
@@ -54,23 +54,80 @@
     <li><a href="about.html"><span>02</span>About</a></li>
     <li><a href="pillars.html"><span>03</span>Pillars</a></li>
     <li><a href="events.html"><span>04</span>Events</a></li>
-    <li><a href="contribute.html"><span>05</span>Contribute</a></li>
+    <li><a href="contribute.html"><span>05</span>Connect</a></li>
     <li><a href="contact.html"><span>06</span>Contact</a></li>
   </ul>
 </div>
 
 <header class="page-header">
-  <div class="section-label">Contribute</div>
-  <h1 class="section-title">Strength Through Connection. <em>Fund the Work.</em></h1>
+  <div class="section-label">Connect</div>
+  <h1 class="section-title">Build with us. <em>Strengthen the work.</em></h1>
   <p>
-    Your contribution directly supports youth technical exposure, veteran transition,
-    curriculum development, and community-hosted research forums in Riviera Beach.
+    Volunteer, mentor, host, stay informed—there's a place for everyone.
+    Connect with The Signals Institute to expand access to advanced technology careers in Riviera Beach.
   </p>
 </header>
 
-<section class="donate-section">
-  <div style="max-width:500px;margin:0 auto;text-align:left;position:relative;z-index:2;">
-    <div class="section-label" style="margin-bottom:2rem;">Make a donation</div>
+<section class="connect-section">
+  <div class="connect-section-inner">
+    <div class="section-label" style="margin-bottom:1rem;">Get Involved</div>
+    <form class="connect-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="458e4d03-b1b5-4c2f-9be2-65c54516742b">
+      <input type="hidden" name="subject" value="New Signals Institute Connection">
+      <input type="hidden" name="selection" id="combined-selection" value="">
+
+      <div class="form-row">
+        <div class="field">
+          <label for="identity">I am a...</label>
+          <select id="identity" name="identity" required>
+            <option value="">Select who you are</option>
+            <option value="student">Student / Youth</option>
+            <option value="veteran">Veteran</option>
+            <option value="parent">Parent / Guardian</option>
+            <option value="volunteer">Volunteer / Community Member</option>
+            <option value="employer">Employer / HR</option>
+            <option value="educator">Educator / Librarian</option>
+            <option value="funder">Funder / Grant Writer</option>
+            <option value="community">General Community</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="interest">I want to...</label>
+          <select id="interest" name="interest" required disabled>
+            <option value="">Select what you're looking for</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@domain.com" required>
+        </div>
+      </div>
+
+      <div class="field full">
+        <label for="message">Message (optional)</label>
+        <textarea id="message" name="message" placeholder="Tell us more about what you're looking for..."></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn-blue" type="submit">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="donate-section" id="donate">
+  <div class="donate-section-inner">
+    <div class="section-label amber" style="margin-bottom:1rem;">Fund the Work</div>
+    <p class="donate-intro">Or support financially — every contribution directly supports youth technical exposure, veteran transition, and community programs in Riviera Beach.</p>
     
     <div class="donation-amounts">
       <button class="amt-btn" data-amount="25">$25</button>
@@ -83,23 +140,23 @@
       <input type="number" id="custom-amount" min="1" placeholder="$">
     </div>
     <form id="payment-form">
-      <div id="card-element" style="padding:1rem;border:1px solid rgba(255,255,255,0.2);background:#111;border-radius:4px;margin-top:1rem;"></div>
-      <button class="btn-blue" id="submit-btn" style="margin-top:1.5rem;width:100%;" type="submit" disabled>
+      <div id="card-element"></div>
+      <button class="btn-blue" id="submit-btn" type="submit" disabled>
         Donate <span id="btn-amount">$100</span>
       </button>
-      <div id="payment-message" style="margin-top:1rem;font-size:0.85rem;"></div>
+      <div id="payment-message"></div>
       <div class="stripe-powered">Powered by Stripe</div>
     </form>
   </div>
 </section>
 
-<section class="challenge">
+<section class="impact-section">
   <div class="challenge-inner">
     <div class="challenge-text reveal">
       <div class="section-label">Where it goes</div>
       <h2 class="section-title">Your impact.</h2>
       <p>
-        Every dollar goes directly toward programs that create real pathways to technical careers.
+        Every contribution goes directly toward programs that create real pathways to technical careers.
         We operate lean—no bloated overhead, just direct community impact.
       </p>
 
@@ -130,7 +187,7 @@
         and durable participation in the technical workforce.
       </p>
 
-      <div class="impact-numbers" style="margin-top:2rem;" aria-label="Impact metrics">
+      <div class="impact-numbers" aria-label="Impact metrics">
         <div class="impact-num">
           <div class="impact-val" style="font-size:2rem;">90%</div>
           <div class="impact-label">Veteran placement rate (target)</div>
@@ -148,7 +205,7 @@
           <div class="impact-label">Program allocation</div>
         </div>
       </div>
-      <p class="stats-disclaimer" style="margin-top:1.5rem;">Figures represent aspirational targets based on current planning assumptions. Actual outcomes will depend on funding, partnerships, and program implementation.</p>
+      <p class="stats-disclaimer">Figures represent aspirational targets based on current planning assumptions. Actual outcomes will depend on funding, partnerships, and program implementation.</p>
     </div>
   </div>
 </section>
@@ -161,7 +218,8 @@
     <a href="about.html">About</a>
     <a href="pillars.html">Pillars</a>
     <a href="events.html">Events</a>
-    <a href="contribute.html">Contribute</a>
+    <a href="contribute.html">Connect</a>
+    <a href="contribute.html#donate">Contribute</a>
     <a href="contact.html">Contact</a>
   </div>
   <div class="footer-social">
