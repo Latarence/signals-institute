@@ -23,6 +23,8 @@
     overflow-x: hidden;
   }
 
+  .hide-dates { display: none !important; }
+
   /* ── NAV ── */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -796,6 +798,7 @@
     line-height: 0.85;
     color: var(--text-bright);
     margin: 1rem 0 1.5rem;
+    white-space: nowrap;
   }
   .summit-tagline {
     font-size: 1.25rem;
