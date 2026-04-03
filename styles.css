@@ -739,7 +739,7 @@
   .mobile-menu {
     display: none;
     position: fixed;
-    top: 64px;
+    top: 80px;
     left: 0;
     right: 0;
     background: rgba(10,10,10,0.96);
@@ -1268,7 +1268,7 @@
     nav { padding: 1rem 1.5rem; }
     .nav-links { display: none; }
     .menu-btn { display: inline-flex; align-items: center; gap: 0.5rem; }
-    .mobile-menu { top: 60px; }
+    .mobile-menu { top: 90px; }
     .hero-content { padding: 2rem 1.5rem; }
     .hero-rings { display: none; }
     .hero-stats { flex-direction: column; }
