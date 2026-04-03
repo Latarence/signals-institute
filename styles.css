@@ -114,7 +114,7 @@
   .hero-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--blue); display: block; }
   h1.hero-headline {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(4rem, 8vw, 7.5rem);
+    font-size: clamp(3rem, 6vw, 5.5rem);
     font-weight: 900; line-height: 0.88; letter-spacing: -0.02em;
     color: var(--text-bright);
     margin-bottom: 1.5rem;
@@ -793,7 +793,7 @@
   }
   .summit-title {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(5rem, 12vw, 10rem);
+    font-size: clamp(3.5rem, 8vw, 7rem);
     font-weight: 900;
     line-height: 0.85;
     color: var(--text-bright);
@@ -1287,7 +1287,7 @@
     .event-row { grid-template-columns: 1fr; }
     .contact-form { grid-template-columns: 1fr; }
     .summit-hero { padding: 8rem 1.5rem 4rem; min-height: auto; }
-    .summit-title { font-size: 3.5rem; }
+    .summit-title { font-size: 2.5rem; }
     .summit-tagline { font-size: 1.1rem; }
     .summit-meta { flex-direction: column; gap: 0.75rem; }
     .summit-actions { flex-direction: column; }
