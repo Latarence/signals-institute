@@ -36,7 +36,7 @@
     transition: padding 0.3s ease;
   }
   nav.scrolled { padding: 0.85rem 4rem; }
-  .nav-logo img { height: 72px; width: auto; display: block; }
+  .nav-logo img { height: 56px; width: auto; display: block; }
   .nav-links { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
   .nav-links a {
     font-family: 'Readex Pro', sans-serif;
