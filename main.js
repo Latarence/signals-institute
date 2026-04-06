@@ -82,7 +82,7 @@ const interestOptions = {
   veteran: ['Career pathways', 'Training programs', 'Stay informed', 'Get hired'],
   parent: ['Programs for my child', 'Volunteer', 'Stay informed'],
   volunteer: ['Volunteer', 'Mentor', 'Host events', 'Stay informed'],
-  employer: ['Hire veterans', 'Corporate partnership', 'On-site programs'],
+  employer: ['Hire veterans', 'Corporate engagement', 'Partnership', 'On-site programs'],
   educator: ['Host programs', 'Partnership', 'Curriculum resources'],
   funder: ['Donate', 'Apply for a grant', 'Corporate sponsorship'],
   community: ['Stay informed', 'Volunteer', 'Learn more']
