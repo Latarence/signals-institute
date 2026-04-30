@@ -739,6 +739,9 @@
   .impact-section {
     padding: 6rem 4rem; background: var(--near-black);
   }
+  .impact-section .challenge-inner {
+    display: block; max-width: 800px; margin: 0 auto;
+  }
   .impact-numbers {
     display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-top: 2rem;
   }
