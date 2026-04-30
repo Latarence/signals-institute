@@ -59,22 +59,82 @@ if (tabButtons.length) {
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// Back to top button
-const backToTop = document.getElementById('back-to-top');
-if (backToTop) {
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      backToTop.classList.add('show');
-      backToTop.style.display = 'flex';
-    } else {
-      backToTop.classList.remove('show');
-      backToTop.style.display = 'none';
-    }
+// Theme toggle (adds/removes `light` on <html>)
+const themeToggleBtn = document.getElementById('themeToggle');
+const THEME_KEY = 'theme';
+const getPreferredTheme = () => {
+  const stored = localStorage.getItem(THEME_KEY);
+  if (stored === 'light' || stored === 'dark') return stored;
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) return 'light';
+  return 'dark';
+};
+const applyTheme = (theme) => {
+  document.documentElement.classList.toggle('light', theme === 'light');
+  localStorage.setItem(THEME_KEY, theme);
+  if (themeToggleBtn) themeToggleBtn.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
+
+  // Swap logos based on theme.
+  document.querySelectorAll('img[data-logo-dark][data-logo-light]').forEach((img) => {
+    const darkSrc = img.getAttribute('data-logo-dark');
+    const lightSrc = img.getAttribute('data-logo-light');
+    if (!darkSrc || !lightSrc) return;
+    img.setAttribute('src', theme === 'light' ? lightSrc : darkSrc);
   });
-  backToTop.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+try {
+  applyTheme(getPreferredTheme());
+} catch {
+  // ignore storage errors
+}
+if (themeToggleBtn) {
+  themeToggleBtn.addEventListener('click', () => {
+    const isLight = document.documentElement.classList.contains('light');
+    applyTheme(isLight ? 'dark' : 'light');
   });
 }
+
+// Custom mouse tracker (desktop only)
+(() => {
+  if (!window.matchMedia) return;
+  if (!window.matchMedia('(pointer: fine)').matches) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const outer = document.createElement('div');
+  outer.className = 'mouseCursor cursor-outer';
+  const inner = document.createElement('div');
+  inner.className = 'mouseCursor cursor-inner';
+  document.body.appendChild(outer);
+  document.body.appendChild(inner);
+
+  let x = 0;
+  let y = 0;
+  const onMove = (e) => {
+    x = e.clientX;
+    y = e.clientY;
+    const t = `translate(${x}px, ${y}px)`;
+    outer.style.transform = t;
+    inner.style.transform = t;
+  };
+  window.addEventListener('mousemove', onMove, { passive: true });
+
+  const setHover = (on) => {
+    outer.classList.toggle('cursor-hover', on);
+    inner.classList.toggle('cursor-hover', on);
+  };
+  const setBig = (on) => {
+    outer.classList.toggle('cursor-big', on);
+    inner.classList.toggle('cursor-big', on);
+  };
+
+  document.querySelectorAll('a, button').forEach((el) => {
+    el.addEventListener('mouseenter', () => setHover(true));
+    el.addEventListener('mouseleave', () => setHover(false));
+  });
+  document.querySelectorAll('h1, h2, h3, h4, h5, h6, p').forEach((el) => {
+    el.addEventListener('mouseenter', () => setBig(true));
+    el.addEventListener('mouseleave', () => setBig(false));
+  });
+})();
 
 // Dependent dropdowns for Connect form
 const interestOptions = {

@@ -12,13 +12,13 @@
 <meta property="og:url" content="https://thesignalsinstitute.com/">
 <meta property="og:title" content="The Signals Institute — Strength Through Connection">
 <meta property="og:description" content="Increasing access to advanced technology careers in underserved communities through youth engagement, veteran transition, and community programs.">
-<meta property="og:image" content="https://thesignalsinstitute.com/logo_dark.png">
+<meta property="og:image" content="https://thesignalsinstitute.com/logo_far_dark.png">
 
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://thesignalsinstitute.com/">
 <meta property="twitter:title" content="The Signals Institute — Strength Through Connection">
 <meta property="twitter:description" content="Increasing access to advanced technology careers in underserved communities through youth engagement, veteran transition, and community programs.">
-<meta property="twitter:image" content="https://thesignalsinstitute.com/logo_dark.png">
+<meta property="twitter:image" content="https://thesignalsinstitute.com/logo_far_dark.png">
 
 <link rel="canonical" href="https://thesignalsinstitute.com/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,18 +40,27 @@
 
 <nav id="nav">
   <a href="index.html" class="nav-logo" aria-label="The Signals Institute">
-      <img src="logo_dark.png" alt="The Signals Institute">
+      <img src="logo_light_transparent.png" data-logo-dark="logo_light_transparent.png" data-logo-light="logo_dark_transparent.png" alt="The Signals Institute">
     </a>
 
-  <ul class="nav-links" aria-label="Primary">
-    <li><a href="about.html">About</a></li>
-    <li><a href="pillars.html">Pillars</a></li>
-    <li><a href="events.html">Events</a></li>
-    <li><a href="contribute.html">Connect</a></li>
-    <li><a class="nav-donate" href="contribute.html#donate">Donate</a></li>
-  </ul>
+  <div class="nav-right">
+    <button class="theme-btn" id="themeToggle" type="button" aria-label="Toggle theme" aria-pressed="false">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4"/>
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+      </svg>
+    </button>
 
-  <button class="menu-btn" id="menuBtn" aria-label="Open menu" type="button">Menu</button>
+    <ul class="nav-links" aria-label="Primary">
+      <li><a href="about.html">About</a></li>
+      <li><a href="pillars.html">Pillars</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contribute.html">Connect</a></li>
+      <li><a class="nav-donate" href="donate.html">Donate</a></li>
+    </ul>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" type="button">Menu</button>
+  </div>
 </nav>
 
   <div class="mobile-menu" id="mobileMenu" data-open="false">
@@ -90,34 +99,30 @@
 
 <footer>
   <div class="footer-logo" aria-label="The Signals Institute">
-        <img src="logo_dark.png" alt="The Signals Institute">
+        <img src="logo_light_transparent.png" data-logo-dark="logo_light_transparent.png" data-logo-light="logo_dark_transparent.png" alt="The Signals Institute">
       </div>
   <div class="footer-links">
     <a href="about.html">About</a>
     <a href="pillars.html">Pillars</a>
     <a href="events.html">Events</a>
     <a href="contribute.html">Connect</a>
-    <a href="contribute.html#donate">Contribute</a>
+    <a href="donate.html">Contribute</a>
     <a href="contact.html">Contact</a>
   </div>
-  <div class="footer-social">
-    <a href="https://www.linkedin.com/company/the-signals-institute" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-      </svg>
-    </a>
-  </div>
-  <div class="footer-info">
-    West Palm Beach, Florida<br>
-    &copy; <span id="year"></span> The Signals Institute
+  <div class="footer-meta">
+    <div class="footer-info">
+      West Palm Beach, Florida<br>
+      &copy; <span id="year"></span> The Signals Institute
+    </div>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/company/the-signals-institute" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+      </a>
+    </div>
   </div>
 </footer>
-
-<button id="back-to-top" aria-label="Back to top" style="display:none;">
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-    <path d="M10 4l6 6h-4v6H8v-6H4l6-6z"/>
-  </svg>
-</button>
 
 <script src="main.js"></script>
 </body>
