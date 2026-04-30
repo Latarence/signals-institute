@@ -1505,6 +1505,10 @@
     .expertise-grid { grid-template-columns: 1fr; }
     .event-row { grid-template-columns: 1fr; }
     .contact-form { grid-template-columns: 1fr; }
+    .programs-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .tab-btn { white-space: nowrap; padding: 1rem 1.25rem; font-size: 0.65rem; }
+    .program-big-num { font-size: 3rem; }
+    .program-info h3 { font-size: 1.4rem; }
     .summit-hero { padding: 8rem 1.5rem 4rem; min-height: auto; }
     .summit-title { font-size: 2.5rem; }
     .summit-tagline { font-size: 1.1rem; }
