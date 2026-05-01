@@ -760,6 +760,9 @@
     transition: color 0.2s;
   }
   .footer-links a:hover { color: var(--blue); }
+  .footer-meta {
+    display: flex; align-items: center; gap: 1.5rem;
+  }
   .footer-social {
     display: flex; gap: 1rem; align-items: center;
   }
@@ -1499,6 +1502,7 @@
     .page-header { padding: 8rem 1.5rem 4rem; }
     .partners-label, .partners-list { text-align: left; }
     footer { flex-direction: column; gap: 1.5rem; text-align: center; }
+    .footer-meta { flex-direction: column; gap: 1rem; }
     .footer-info { text-align: center; }
     .footer-social { justify-content: center; }
     .vet-grid { grid-template-columns: 1fr; }
