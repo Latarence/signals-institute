@@ -1,3 +1,103 @@
+// Random hero headline
+const heroHeadline = document.getElementById('heroHeadline');
+if (heroHeadline) {
+  const headlines = ['Strength Through Connection', 'Access Changes Everything'];
+  heroHeadline.textContent = headlines[Math.floor(Math.random() * headlines.length)];
+}
+
+// Font toggle (Ctrl+Shift+F or ?font=serif URL param)
+function initFontToggle() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('font') === 'serif') {
+    document.documentElement.classList.add('font-serif');
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'F') {
+      e.preventDefault();
+      document.documentElement.classList.toggle('font-serif');
+    }
+  });
+}
+initFontToggle();
+
+// Palette toggle (Ctrl+Shift+P or ?palette=warm URL param)
+function initPaletteToggle() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('palette') === 'warm') {
+    document.documentElement.classList.add('palette-warm');
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'P') {
+      e.preventDefault();
+      document.documentElement.classList.toggle('palette-warm');
+    }
+  });
+}
+initPaletteToggle();
+
+// Logo toggle (Ctrl+Shift+L or ?logo=type URL param)
+function initLogoToggle() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('logo') === 'type') {
+    document.documentElement.classList.add('logo-type');
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'L') {
+      e.preventDefault();
+      document.documentElement.classList.toggle('logo-type');
+      swapLogos();
+    }
+  });
+
+  // Initial swap if logo-type is set
+  if (document.documentElement.classList.contains('logo-type')) {
+    swapLogos();
+  }
+}
+
+// Shared function to swap logos based on theme and logo-type state
+function swapLogos() {
+  const isType = document.documentElement.classList.contains('logo-type');
+  const isLight = document.documentElement.classList.contains('light');
+
+  document.querySelectorAll('.nav-logo, .footer-logo').forEach((container) => {
+    const img = container.querySelector('img[data-logo-dark][data-logo-light]');
+    let svg = container.querySelector('.logo-type-svg');
+
+    if (isType) {
+      // Create SVG text logo if it doesn't exist (MacArthur style: horizontal with bar on top)
+      if (!svg) {
+        svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('class', 'logo-type-svg');
+        svg.setAttribute('viewBox', '0 0 180 40');
+        svg.setAttribute('aria-label', 'The Signals Institute');
+        svg.innerHTML = `
+          <rect x="0" y="4" width="50" height="1.5" fill="currentColor"/>
+          <text x="0" y="28" font-family="Georgia, serif" font-size="16" font-weight="400" fill="currentColor">The Signals Institute</text>
+        `;
+        container.appendChild(svg);
+      }
+      // Hide image, show SVG
+      if (img) img.style.display = 'none';
+      svg.style.display = 'block';
+    } else {
+      // Show image, hide SVG
+      if (img) {
+        img.style.display = 'block';
+        const darkSrc = img.getAttribute('data-logo-dark');
+        const lightSrc = img.getAttribute('data-logo-light');
+        img.setAttribute('src', isLight ? lightSrc : darkSrc);
+      }
+      if (svg) svg.style.display = 'none';
+    }
+  });
+}
+
+initLogoToggle();
+
 // nav shrink
 const nav = document.getElementById('nav');
 if (nav) {
@@ -73,13 +173,8 @@ const applyTheme = (theme) => {
   localStorage.setItem(THEME_KEY, theme);
   if (themeToggleBtn) themeToggleBtn.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
 
-  // Swap logos based on theme.
-  document.querySelectorAll('img[data-logo-dark][data-logo-light]').forEach((img) => {
-    const darkSrc = img.getAttribute('data-logo-dark');
-    const lightSrc = img.getAttribute('data-logo-light');
-    if (!darkSrc || !lightSrc) return;
-    img.setAttribute('src', theme === 'light' ? lightSrc : darkSrc);
-  });
+  // Swap logos based on theme and logo-type state
+  swapLogos();
 };
 try {
   applyTheme(getPreferredTheme());
