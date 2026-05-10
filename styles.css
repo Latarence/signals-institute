@@ -1,10 +1,17 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    /* Font system - Version 1: Inter Tight (default) */
+    /* Font system — Inter Tight primary, Source Serif 4 accent */
     --font-sans: 'Inter Tight', sans-serif;
     --font-display: 'Inter Tight', sans-serif;
-    --font-weight-display: 900;
+    --font-accent: 'Source Serif 4', Georgia, serif;
+    --font-weight-display: 700;
+
+    /* Typography scale */
+    --ls-display: -0.02em;      /* headings/hero */
+    --ls-body: 0;               /* body text */
+    --ls-nav: 0.08em;           /* nav links */
+    --ls-label: 0.12em;         /* uppercase labels */
 
     /* Colors */
     --blue: #00A8E8;
@@ -42,10 +49,8 @@
     /* Font system - Version 2: Source Serif (MacArthur style) */
     --font-sans: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
     --font-display: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+    --font-accent: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
     --font-weight-display: 700;
-  }
-  :root.font-serif body {
-    font-weight: 400;
   }
 
   /* ── ALTERNATE PALETTE: Warm (Charcoal/Bone/Rust) ── */
@@ -138,7 +143,7 @@
   .nav-links { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
   .nav-links a {
     font-family: var(--font-sans);
-    font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em;
+    font-size: 0.75rem; font-weight: 500; letter-spacing: var(--ls-nav);
     text-transform: uppercase; color: var(--text-dim); text-decoration: none;
     transition: color 0.2s;
     display: inline-flex;
@@ -238,7 +243,7 @@
     flex: 1; display: flex; flex-direction: column; justify-content: center;
   }
   .hero-eyebrow {
-    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.22em;
+    font-size: 0.7rem; font-weight: 600; letter-spacing: var(--ls-label);
     text-transform: uppercase; color: var(--blue);
     margin-bottom: 1.5rem;
     display: flex; align-items: center; gap: 0.75rem;
@@ -248,7 +253,7 @@
   h1.hero-headline {
     font-family: var(--font-display);
     font-size: clamp(3rem, 6vw, 5.5rem);
-    font-weight: var(--font-weight-display); line-height: 0.88; letter-spacing: -0.02em;
+    font-weight: var(--font-weight-display); line-height: 1.05; letter-spacing: var(--ls-display);
     color: var(--text-bright);
     margin-bottom: 1.5rem;
     opacity: 0; animation: fadeUp 0.8s 0.4s ease forwards;
@@ -285,8 +290,8 @@
     padding: 1.75rem 3rem; border-right: 1px solid var(--border); flex: 1;
   }
   .stat-num {
-    font-family: var(--font-display);
-    font-size: 2.4rem; font-weight: 900; color: var(--blue); line-height: 1;
+    font-family: var(--font-accent);
+    font-size: 2.4rem; font-weight: 400; color: var(--blue); line-height: 1;
   }
   .stat-num.green { color: var(--green); }
   .stat-num.amber { color: var(--amber); }
@@ -475,8 +480,8 @@
   .pillar:nth-child(3) { border-top-color: var(--amber); }
   .pillar:hover { background: var(--card2); }
   .pillar-num {
-    font-family: var(--font-display);
-    font-size: 5rem; font-weight: 900; opacity: 0.05;
+    font-family: var(--font-accent);
+    font-size: 5rem; font-weight: 300; opacity: 0.08;
     position: absolute; right: 1.5rem; top: 1rem; line-height: 1;
     color: var(--text-bright);
   }
@@ -520,8 +525,8 @@
   .tab-panel { display: none; padding-top: 3.5rem; }
   .tab-panel.active { display: grid; grid-template-columns: 1fr 1.3fr; gap: 5rem; align-items: start; }
   .program-big-num {
-    font-family: var(--font-display);
-    font-size: 4rem; font-weight: 900; color: var(--blue); line-height: 1;
+    font-family: var(--font-accent);
+    font-size: 4rem; font-weight: 400; color: var(--blue); line-height: 1;
   }
   .program-big-num.green { color: var(--green); }
   .program-big-num.amber { color: var(--amber); }
@@ -605,8 +610,8 @@
   .impact-num { background: var(--card); padding: 2.5rem 2rem; transition: background 0.25s; }
   .impact-num:hover { background: var(--card2); }
   .impact-val {
-    font-family: var(--font-display);
-    font-size: 3rem; font-weight: 900; line-height: 1; color: var(--blue);
+    font-family: var(--font-accent);
+    font-size: 3rem; font-weight: 400; line-height: 1; color: var(--blue);
   }
   .impact-num:nth-child(2) .impact-val { color: var(--green); }
   .impact-num:nth-child(3) .impact-val { color: var(--amber); }
@@ -662,7 +667,7 @@
   }
   .event-card h3 {
     font-family: var(--font-display);
-    font-size: 1.45rem; font-weight: 800; color: var(--text-bright);
+    font-size: 1.45rem; font-weight: 700; color: var(--text-bright);
     margin-bottom: 0.85rem;
   }
   .event-card p { font-size: 0.9rem; line-height: 1.75; color: var(--text-dim); font-weight: 300; margin-bottom: 1.75rem; }
@@ -678,7 +683,7 @@
   }
   .event-row:hover { border-left-color: var(--amber); background: var(--card2); }
   .event-date {
-    font-size: 0.65rem; font-weight: 800; letter-spacing: 0.18em;
+    font-size: 0.65rem; font-weight: 700; letter-spacing: var(--ls-label);
     text-transform: uppercase; color: var(--amber);
   }
   .event-details h4 {
@@ -1458,9 +1463,9 @@
   }
   .how-card:hover { background: var(--card2); }
   .how-card-num {
-    font-family: var(--font-display);
+    font-family: var(--font-accent);
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 300;
     color: var(--blue);
     opacity: 0.3;
     line-height: 1;
