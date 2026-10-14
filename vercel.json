@@ -4,6 +4,10 @@
   "outputDirectory": ".",
   "installCommand": null,
   "framework": null,
+  "redirects": [
+    { "source": "/index_original.html", "destination": "/", "permanent": false },
+    { "source": "/index_original", "destination": "/", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/$1" }
   ],
