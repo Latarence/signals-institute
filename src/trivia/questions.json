@@ -1,0 +1,3457 @@
+{
+ "slug": "tsi",
+ "name": "The Signals Institute",
+ "domain": "thesignalsinstitute.com",
+ "topics": "signals in science and in daily life, the people behind technology, and pathways into technical fields",
+ "brand": {
+  "accent": "#00A8E8",
+  "button": "#00A8E8",
+  "buttonInk": "#0A0A0A"
+ },
+ "questions": [
+  {
+   "id": "s001",
+   "topic": "Signals in science",
+   "q": "Which of these can travel through the empty vacuum of space?",
+   "options": [
+    "Light and radio waves",
+    "Sound waves",
+    "Ocean waves",
+    "Earthquake waves"
+   ],
+   "answer": 0,
+   "explain": "Electromagnetic waves such as light and radio need no material to travel through, so they cross the vacuum of space.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Introduction, https://science.nasa.gov/ems/01_intro/"
+  },
+  {
+   "id": "s002",
+   "topic": "Signals in science",
+   "q": "Which part of the electromagnetic spectrum has the longest waves?",
+   "options": [
+    "Gamma rays",
+    "X-rays",
+    "Radio waves",
+    "Ultraviolet light"
+   ],
+   "answer": 2,
+   "explain": "Radio waves have the longest wavelengths in the spectrum, from the size of a football field to larger than a planet.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Radio Waves, https://science.nasa.gov/ems/05_radiowaves/"
+  },
+  {
+   "id": "s003",
+   "topic": "Signals in science",
+   "q": "Which kind of electromagnetic wave carries the most energy?",
+   "options": [
+    "Radio waves",
+    "Gamma rays",
+    "Microwaves",
+    "Infrared"
+   ],
+   "answer": 1,
+   "explain": "Gamma rays have the smallest wavelengths and the most energy of any wave in the electromagnetic spectrum.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Gamma Rays, https://science.nasa.gov/ems/12_gammarays/"
+  },
+  {
+   "id": "s004",
+   "topic": "Signals in science",
+   "q": "As the wavelength of an electromagnetic wave gets longer, what happens to its frequency?",
+   "options": [
+    "It gets higher",
+    "It stays the same",
+    "It doubles",
+    "It gets lower"
+   ],
+   "answer": 3,
+   "explain": "Wavelength and frequency are inversely related: longer waves have lower frequencies.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Introduction, https://science.nasa.gov/ems/01_intro/"
+  },
+  {
+   "id": "s005",
+   "topic": "Signals in science",
+   "q": "Which color of visible light has the longest wavelength?",
+   "options": [
+    "Violet",
+    "Blue",
+    "Red",
+    "Green"
+   ],
+   "answer": 2,
+   "explain": "Red light has the longest visible wavelength, around 700 nanometers.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Visible Light, https://science.nasa.gov/ems/09_visiblelight/"
+  },
+  {
+   "id": "s006",
+   "topic": "Signals in science",
+   "q": "Which color of visible light has the shortest wavelength?",
+   "options": [
+    "Violet",
+    "Red",
+    "Orange",
+    "Yellow"
+   ],
+   "answer": 0,
+   "explain": "Violet sits at the short end of the visible spectrum, around 380 nanometers.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Visible Light, https://science.nasa.gov/ems/09_visiblelight/"
+  },
+  {
+   "id": "s007",
+   "topic": "Signals in science",
+   "q": "Roughly what range of wavelengths can the human eye see?",
+   "options": [
+    "About 1 to 10 meters",
+    "About 1 to 10 millimeters",
+    "About 0.03 to 3 nanometers",
+    "About 380 to 700 nanometers"
+   ],
+   "answer": 3,
+   "explain": "Visible light spans roughly 380 to 700 nanometers, a small slice of the whole spectrum.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Visible Light, https://science.nasa.gov/ems/09_visiblelight/"
+  },
+  {
+   "id": "s008",
+   "topic": "Signals in science",
+   "q": "In 1800, William Herschel measured a warmer temperature just beyond the red end of a rainbow of sunlight. What had he found?",
+   "options": [
+    "Ultraviolet light",
+    "Infrared light",
+    "X-rays",
+    "Radio waves"
+   ],
+   "answer": 1,
+   "explain": "Herschel's thermometer showed heating past the red end of the spectrum, revealing infrared light.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Infrared Waves, https://science.nasa.gov/ems/07_infraredwaves/"
+  },
+  {
+   "id": "s009",
+   "topic": "Signals in science",
+   "q": "Most television remote controls send their signal using which kind of light?",
+   "options": [
+    "Infrared",
+    "Ultraviolet",
+    "X-rays",
+    "Gamma rays"
+   ],
+   "answer": 0,
+   "explain": "TV remotes use infrared light, which our eyes cannot see.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Infrared Waves, https://science.nasa.gov/ems/07_infraredwaves/"
+  },
+  {
+   "id": "s010",
+   "topic": "Signals in science",
+   "q": "Humans feel which kind of electromagnetic energy as warmth?",
+   "options": [
+    "Radio waves",
+    "Ultraviolet",
+    "Infrared",
+    "Gamma rays"
+   ],
+   "answer": 2,
+   "explain": "We cannot see infrared, but our skin senses it as heat.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Infrared Waves, https://science.nasa.gov/ems/07_infraredwaves/"
+  },
+  {
+   "id": "s011",
+   "topic": "Signals in science",
+   "q": "In 1801, Johann Ritter showed that light just beyond the violet end of the spectrum darkens light-sensitive paper. What had he found?",
+   "options": [
+    "Infrared light",
+    "Ultraviolet light",
+    "Microwaves",
+    "Radio waves"
+   ],
+   "answer": 1,
+   "explain": "Ritter's experiment revealed ultraviolet light, invisible to human eyes.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Ultraviolet Waves, https://science.nasa.gov/ems/10_ultravioletwaves/"
+  },
+  {
+   "id": "s012",
+   "topic": "Signals in science",
+   "q": "Which layer of the atmosphere absorbs most of the Sun's UV-B rays?",
+   "options": [
+    "The cloud layer",
+    "The jet stream",
+    "The magnetosphere",
+    "The ozone layer"
+   ],
+   "answer": 3,
+   "explain": "About 95 percent of UV-B rays are absorbed by ozone in Earth's atmosphere.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Ultraviolet Waves, https://science.nasa.gov/ems/10_ultravioletwaves/"
+  },
+  {
+   "id": "s013",
+   "topic": "Signals in science",
+   "q": "Who first observed and documented X-rays, in 1895?",
+   "options": [
+    "Marie Curie",
+    "Heinrich Hertz",
+    "Wilhelm Roentgen",
+    "Isaac Newton"
+   ],
+   "answer": 2,
+   "explain": "Wilhelm Conrad Roentgen discovered X-rays in 1895 and showed they could image bones inside the body.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: X-rays, https://science.nasa.gov/ems/11_xrays/"
+  },
+  {
+   "id": "s014",
+   "topic": "Signals in science",
+   "q": "Why are X-ray telescopes placed in space?",
+   "options": [
+    "Earth's atmosphere blocks X-rays",
+    "X-rays only exist near the Moon",
+    "Space is darker for X-rays",
+    "X-rays travel too slowly on Earth"
+   ],
+   "answer": 0,
+   "explain": "The atmosphere absorbs X-rays, so X-ray detectors must sit above it.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: X-rays, https://science.nasa.gov/ems/11_xrays/"
+  },
+  {
+   "id": "s015",
+   "topic": "Signals in science",
+   "q": "Roughly how long are the waves a microwave oven uses to heat food?",
+   "options": [
+    "About 12 meters",
+    "About 12 nanometers",
+    "About 12 kilometers",
+    "About 12 centimeters"
+   ],
+   "answer": 3,
+   "explain": "Microwave ovens use waves about 12 centimeters long that make water and fat molecules rotate and heat up.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Microwaves, https://science.nasa.gov/ems/06_microwaves/"
+  },
+  {
+   "id": "s016",
+   "topic": "Signals in science",
+   "q": "The faint microwave glow found across the whole sky in 1965 is evidence for what?",
+   "options": [
+    "The Moon's formation",
+    "The Big Bang",
+    "Solar flares",
+    "Earth's magnetic field"
+   ],
+   "answer": 1,
+   "explain": "The cosmic microwave background, discovered in 1965, is leftover radiation that supports the Big Bang theory.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Microwaves, https://science.nasa.gov/ems/06_microwaves/"
+  },
+  {
+   "id": "s017",
+   "topic": "Signals in science",
+   "q": "Which German physicist proved in the late 1880s that radio waves exist?",
+   "options": [
+    "Heinrich Hertz",
+    "Albert Einstein",
+    "Max Planck",
+    "Wilhelm Roentgen"
+   ],
+   "answer": 0,
+   "explain": "Heinrich Hertz generated and detected radio waves with spark gaps and antennas between 1886 and 1889.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Radio Waves, https://science.nasa.gov/ems/05_radiowaves/"
+  },
+  {
+   "id": "s018",
+   "topic": "Signals in science",
+   "q": "One hertz (Hz) means what?",
+   "options": [
+    "One meter per second",
+    "One volt per meter",
+    "One cycle per second",
+    "One watt per hour"
+   ],
+   "answer": 2,
+   "explain": "The hertz, named for Heinrich Hertz, measures frequency as cycles per second.",
+   "source": "Wikipedia, Heinrich Hertz, https://en.wikipedia.org/wiki/Heinrich_Hertz"
+  },
+  {
+   "id": "s019",
+   "topic": "Signals in science",
+   "q": "James Clerk Maxwell's equations showed that light is a wave of what?",
+   "options": [
+    "Tiny moving air molecules",
+    "Electric and magnetic fields",
+    "Water vapor",
+    "Sound pressure"
+   ],
+   "answer": 1,
+   "explain": "Maxwell calculated that electromagnetic waves travel at the speed of light and concluded that light is one of them.",
+   "source": "Wikipedia, James Clerk Maxwell, https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+  },
+  {
+   "id": "s020",
+   "topic": "Signals in science",
+   "q": "James Clerk Maxwell made an early color photograph in 1861 by combining exposures through filters of which three colors?",
+   "options": [
+    "Cyan, magenta and yellow",
+    "Red, yellow and blue",
+    "Orange, green and violet",
+    "Red, green and blue"
+   ],
+   "answer": 3,
+   "explain": "Maxwell showed that red, green and blue light can reproduce colors, the same principle used by screens today.",
+   "source": "Wikipedia, James Clerk Maxwell, https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+  },
+  {
+   "id": "s021",
+   "topic": "Signals in science",
+   "q": "In 1932 at Bell Labs, Karl Jansky discovered that objects in space give off which kind of signal?",
+   "options": [
+    "Sound waves",
+    "Gamma rays only",
+    "Radio waves",
+    "Seismic waves"
+   ],
+   "answer": 2,
+   "explain": "Jansky's work showed that stars and other objects in space radiate radio waves, founding radio astronomy.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Radio Waves, https://science.nasa.gov/ems/05_radiowaves/"
+  },
+  {
+   "id": "s022",
+   "topic": "Signals in science",
+   "q": "What is one advantage radio telescopes have over optical telescopes?",
+   "options": [
+    "They can observe through clouds and in daylight",
+    "They need no electricity",
+    "They are always smaller",
+    "They see sound in space"
+   ],
+   "answer": 0,
+   "explain": "Radio astronomy works despite sunlight, clouds and rain.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Radio Waves, https://science.nasa.gov/ems/05_radiowaves/"
+  },
+  {
+   "id": "s023",
+   "topic": "Signals in science",
+   "q": "About how fast does light travel in a vacuum?",
+   "options": [
+    "About 343 meters per second",
+    "About 30,000 kilometers per hour",
+    "About 3,000 kilometers per second",
+    "About 300,000 kilometers per second"
+   ],
+   "answer": 3,
+   "explain": "The speed of light is exactly 299,792,458 meters per second, roughly 300,000 kilometers each second.",
+   "source": "Wikipedia, Speed of light, https://en.wikipedia.org/wiki/Speed_of_light"
+  },
+  {
+   "id": "s024",
+   "topic": "Signals in science",
+   "q": "About how long does sunlight take to reach Earth?",
+   "options": [
+    "About 1.3 seconds",
+    "About 8 minutes and 20 seconds",
+    "About 8 hours",
+    "About 8 days"
+   ],
+   "answer": 1,
+   "explain": "Light from the Sun takes a little over eight minutes to cross the distance to Earth.",
+   "source": "Wikipedia, Speed of light, https://en.wikipedia.org/wiki/Speed_of_light"
+  },
+  {
+   "id": "s025",
+   "topic": "Signals in science",
+   "q": "About how long does light reflected from the Moon take to reach Earth?",
+   "options": [
+    "About 1.3 seconds",
+    "About 8 minutes",
+    "About 1 hour",
+    "About 0.01 seconds"
+   ],
+   "answer": 0,
+   "explain": "Signals from the Moon arrive in about 1.3 seconds.",
+   "source": "Wikipedia, Speed of light, https://en.wikipedia.org/wiki/Speed_of_light"
+  },
+  {
+   "id": "s026",
+   "topic": "Signals in science",
+   "q": "Light slows down when it passes through glass. About how fast does it travel there?",
+   "options": [
+    "About 343 meters per second",
+    "About 600,000 kilometers per second",
+    "About 200,000 kilometers per second",
+    "It stops completely"
+   ],
+   "answer": 2,
+   "explain": "Glass has a refractive index near 1.5, so light moves at about two thirds of its vacuum speed.",
+   "source": "Wikipedia, Speed of light, https://en.wikipedia.org/wiki/Speed_of_light"
+  },
+  {
+   "id": "s027",
+   "topic": "Signals in science",
+   "q": "About how fast does sound travel through air at room temperature (20 degrees Celsius)?",
+   "options": [
+    "About 3 meters per second",
+    "About 343 meters per second",
+    "About 300,000 kilometers per second",
+    "About 34,300 meters per second"
+   ],
+   "answer": 1,
+   "explain": "Sound travels about 343 meters per second in air at 20 degrees Celsius.",
+   "source": "Wikipedia, Speed of sound, https://en.wikipedia.org/wiki/Speed_of_sound"
+  },
+  {
+   "id": "s028",
+   "topic": "Signals in science",
+   "q": "Sound travels fastest through which kind of material?",
+   "options": [
+    "Gases",
+    "Empty space",
+    "Liquids",
+    "Solids"
+   ],
+   "answer": 3,
+   "explain": "Sound moves slowest in gases, faster in liquids and fastest in solids.",
+   "source": "Wikipedia, Speed of sound, https://en.wikipedia.org/wiki/Speed_of_sound"
+  },
+  {
+   "id": "s029",
+   "topic": "Signals in science",
+   "q": "Why can astronauts on a spacewalk not hear each other's voices directly through space?",
+   "options": [
+    "Space is too cold for sound",
+    "Sound is too fast in space",
+    "Sound needs a material to travel through",
+    "Helmets block all light"
+   ],
+   "answer": 2,
+   "explain": "Sound is a vibration of matter, so it cannot cross the vacuum of space. Astronauts talk by radio.",
+   "source": "Wikipedia, Speed of sound, https://en.wikipedia.org/wiki/Speed_of_sound"
+  },
+  {
+   "id": "s030",
+   "topic": "Signals in science",
+   "q": "You see lightning and count 10 seconds before the thunder. About how far away was the strike?",
+   "options": [
+    "About 2 miles",
+    "About 10 miles",
+    "About 50 miles",
+    "About 100 feet"
+   ],
+   "answer": 0,
+   "explain": "Divide the seconds by 5 to estimate miles, because light arrives almost instantly and sound is much slower.",
+   "source": "National Weather Service, Understanding Lightning: Thunder, https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+   "id": "s031",
+   "topic": "Signals in science",
+   "q": "What makes the sound of thunder?",
+   "options": [
+    "Clouds bumping together",
+    "Raindrops hitting the ground",
+    "Wind blowing through the storm",
+    "Air heated by lightning expanding very quickly"
+   ],
+   "answer": 3,
+   "explain": "Lightning heats air to about 50,000 degrees Fahrenheit, and its rapid expansion creates the sound wave we hear.",
+   "source": "National Weather Service, Understanding Lightning: Thunder, https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+   "id": "s032",
+   "topic": "Signals in science",
+   "q": "About how far from a lightning strike can thunder usually be heard?",
+   "options": [
+    "About 1 mile",
+    "About 10 miles",
+    "About 100 miles",
+    "About 500 miles"
+   ],
+   "answer": 1,
+   "explain": "Thunder carries only about 10 miles, so if you can hear it you are within striking distance.",
+   "source": "National Weather Service, Understanding Lightning: Thunder, https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+   "id": "s033",
+   "topic": "Signals in science",
+   "q": "What is the standard range of human hearing?",
+   "options": [
+    "About 20 hertz to 20,000 hertz",
+    "About 2 hertz to 200 hertz",
+    "About 200 to 2,000 kilohertz",
+    "About 20 to 20,000 megahertz"
+   ],
+   "answer": 0,
+   "explain": "The standard range of human hearing is 20 to 20,000 hertz, though it varies from person to person.",
+   "source": "Wikipedia, Hearing range, https://en.wikipedia.org/wiki/Hearing_range"
+  },
+  {
+   "id": "s034",
+   "topic": "Signals in science",
+   "q": "As people get older, which sounds do they usually lose the ability to hear first?",
+   "options": [
+    "Low-pitched sounds",
+    "Loud sounds",
+    "High-pitched sounds",
+    "Spoken words"
+   ],
+   "answer": 2,
+   "explain": "Hearing typically declines with age, especially at higher frequencies.",
+   "source": "Wikipedia, Hearing range, https://en.wikipedia.org/wiki/Hearing_range"
+  },
+  {
+   "id": "s035",
+   "topic": "Signals in science",
+   "q": "Why does an ambulance siren sound higher in pitch as it comes toward you and lower as it drives away?",
+   "options": [
+    "The greenhouse effect",
+    "The Doppler effect",
+    "Static electricity",
+    "Echoes from buildings"
+   ],
+   "answer": 1,
+   "explain": "Motion of the source squeezes or stretches the sound waves, changing the pitch you hear. This is the Doppler effect.",
+   "source": "Wikipedia, Doppler effect, https://en.wikipedia.org/wiki/Doppler_effect"
+  },
+  {
+   "id": "s036",
+   "topic": "Signals in science",
+   "q": "Police radar speed guns measure a car's speed using which effect?",
+   "options": [
+    "The photoelectric effect",
+    "The butterfly effect",
+    "The placebo effect",
+    "The Doppler effect"
+   ],
+   "answer": 3,
+   "explain": "A moving car shifts the frequency of the reflected radio signal, and the shift reveals its speed.",
+   "source": "Wikipedia, Doppler effect, https://en.wikipedia.org/wiki/Doppler_effect"
+  },
+  {
+   "id": "s037",
+   "topic": "Signals in science",
+   "q": "In AM radio, what does AM stand for?",
+   "options": [
+    "Audio microphone",
+    "Antenna mode",
+    "Amplitude modulation",
+    "Automatic messaging"
+   ],
+   "answer": 2,
+   "explain": "In AM, the strength (amplitude) of the carrier wave is varied to carry the sound.",
+   "source": "Wikipedia, Amplitude modulation, https://en.wikipedia.org/wiki/Amplitude_modulation"
+  },
+  {
+   "id": "s038",
+   "topic": "Signals in science",
+   "q": "In FM radio, what changes on the carrier wave to carry the sound?",
+   "options": [
+    "Its frequency",
+    "Its color",
+    "Its temperature",
+    "Its direction"
+   ],
+   "answer": 0,
+   "explain": "FM stands for frequency modulation: the frequency of the carrier is varied to encode the sound.",
+   "source": "Wikipedia, FM broadcasting, https://en.wikipedia.org/wiki/FM_broadcasting"
+  },
+  {
+   "id": "s039",
+   "topic": "Signals in science",
+   "q": "The FM radio band in the United States runs from about 88 to 108 of what unit?",
+   "options": [
+    "Kilohertz",
+    "Gigahertz",
+    "Hertz",
+    "Megahertz"
+   ],
+   "answer": 3,
+   "explain": "The United States standardized its FM broadcast band at 88 to 108 MHz in 1945.",
+   "source": "Wikipedia, FM broadcasting, https://en.wikipedia.org/wiki/FM_broadcasting"
+  },
+  {
+   "id": "s040",
+   "topic": "Signals in science",
+   "q": "A bit, the smallest unit of digital information, can hold which values?",
+   "options": [
+    "0 through 9",
+    "0 or 1",
+    "A through Z",
+    "Any whole number"
+   ],
+   "answer": 1,
+   "explain": "Bit is short for binary digit and represents one of two states, written 1 or 0.",
+   "source": "Wikipedia, Bit, https://en.wikipedia.org/wiki/Bit"
+  },
+  {
+   "id": "s041",
+   "topic": "Signals in science",
+   "q": "How many bits make one byte?",
+   "options": [
+    "8",
+    "2",
+    "10",
+    "16"
+   ],
+   "answer": 0,
+   "explain": "A byte has been standardized as 8 bits.",
+   "source": "Wikipedia, Bit, https://en.wikipedia.org/wiki/Bit"
+  },
+  {
+   "id": "s042",
+   "topic": "Signals in science",
+   "q": "How does an optical fiber keep light trapped inside as it travels?",
+   "options": [
+    "Magnetic attraction",
+    "Air pressure",
+    "Total internal reflection",
+    "Static electricity"
+   ],
+   "answer": 2,
+   "explain": "Light bounces within the fiber core because the surrounding cladding has a lower refractive index.",
+   "source": "Wikipedia, Optical fiber, https://en.wikipedia.org/wiki/Optical_fiber"
+  },
+  {
+   "id": "s043",
+   "topic": "Signals in science",
+   "q": "Why are optical fibers useful near high-voltage power equipment?",
+   "options": [
+    "They carry electricity better than copper",
+    "Electromagnetic interference does not disturb light signals",
+    "They are magnetic",
+    "They glow in the dark"
+   ],
+   "answer": 1,
+   "explain": "Fibers carry signals as light and are immune to electromagnetic interference.",
+   "source": "Wikipedia, Optical fiber, https://en.wikipedia.org/wiki/Optical_fiber"
+  },
+  {
+   "id": "s044",
+   "topic": "Signals in science",
+   "q": "LASER is an acronym. What does the L stand for?",
+   "options": [
+    "Long",
+    "Lens",
+    "Line",
+    "Light"
+   ],
+   "answer": 3,
+   "explain": "LASER stands for light amplification by stimulated emission of radiation.",
+   "source": "Wikipedia, Laser, https://en.wikipedia.org/wiki/Laser"
+  },
+  {
+   "id": "s045",
+   "topic": "Signals in science",
+   "q": "The first working laser, built by Theodore Maiman in 1960, used what kind of crystal?",
+   "options": [
+    "Diamond",
+    "Quartz",
+    "Ruby",
+    "Salt"
+   ],
+   "answer": 2,
+   "explain": "Maiman operated a ruby laser at Hughes Research Laboratories on May 16, 1960.",
+   "source": "Wikipedia, Laser, https://en.wikipedia.org/wiki/Laser"
+  },
+  {
+   "id": "s046",
+   "topic": "Signals in science",
+   "q": "Which scientist described stimulated emission in 1917, the idea that lasers rely on?",
+   "options": [
+    "Albert Einstein",
+    "Thomas Edison",
+    "Nikola Tesla",
+    "Galileo Galilei"
+   ],
+   "answer": 0,
+   "explain": "Einstein's 1917 quantum theory of radiation introduced stimulated emission.",
+   "source": "Wikipedia, Laser, https://en.wikipedia.org/wiki/Laser"
+  },
+  {
+   "id": "s047",
+   "topic": "Signals in science",
+   "q": "A transistor is a small device that does which two jobs in electronics?",
+   "options": [
+    "Stores water and heat",
+    "Measures time and distance",
+    "Produces sound and light",
+    "Amplifies and switches electrical signals"
+   ],
+   "answer": 3,
+   "explain": "A transistor amplifies or switches electrical signals and is the building block of modern electronics.",
+   "source": "Wikipedia, Transistor, https://en.wikipedia.org/wiki/Transistor"
+  },
+  {
+   "id": "s048",
+   "topic": "Signals in science",
+   "q": "Transistors replaced which earlier, more fragile electronic part?",
+   "options": [
+    "Light bulbs",
+    "Vacuum tubes",
+    "Batteries",
+    "Copper wires"
+   ],
+   "answer": 1,
+   "explain": "Transistors replaced vacuum tubes and made smaller, cheaper radios and computers possible.",
+   "source": "Wikipedia, Transistor, https://en.wikipedia.org/wiki/Transistor"
+  },
+  {
+   "id": "s049",
+   "topic": "Signals in science",
+   "q": "Wi-Fi most commonly uses which two radio frequency bands?",
+   "options": [
+    "2.4 GHz and 5 GHz",
+    "88 MHz and 108 MHz",
+    "60 Hz and 120 Hz",
+    "20 kHz and 40 kHz"
+   ],
+   "answer": 0,
+   "explain": "Wi-Fi operates mainly on the 2.4 GHz and 5 GHz bands, with newer standards adding 6 GHz.",
+   "source": "Wikipedia, Wi-Fi, https://en.wikipedia.org/wiki/Wi-Fi"
+  },
+  {
+   "id": "s050",
+   "topic": "Signals in science",
+   "q": "What carries Wi-Fi data between a router and a laptop?",
+   "options": [
+    "Sound waves",
+    "Infrared heat",
+    "Radio waves",
+    "Electric current through the air"
+   ],
+   "answer": 2,
+   "explain": "Wi-Fi is a family of wireless network protocols that exchange data using radio waves.",
+   "source": "Wikipedia, Wi-Fi, https://en.wikipedia.org/wiki/Wi-Fi"
+  },
+  {
+   "id": "s051",
+   "topic": "Signals in science",
+   "q": "A satellite in geostationary orbit seems to stay still in the sky. Why?",
+   "options": [
+    "It is not moving at all",
+    "It circles Earth once in the same time Earth turns once",
+    "It is tied to a tower",
+    "It is too far away to see moving"
+   ],
+   "answer": 1,
+   "explain": "A geostationary satellite completes one orbit per day above the equator, matching Earth's rotation.",
+   "source": "Wikipedia, Geostationary orbit, https://en.wikipedia.org/wiki/Geostationary_orbit"
+  },
+  {
+   "id": "s052",
+   "topic": "Signals in science",
+   "q": "About how high above the equator is a geostationary orbit?",
+   "options": [
+    "About 400 kilometers",
+    "About 384,000 kilometers",
+    "About 10 kilometers",
+    "About 35,786 kilometers"
+   ],
+   "answer": 3,
+   "explain": "Geostationary orbit sits 35,786 kilometers above Earth's equator.",
+   "source": "Wikipedia, Geostationary orbit, https://en.wikipedia.org/wiki/Geostationary_orbit"
+  },
+  {
+   "id": "s053",
+   "topic": "Signals in science",
+   "q": "At least how many GPS satellites must a receiver hear to work out its position and correct its own clock?",
+   "options": [
+    "One",
+    "Two",
+    "Four",
+    "Ten"
+   ],
+   "answer": 2,
+   "explain": "Four satellites give four unknowns: three position coordinates and the receiver's clock error.",
+   "source": "Wikipedia, Global Positioning System, https://en.wikipedia.org/wiki/Global_Positioning_System"
+  },
+  {
+   "id": "s054",
+   "topic": "Signals in science",
+   "q": "About how many times a day does each GPS satellite circle Earth?",
+   "options": [
+    "Twice",
+    "Once a week",
+    "Ten times",
+    "Once a year"
+   ],
+   "answer": 0,
+   "explain": "GPS satellites orbit at about 20,180 kilometers with periods of about 12 hours, so two orbits a day.",
+   "source": "Wikipedia, Global Positioning System, https://en.wikipedia.org/wiki/Global_Positioning_System"
+  },
+  {
+   "id": "s055",
+   "topic": "Signals in science",
+   "q": "Bluetooth is named after which historical figure?",
+   "options": [
+    "A Roman emperor",
+    "An English inventor",
+    "A Greek goddess",
+    "A 10th-century Danish king"
+   ],
+   "answer": 3,
+   "explain": "Bluetooth is named for Harald Bluetooth, a Danish king who united tribes, just as the technology unites devices.",
+   "source": "Wikipedia, Bluetooth, https://en.wikipedia.org/wiki/Bluetooth"
+  },
+  {
+   "id": "s056",
+   "topic": "Signals in science",
+   "q": "The Bluetooth logo combines two ancient runes. Which letters do they stand for?",
+   "options": [
+    "B and T",
+    "H and B",
+    "W and F",
+    "A and Z"
+   ],
+   "answer": 1,
+   "explain": "The logo merges the runes for Harald Bluetooth's initials, H and B.",
+   "source": "Wikipedia, Bluetooth, https://en.wikipedia.org/wiki/Bluetooth"
+  },
+  {
+   "id": "s057",
+   "topic": "Signals in science",
+   "q": "What does QR stand for in QR code?",
+   "options": [
+    "Quick response",
+    "Quality rating",
+    "Quiet radio",
+    "Quantum reader"
+   ],
+   "answer": 0,
+   "explain": "QR is short for quick-response code, a two-dimensional barcode.",
+   "source": "Wikipedia, QR code, https://en.wikipedia.org/wiki/QR_code"
+  },
+  {
+   "id": "s058",
+   "topic": "Signals in science",
+   "q": "QR codes were invented in 1994 by a Japanese company to track what?",
+   "options": [
+    "Library books",
+    "Train tickets",
+    "Automotive parts",
+    "Mail"
+   ],
+   "answer": 2,
+   "explain": "Masahiro Hara at Denso Wave created the QR code to track parts in car manufacturing.",
+   "source": "Wikipedia, QR code, https://en.wikipedia.org/wiki/QR_code"
+  },
+  {
+   "id": "s059",
+   "topic": "Signals in science",
+   "q": "What helps a phone camera find the position and angle of a QR code?",
+   "options": [
+    "A hidden magnet",
+    "Three large squares in the corners",
+    "A colored border",
+    "A printed arrow"
+   ],
+   "answer": 1,
+   "explain": "Three square finder patterns in the corners tell a scanner how the code is oriented.",
+   "source": "Wikipedia, QR code, https://en.wikipedia.org/wiki/QR_code"
+  },
+  {
+   "id": "s060",
+   "topic": "Signals in science",
+   "q": "The first product scanned with a UPC barcode at a checkout, in 1974, was what?",
+   "options": [
+    "A loaf of bread",
+    "A gallon of milk",
+    "A newspaper",
+    "A pack of chewing gum"
+   ],
+   "answer": 3,
+   "explain": "A 10-pack of Wrigley's Juicy Fruit gum was scanned at a Marsh supermarket in Troy, Ohio, on June 26, 1974.",
+   "source": "Wikipedia, Universal Product Code, https://en.wikipedia.org/wiki/Universal_Product_Code"
+  },
+  {
+   "id": "s061",
+   "topic": "Signals in science",
+   "q": "How many digits are in a standard UPC-A barcode?",
+   "options": [
+    "4",
+    "8",
+    "12",
+    "20"
+   ],
+   "answer": 2,
+   "explain": "A UPC-A barcode has 12 digits, and the last one is a check digit that catches errors.",
+   "source": "Wikipedia, Universal Product Code, https://en.wikipedia.org/wiki/Universal_Product_Code"
+  },
+  {
+   "id": "s062",
+   "topic": "Signals in science",
+   "q": "In 1945, which writer proposed using satellites in geostationary orbit for worldwide radio coverage?",
+   "options": [
+    "Arthur C. Clarke",
+    "Jules Verne",
+    "H. G. Wells",
+    "Mary Shelley"
+   ],
+   "answer": 0,
+   "explain": "Arthur C. Clarke popularized the idea of communications satellites in a 1945 article.",
+   "source": "Wikipedia, Geostationary orbit, https://en.wikipedia.org/wiki/Geostationary_orbit"
+  },
+  {
+   "id": "s063",
+   "topic": "Signals in history",
+   "q": "What was the first message Samuel Morse sent over his telegraph line from Washington to Baltimore in 1844?",
+   "options": [
+    "Mr. Watson, come here",
+    "Hello, world",
+    "One small step",
+    "What hath God wrought"
+   ],
+   "answer": 3,
+   "explain": "On May 24, 1844, Morse sent \"What hath God wrought,\" words chosen by Annie Ellsworth.",
+   "source": "Wikipedia, Samuel Morse, https://en.wikipedia.org/wiki/Samuel_Morse"
+  },
+  {
+   "id": "s064",
+   "topic": "Signals in history",
+   "q": "Before his work on the telegraph, Samuel Morse was well known as what?",
+   "options": [
+    "A ship captain",
+    "A portrait painter",
+    "A banker",
+    "A doctor"
+   ],
+   "answer": 1,
+   "explain": "Morse was an accomplished painter and a founder of the National Academy of Design.",
+   "source": "Wikipedia, Samuel Morse, https://en.wikipedia.org/wiki/Samuel_Morse"
+  },
+  {
+   "id": "s065",
+   "topic": "Signals in history",
+   "q": "In International Morse code, which letter is sent as a single dot?",
+   "options": [
+    "E",
+    "A",
+    "S",
+    "Z"
+   ],
+   "answer": 0,
+   "explain": "E, the most common letter in English, has the shortest code: one dot.",
+   "source": "Wikipedia, Morse code, https://en.wikipedia.org/wiki/Morse_code"
+  },
+  {
+   "id": "s066",
+   "topic": "Signals in history",
+   "q": "In Morse code, how long is a dash compared with a dot?",
+   "options": [
+    "Twice as long",
+    "The same length",
+    "Three times as long",
+    "Ten times as long"
+   ],
+   "answer": 2,
+   "explain": "A dash lasts three times as long as a dot.",
+   "source": "Wikipedia, Morse code, https://en.wikipedia.org/wiki/Morse_code"
+  },
+  {
+   "id": "s067",
+   "topic": "Signals in history",
+   "q": "What is the Morse code distress signal SOS?",
+   "options": [
+    "Three dashes, three dots, three dashes",
+    "Three dots, three dashes, three dots",
+    "One dot, one dash, one dot",
+    "Six dots in a row"
+   ],
+   "answer": 1,
+   "explain": "SOS is sent as an unbroken sequence of three dots, three dashes and three dots.",
+   "source": "Wikipedia, SOS, https://en.wikipedia.org/wiki/SOS"
+  },
+  {
+   "id": "s068",
+   "topic": "Signals in history",
+   "q": "Why was the pattern SOS chosen as a distress signal?",
+   "options": [
+    "It stands for save our ship",
+    "It stands for save our souls",
+    "It was a ship's name",
+    "It is a distinctive, easy-to-recognize Morse pattern"
+   ],
+   "answer": 3,
+   "explain": "SOS began as a distinctive Morse sequence, and phrases like save our souls were attached later.",
+   "source": "Wikipedia, SOS, https://en.wikipedia.org/wiki/SOS"
+  },
+  {
+   "id": "s069",
+   "topic": "Signals in history",
+   "q": "The spoken distress call Mayday comes from a phrase in which language?",
+   "options": [
+    "Spanish",
+    "German",
+    "French",
+    "Latin"
+   ],
+   "answer": 2,
+   "explain": "Mayday comes from the French m'aider, meaning help me, and was adopted in 1927.",
+   "source": "Wikipedia, SOS, https://en.wikipedia.org/wiki/SOS"
+  },
+  {
+   "id": "s070",
+   "topic": "Signals in history",
+   "q": "In the 1790s, Claude Chappe built a network of towers in France that sent messages using what?",
+   "options": [
+    "Movable wooden arms",
+    "Smoke puffs",
+    "Electric wires",
+    "Carrier pigeons"
+   ],
+   "answer": 0,
+   "explain": "Chappe's optical telegraph used towers with movable arms whose positions stood for letters.",
+   "source": "Wikipedia, Optical telegraph, https://en.wikipedia.org/wiki/Optical_telegraph"
+  },
+  {
+   "id": "s071",
+   "topic": "Signals in history",
+   "q": "Chappe's first optical telegraph line connected Paris with which city?",
+   "options": [
+    "London",
+    "Rome",
+    "Madrid",
+    "Lille"
+   ],
+   "answer": 3,
+   "explain": "The Paris to Lille line covered 230 kilometers, and a symbol could pass 15 stations in about nine minutes.",
+   "source": "Wikipedia, Optical telegraph, https://en.wikipedia.org/wiki/Optical_telegraph"
+  },
+  {
+   "id": "s072",
+   "topic": "Signals in history",
+   "q": "The well-known peace symbol was designed from flag semaphore positions for which two letters?",
+   "options": [
+    "P and S",
+    "N and D",
+    "O and K",
+    "L and V"
+   ],
+   "answer": 1,
+   "explain": "The symbol combines semaphore N and D, for nuclear disarmament, and was adopted in 1958.",
+   "source": "Wikipedia, Flag semaphore, https://en.wikipedia.org/wiki/Flag_semaphore"
+  },
+  {
+   "id": "s073",
+   "topic": "Signals in history",
+   "q": "The first transatlantic telegraph cable of 1858 worked for about how long before failing?",
+   "options": [
+    "About three weeks",
+    "About thirty years",
+    "About one hour",
+    "About three centuries"
+   ],
+   "answer": 0,
+   "explain": "The 1858 cable failed after about three weeks when its insulation was damaged.",
+   "source": "Wikipedia, Transatlantic telegraph cable, https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable"
+  },
+  {
+   "id": "s074",
+   "topic": "Signals in history",
+   "q": "Which giant steamship laid the lasting transatlantic telegraph cable of 1866?",
+   "options": [
+    "The Titanic",
+    "The Mayflower",
+    "The Great Eastern",
+    "The Queen Mary"
+   ],
+   "answer": 2,
+   "explain": "The Great Eastern laid the durable 1866 cable, which sent about 8 words per minute.",
+   "source": "Wikipedia, Transatlantic telegraph cable, https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable"
+  },
+  {
+   "id": "s075",
+   "topic": "Signals in history",
+   "q": "What brought an end to the Pony Express in October 1861?",
+   "options": [
+    "The first airplane",
+    "The transcontinental telegraph",
+    "The telephone",
+    "Radio broadcasting"
+   ],
+   "answer": 1,
+   "explain": "The Pony Express closed right after the transcontinental telegraph was completed on October 24, 1861.",
+   "source": "Wikipedia, Pony Express, https://en.wikipedia.org/wiki/Pony_Express"
+  },
+  {
+   "id": "s076",
+   "topic": "Signals in history",
+   "q": "About how long did the Pony Express take to carry a message between the East and West of the United States?",
+   "options": [
+    "About 10 minutes",
+    "About 10 months",
+    "About 10 hours",
+    "About 10 days"
+   ],
+   "answer": 3,
+   "explain": "Riders relayed mail across about 1,900 miles in roughly 10 days.",
+   "source": "Wikipedia, Pony Express, https://en.wikipedia.org/wiki/Pony_Express"
+  },
+  {
+   "id": "s077",
+   "topic": "Signals in history",
+   "q": "On early telephone switchboards, how were most calls connected?",
+   "options": [
+    "Callers shouted the number",
+    "Computers routed them",
+    "Operators plugged in cords by hand",
+    "Satellites linked them"
+   ],
+   "answer": 2,
+   "explain": "Human operators connected calls by inserting cords into the right jacks.",
+   "source": "Wikipedia, Telephone exchange, https://en.wikipedia.org/wiki/Telephone_exchange"
+  },
+  {
+   "id": "s078",
+   "topic": "Signals in history",
+   "q": "The first commercial telephone exchange in the United States opened in 1878 in which city?",
+   "options": [
+    "New Haven, Connecticut",
+    "Los Angeles, California",
+    "Miami, Florida",
+    "Denver, Colorado"
+   ],
+   "answer": 0,
+   "explain": "George W. Coy built the New Haven switchboard from carriage bolts and teapot lid handles.",
+   "source": "Wikipedia, Telephone exchange, https://en.wikipedia.org/wiki/Telephone_exchange"
+  },
+  {
+   "id": "s079",
+   "topic": "Signals in history",
+   "q": "Almon Strowger, who patented an automatic telephone switch in 1891, worked in what profession?",
+   "options": [
+    "Telegraph operator",
+    "Teacher",
+    "Sailor",
+    "Undertaker"
+   ],
+   "answer": 3,
+   "explain": "Strowger, an undertaker in Kansas City, patented the stepping switch that let callers dial numbers directly.",
+   "source": "Wikipedia, Telephone exchange, https://en.wikipedia.org/wiki/Telephone_exchange"
+  },
+  {
+   "id": "s080",
+   "topic": "Signals in history",
+   "q": "In 1973, Martin Cooper of Motorola made the first public call on what?",
+   "options": [
+    "A car radio",
+    "A handheld cellular phone",
+    "A satellite phone",
+    "A pay phone"
+   ],
+   "answer": 1,
+   "explain": "Cooper called a competitor at Bell Labs from a New York sidewalk on April 3, 1973.",
+   "source": "Wikipedia, Martin Cooper (inventor), https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+  },
+  {
+   "id": "s081",
+   "topic": "Signals in history",
+   "q": "The first handheld cell phone prototype weighed about 2.5 pounds. What was its nickname?",
+   "options": [
+    "The brick",
+    "The feather",
+    "The clam",
+    "The pebble"
+   ],
+   "answer": 0,
+   "explain": "The DynaTAC prototype was about 10 inches long and was nicknamed the brick.",
+   "source": "Wikipedia, Martin Cooper (inventor), https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+  },
+  {
+   "id": "s082",
+   "topic": "Signals in history",
+   "q": "The first 911 emergency call in the United States was made in 1968 in which state?",
+   "options": [
+    "New York",
+    "California",
+    "Alabama",
+    "Texas"
+   ],
+   "answer": 2,
+   "explain": "The first 911 call was placed on February 16, 1968, in Haleyville, Alabama.",
+   "source": "Wikipedia, 9-1-1, https://en.wikipedia.org/wiki/9-1-1"
+  },
+  {
+   "id": "s083",
+   "topic": "Signals in history",
+   "q": "Which country launched Sputnik 1, the first artificial satellite, on October 4, 1957?",
+   "options": [
+    "The United States",
+    "The Soviet Union",
+    "France",
+    "Japan"
+   ],
+   "answer": 1,
+   "explain": "The Soviet Union launched Sputnik 1, which started the Space Race.",
+   "source": "Wikipedia, Sputnik 1, https://en.wikipedia.org/wiki/Sputnik_1"
+  },
+  {
+   "id": "s084",
+   "topic": "Signals in history",
+   "q": "How could people around the world detect Sputnik 1 as it passed overhead?",
+   "options": [
+    "By hearing its engine",
+    "By smelling its fuel",
+    "By watching it change color",
+    "By listening to its radio beeps"
+   ],
+   "answer": 3,
+   "explain": "Sputnik 1 broadcast radio pulses on 20 and 40 megahertz through four antennas.",
+   "source": "Wikipedia, Sputnik 1, https://en.wikipedia.org/wiki/Sputnik_1"
+  },
+  {
+   "id": "s085",
+   "topic": "Signals in history",
+   "q": "In 1962, the Telstar 1 satellite achieved which first?",
+   "options": [
+    "The first photo of Mars",
+    "The first weather forecast",
+    "Live television across the Atlantic",
+    "The first landing on the Moon"
+   ],
+   "answer": 2,
+   "explain": "Telstar 1 relayed the first live transatlantic television broadcast on July 23, 1962.",
+   "source": "Wikipedia, Telstar 1, https://en.wikipedia.org/wiki/Telstar_1"
+  },
+  {
+   "id": "s086",
+   "topic": "Signals in history",
+   "q": "Which research lab built the Telstar 1 satellite?",
+   "options": [
+    "Bell Labs",
+    "Los Alamos",
+    "CERN",
+    "Jodrell Bank"
+   ],
+   "answer": 0,
+   "explain": "Telstar 1 was built by Bell Labs and carried the first satellite telephone call.",
+   "source": "Wikipedia, Telstar 1, https://en.wikipedia.org/wiki/Telstar_1"
+  },
+  {
+   "id": "s087",
+   "topic": "Signals in history",
+   "q": "Syncom 3, the first operational geostationary satellite, carried live coverage of which event to the United States in 1964?",
+   "options": [
+    "The World Cup in Brazil",
+    "A Moon landing",
+    "A royal wedding",
+    "The Olympic Games in Japan"
+   ],
+   "answer": 3,
+   "explain": "Syncom 3 transmitted live Olympic coverage from Japan.",
+   "source": "Wikipedia, Geostationary orbit, https://en.wikipedia.org/wiki/Geostationary_orbit"
+  },
+  {
+   "id": "s088",
+   "topic": "Signals in history",
+   "q": "About how many people watched the Apollo 11 moonwalk on live television in 1969?",
+   "options": [
+    "About 6 million",
+    "About 600 million",
+    "About 60,000",
+    "About 6 billion"
+   ],
+   "answer": 1,
+   "explain": "Roughly one fifth of Earth's population watched the moonwalk live.",
+   "source": "Wikipedia, Apollo 11, https://en.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+   "id": "s089",
+   "topic": "Signals in history",
+   "q": "What words did Neil Armstrong radio to Houston when Apollo 11 touched down?",
+   "options": [
+    "The Eagle has landed",
+    "Houston, we have a problem",
+    "Mission accomplished",
+    "All systems go"
+   ],
+   "answer": 0,
+   "explain": "Armstrong reported, \"Houston, Tranquility Base here. The Eagle has landed.\"",
+   "source": "Wikipedia, Apollo 11, https://en.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+   "id": "s090",
+   "topic": "Signals in history",
+   "q": "NASA's Deep Space Network has antenna sites in California, Spain and Australia. Why are they spread around the globe?",
+   "options": [
+    "To avoid sharing equipment",
+    "Because each country builds different missions",
+    "So a spacecraft is always in view as Earth turns",
+    "To listen to weather"
+   ],
+   "answer": 2,
+   "explain": "The three sites are about 120 degrees apart, so one can always see a distant spacecraft.",
+   "source": "Wikipedia, NASA Deep Space Network, https://en.wikipedia.org/wiki/NASA_Deep_Space_Network"
+  },
+  {
+   "id": "s091",
+   "topic": "Signals in history",
+   "q": "The largest dish antennas in NASA's Deep Space Network are how wide?",
+   "options": [
+    "7 meters",
+    "70 meters",
+    "700 meters",
+    "7 kilometers"
+   ],
+   "answer": 1,
+   "explain": "The network uses 70-meter and 34-meter dishes to talk with distant spacecraft.",
+   "source": "Wikipedia, NASA Deep Space Network, https://en.wikipedia.org/wiki/NASA_Deep_Space_Network"
+  },
+  {
+   "id": "s092",
+   "topic": "Signals in history",
+   "q": "The Voyager Golden Records, launched in 1977, carry greetings in how many languages?",
+   "options": [
+    "5",
+    "12",
+    "200",
+    "55"
+   ],
+   "answer": 3,
+   "explain": "The records hold greetings in 55 languages along with music, natural sounds and 116 images.",
+   "source": "Wikipedia, Voyager Golden Record, https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+  },
+  {
+   "id": "s093",
+   "topic": "Signals in history",
+   "q": "Which scientist chaired the committee that chose the contents of the Voyager Golden Records?",
+   "options": [
+    "Stephen Hawking",
+    "Neil deGrasse Tyson",
+    "Carl Sagan",
+    "Edwin Hubble"
+   ],
+   "answer": 2,
+   "explain": "Carl Sagan led the committee that selected the records' sounds and images.",
+   "source": "Wikipedia, Voyager Golden Record, https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+  },
+  {
+   "id": "s094",
+   "topic": "Signals in history",
+   "q": "The 1974 Arecibo message was sent as a string of how many binary digits?",
+   "options": [
+    "1,679",
+    "1,000",
+    "64",
+    "1,000,000"
+   ],
+   "answer": 0,
+   "explain": "1,679 is the product of the primes 23 and 73, so the bits can be arranged into a picture.",
+   "source": "Wikipedia, Arecibo message, https://en.wikipedia.org/wiki/Arecibo_message"
+  },
+  {
+   "id": "s095",
+   "topic": "Signals in history",
+   "q": "In 1969, the first message sent over the ARPANET, from UCLA to Stanford Research Institute, was cut short after two letters. What were they?",
+   "options": [
+    "HI",
+    "OK",
+    "GO",
+    "LO"
+   ],
+   "answer": 3,
+   "explain": "The operators were typing LOGIN, and the system crashed after L and O.",
+   "source": "Wikipedia, ARPANET, https://en.wikipedia.org/wiki/ARPANET"
+  },
+  {
+   "id": "s096",
+   "topic": "Signals in history",
+   "q": "On January 1, 1983, the ARPANET switched to which set of protocols that still underpins the internet?",
+   "options": [
+    "HTML",
+    "TCP/IP",
+    "Wi-Fi",
+    "Bluetooth"
+   ],
+   "answer": 1,
+   "explain": "On flag day, TCP/IP replaced the earlier Network Control Protocol.",
+   "source": "Wikipedia, ARPANET, https://en.wikipedia.org/wiki/ARPANET"
+  },
+  {
+   "id": "s097",
+   "topic": "Signals in history",
+   "q": "Tim Berners-Lee proposed the World Wide Web in 1989 while working at which research center?",
+   "options": [
+    "CERN",
+    "NASA",
+    "MIT",
+    "Bell Labs"
+   ],
+   "answer": 0,
+   "explain": "Berners-Lee proposed the web at CERN and published the first website in 1991.",
+   "source": "Wikipedia, Tim Berners-Lee, https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  {
+   "id": "s098",
+   "topic": "Signals in history",
+   "q": "Which of these did Tim Berners-Lee invent for the World Wide Web?",
+   "options": [
+    "Wi-Fi, Bluetooth and GPS",
+    "The transistor, laser and microchip",
+    "HTML, HTTP and the URL",
+    "Email, the mouse and the keyboard"
+   ],
+   "answer": 2,
+   "explain": "Berners-Lee created HTML, HTTP and the URL, the core building blocks of the web.",
+   "source": "Wikipedia, Tim Berners-Lee, https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+  },
+  {
+   "id": "s099",
+   "topic": "Signals in history",
+   "q": "Vint Cerf and Bob Kahn are known as fathers of the internet for designing what?",
+   "options": [
+    "The first smartphone",
+    "The TCP/IP protocols",
+    "The first search engine",
+    "The first video game"
+   ],
+   "answer": 1,
+   "explain": "Cerf and Kahn co-developed TCP/IP and shared the 2004 Turing Award for it.",
+   "source": "Wikipedia, Vint Cerf, https://en.wikipedia.org/wiki/Vint_Cerf"
+  },
+  {
+   "id": "s100",
+   "topic": "Signals in history",
+   "q": "In 1966, Charles Kao showed that glass fibers could carry signals over long distances if what was removed?",
+   "options": [
+    "The color of the glass",
+    "All air around the fiber",
+    "Its outer coating",
+    "Impurities in the glass"
+   ],
+   "answer": 3,
+   "explain": "Kao showed that losses came from impurities, and he received the 2009 Nobel Prize in Physics.",
+   "source": "Wikipedia, Charles K. Kao, https://en.wikipedia.org/wiki/Charles_K._Kao"
+  },
+  {
+   "id": "s101",
+   "topic": "Signals in history",
+   "q": "Braille uses cells of raised dots read by touch. How many dot positions are in one braille cell?",
+   "options": [
+    "Four",
+    "Eight",
+    "Six",
+    "Twelve"
+   ],
+   "answer": 2,
+   "explain": "Each braille cell has six dot positions in two columns of three.",
+   "source": "Wikipedia, Braille, https://en.wikipedia.org/wiki/Braille"
+  },
+  {
+   "id": "s102",
+   "topic": "Signals in history",
+   "q": "About how old was Louis Braille when he created his reading system in 1824?",
+   "options": [
+    "15",
+    "8",
+    "30",
+    "55"
+   ],
+   "answer": 0,
+   "explain": "Louis Braille created the system at 15, improving on a military night writing code.",
+   "source": "Wikipedia, Braille, https://en.wikipedia.org/wiki/Braille"
+  },
+  {
+   "id": "s103",
+   "topic": "Signals in history",
+   "q": "Garrett Morgan, an inventor from Cleveland, received a 1923 patent for what kind of signal?",
+   "options": [
+    "A fire alarm",
+    "A railroad whistle",
+    "A lighthouse beacon",
+    "A traffic signal"
+   ],
+   "answer": 3,
+   "explain": "Morgan designed a traffic signal with stop and go arms after seeing a collision at an intersection.",
+   "source": "Wikipedia, Garrett Morgan, https://en.wikipedia.org/wiki/Garrett_Morgan"
+  },
+  {
+   "id": "s104",
+   "topic": "Signals in history",
+   "q": "In 1916, Garrett Morgan used his own invention to help rescue workers trapped in a tunnel under Lake Erie. What was it?",
+   "options": [
+    "A diving submarine",
+    "A smoke hood for breathing",
+    "A rope ladder",
+    "A searchlight"
+   ],
+   "answer": 1,
+   "explain": "His smoke hood drew clean air from near the ground, letting rescuers enter the smoke-filled tunnel.",
+   "source": "Wikipedia, Garrett Morgan, https://en.wikipedia.org/wiki/Garrett_Morgan"
+  },
+  {
+   "id": "s105",
+   "topic": "People and pathways",
+   "q": "At what age did Katherine Johnson enroll at West Virginia State College?",
+   "options": [
+    "18",
+    "10",
+    "25",
+    "30"
+   ],
+   "answer": 0,
+   "explain": "Johnson enrolled at 18 and graduated in 1937 with highest honors in mathematics and French.",
+   "source": "NASA, Katherine Johnson Biography, https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+  },
+  {
+   "id": "s106",
+   "topic": "People and pathways",
+   "q": "Before his 1962 orbital flight, astronaut John Glenn asked for which mathematician to check the computer's trajectory numbers by hand?",
+   "options": [
+    "Grace Hopper",
+    "Ada Lovelace",
+    "Katherine Johnson",
+    "Marie Curie"
+   ],
+   "answer": 2,
+   "explain": "Katherine Johnson verified the computer calculations for Glenn's Friendship 7 flight.",
+   "source": "NASA, Katherine Johnson Biography, https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+  },
+  {
+   "id": "s107",
+   "topic": "People and pathways",
+   "q": "Katherine Johnson received the Presidential Medal of Freedom in 2015 at what age?",
+   "options": [
+    "47",
+    "97",
+    "67",
+    "107"
+   ],
+   "answer": 1,
+   "explain": "President Barack Obama awarded Johnson the medal in 2015, when she was 97.",
+   "source": "NASA, Katherine Johnson Biography, https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+  },
+  {
+   "id": "s108",
+   "topic": "People and pathways",
+   "q": "Which NASA center named a computational research facility after Katherine Johnson?",
+   "options": [
+    "Kennedy Space Center",
+    "Ames Research Center",
+    "Goddard Space Flight Center",
+    "Langley Research Center"
+   ],
+   "answer": 3,
+   "explain": "The Katherine G. Johnson Computational Research Facility is at NASA Langley, where she worked for 33 years.",
+   "source": "NASA, Katherine Johnson Biography, https://www.nasa.gov/centers-and-facilities/langley/katherine-johnson-biography/"
+  },
+  {
+   "id": "s109",
+   "topic": "People and pathways",
+   "q": "Dorothy Vaughan became NACA's first Black supervisor and prepared her team for electronic computers by teaching which programming language?",
+   "options": [
+    "Python",
+    "Java",
+    "FORTRAN",
+    "BASIC"
+   ],
+   "answer": 2,
+   "explain": "Vaughan learned FORTRAN and trained her colleagues as computers arrived at Langley.",
+   "source": "Wikipedia, Dorothy Vaughan, https://en.wikipedia.org/wiki/Dorothy_Vaughan"
+  },
+  {
+   "id": "s110",
+   "topic": "People and pathways",
+   "q": "To qualify as an engineer, Mary Jackson had to petition the City of Hampton for permission to do what?",
+   "options": [
+    "Attend night classes at a segregated high school",
+    "Fly a jet aircraft",
+    "Open a bank account",
+    "Vote in an election"
+   ],
+   "answer": 0,
+   "explain": "Jackson needed permission to attend graduate-level classes held at an all-white high school.",
+   "source": "Wikipedia, Mary Jackson (engineer), https://en.wikipedia.org/wiki/Mary_Jackson_(engineer)"
+  },
+  {
+   "id": "s111",
+   "topic": "People and pathways",
+   "q": "In 1958, Mary Jackson became NASA's first Black female what?",
+   "options": [
+    "Astronaut",
+    "Pilot",
+    "Administrator",
+    "Engineer"
+   ],
+   "answer": 3,
+   "explain": "Jackson became NASA's first Black female engineer and worked on wind tunnel and flight research.",
+   "source": "Wikipedia, Mary Jackson (engineer), https://en.wikipedia.org/wiki/Mary_Jackson_(engineer)"
+  },
+  {
+   "id": "s112",
+   "topic": "People and pathways",
+   "q": "Which NASA building now bears Mary Jackson's name?",
+   "options": [
+    "The Vehicle Assembly Building in Florida",
+    "NASA Headquarters in Washington, D.C.",
+    "Mission Control in Houston",
+    "The Jet Propulsion Laboratory in California"
+   ],
+   "answer": 1,
+   "explain": "NASA's headquarters was renamed the Mary W. Jackson NASA Headquarters.",
+   "source": "Wikipedia, Mary Jackson (engineer), https://en.wikipedia.org/wiki/Mary_Jackson_(engineer)"
+  },
+  {
+   "id": "s113",
+   "topic": "People and pathways",
+   "q": "Annie Easley wrote computer code supporting which rocket stage, later used to launch the Cassini and Voyager missions?",
+   "options": [
+    "Centaur",
+    "Saturn V",
+    "Falcon 9",
+    "Redstone"
+   ],
+   "answer": 0,
+   "explain": "Easley's programming supported the Centaur upper stage at NASA's Lewis Research Center.",
+   "source": "Wikipedia, Annie Easley, https://en.wikipedia.org/wiki/Annie_Easley"
+  },
+  {
+   "id": "s114",
+   "topic": "People and pathways",
+   "q": "Mae Jemison became the first African American woman in space in 1992 aboard which space shuttle?",
+   "options": [
+    "Columbia",
+    "Challenger",
+    "Endeavour",
+    "Atlantis"
+   ],
+   "answer": 2,
+   "explain": "Jemison flew on mission STS-47 aboard Endeavour in September 1992.",
+   "source": "Wikipedia, Mae Jemison, https://en.wikipedia.org/wiki/Mae_Jemison"
+  },
+  {
+   "id": "s115",
+   "topic": "People and pathways",
+   "q": "Before becoming an astronaut, Mae Jemison served as a Peace Corps medical officer. What was her profession?",
+   "options": [
+    "Lawyer",
+    "Physician",
+    "Architect",
+    "Journalist"
+   ],
+   "answer": 1,
+   "explain": "Jemison earned her M.D. from Cornell and served in Liberia and Sierra Leone from 1983 to 1985.",
+   "source": "Wikipedia, Mae Jemison, https://en.wikipedia.org/wiki/Mae_Jemison"
+  },
+  {
+   "id": "s116",
+   "topic": "People and pathways",
+   "q": "Mae Jemison earned her bachelor's degree from Stanford in which engineering field?",
+   "options": [
+    "Civil engineering",
+    "Aerospace engineering",
+    "Nuclear engineering",
+    "Chemical engineering"
+   ],
+   "answer": 3,
+   "explain": "Jemison earned a B.S. in chemical engineering and a B.A. in African and African-American studies at Stanford.",
+   "source": "Wikipedia, Mae Jemison, https://en.wikipedia.org/wiki/Mae_Jemison"
+  },
+  {
+   "id": "s117",
+   "topic": "People and pathways",
+   "q": "In 1993, Ellen Ochoa became the first Latina in space. Which instrument did she bring on her first mission?",
+   "options": [
+    "A violin",
+    "A guitar",
+    "A flute",
+    "A trumpet"
+   ],
+   "answer": 2,
+   "explain": "Ochoa, a classical flutist, flew aboard Discovery on STS-56.",
+   "source": "Wikipedia, Ellen Ochoa, https://en.wikipedia.org/wiki/Ellen_Ochoa"
+  },
+  {
+   "id": "s118",
+   "topic": "People and pathways",
+   "q": "Ellen Ochoa later became the first Latina director of which NASA center?",
+   "options": [
+    "Johnson Space Center",
+    "Kennedy Space Center",
+    "Marshall Space Flight Center",
+    "Glenn Research Center"
+   ],
+   "answer": 0,
+   "explain": "Ochoa became director of Johnson Space Center in Houston in 2013.",
+   "source": "Wikipedia, Ellen Ochoa, https://en.wikipedia.org/wiki/Ellen_Ochoa"
+  },
+  {
+   "id": "s119",
+   "topic": "People and pathways",
+   "q": "Astronaut Franklin Chang-Diaz, who tied the record with seven spaceflights, was born in which country?",
+   "options": [
+    "Mexico",
+    "Spain",
+    "Argentina",
+    "Costa Rica"
+   ],
+   "answer": 3,
+   "explain": "Chang-Diaz was born in San Jose, Costa Rica, and later founded a company developing plasma rockets.",
+   "source": "Wikipedia, Franklin Chang-Diaz, https://en.wikipedia.org/wiki/Franklin_Chang_D%C3%ADaz"
+  },
+  {
+   "id": "s120",
+   "topic": "People and pathways",
+   "q": "In 1973, Shirley Ann Jackson became the first African American woman to earn a doctorate from which university?",
+   "options": [
+    "Harvard",
+    "MIT",
+    "Yale",
+    "Princeton"
+   ],
+   "answer": 1,
+   "explain": "Jackson earned her MIT doctorate in physics and later led Rensselaer Polytechnic Institute.",
+   "source": "Wikipedia, Shirley Ann Jackson, https://en.wikipedia.org/wiki/Shirley_Ann_Jackson"
+  },
+  {
+   "id": "s121",
+   "topic": "People and pathways",
+   "q": "Valerie Thomas, a NASA data scientist, patented which invention in 1980?",
+   "options": [
+    "The illusion transmitter, which makes 3D images",
+    "The first smartphone",
+    "The microwave oven",
+    "The barcode"
+   ],
+   "answer": 0,
+   "explain": "Her device uses concave mirrors to create three-dimensional images that appear to float in space.",
+   "source": "Wikipedia, Valerie Thomas, https://en.wikipedia.org/wiki/Valerie_Thomas"
+  },
+  {
+   "id": "s122",
+   "topic": "People and pathways",
+   "q": "Patricia Bath invented the Laserphaco probe to treat which eye condition?",
+   "options": [
+    "Nearsightedness",
+    "Color blindness",
+    "Cataracts",
+    "Pink eye"
+   ],
+   "answer": 2,
+   "explain": "Bath's 1988 patent made her the first African American woman doctor to receive a patent for a medical purpose.",
+   "source": "Wikipedia, Patricia Bath, https://en.wikipedia.org/wiki/Patricia_Bath"
+  },
+  {
+   "id": "s123",
+   "topic": "People and pathways",
+   "q": "Mark Dean holds three of the nine original patents for which landmark machine released in 1981?",
+   "options": [
+    "The Apple Macintosh",
+    "The IBM personal computer",
+    "The first video game console",
+    "The first cell phone"
+   ],
+   "answer": 1,
+   "explain": "Dean co-created the IBM PC and co-developed the ISA bus that let users add components.",
+   "source": "Wikipedia, Mark Dean (computer scientist), https://en.wikipedia.org/wiki/Mark_Dean_(computer_scientist)"
+  },
+  {
+   "id": "s124",
+   "topic": "People and pathways",
+   "q": "In 1999, Mark Dean's team at IBM built the first computer chip to reach what speed?",
+   "options": [
+    "One kilohertz",
+    "One megahertz",
+    "One terahertz",
+    "One gigahertz"
+   ],
+   "answer": 3,
+   "explain": "Dean's team produced the first one-gigahertz chip, a milestone in processor speed.",
+   "source": "Wikipedia, Mark Dean (computer scientist), https://en.wikipedia.org/wiki/Mark_Dean_(computer_scientist)"
+  },
+  {
+   "id": "s125",
+   "topic": "People and pathways",
+   "q": "Jerry Lawson led development of the Fairchild Channel F in 1976, an early home game console known for what?",
+   "options": [
+    "Motion controls",
+    "Online play",
+    "Swappable game cartridges",
+    "Touch screens"
+   ],
+   "answer": 2,
+   "explain": "Lawson is called the father of the video game cartridge because games could be removed and changed.",
+   "source": "Wikipedia, Jerry Lawson (engineer), https://en.wikipedia.org/wiki/Jerry_Lawson_(engineer)"
+  },
+  {
+   "id": "s126",
+   "topic": "People and pathways",
+   "q": "Gladys West's mathematical models of what shape helped make GPS accurate?",
+   "options": [
+    "The shape of the Earth",
+    "The shape of the Moon",
+    "The shape of clouds",
+    "The shape of ocean waves"
+   ],
+   "answer": 0,
+   "explain": "West modeled Earth's precise shape, the geoid, during a 42-year career at Dahlgren, Virginia.",
+   "source": "Wikipedia, Gladys West, https://en.wikipedia.org/wiki/Gladys_West"
+  },
+  {
+   "id": "s127",
+   "topic": "People and pathways",
+   "q": "Gladys West was inducted into which Hall of Fame in 2018 for her contributions to GPS?",
+   "options": [
+    "The Rock and Roll Hall of Fame",
+    "The Baseball Hall of Fame",
+    "The Hall of Fame for Great Americans",
+    "The Air Force Space and Missile Pioneers Hall of Fame"
+   ],
+   "answer": 3,
+   "explain": "Her work went largely unrecognized for decades before this 2018 honor.",
+   "source": "Wikipedia, Gladys West, https://en.wikipedia.org/wiki/Gladys_West"
+  },
+  {
+   "id": "s128",
+   "topic": "People and pathways",
+   "q": "Lewis Latimer, son of parents who escaped slavery, drafted the patent drawings in 1876 for which invention?",
+   "options": [
+    "Edison's phonograph",
+    "Alexander Graham Bell's telephone",
+    "The Wright brothers' airplane",
+    "Morse's telegraph"
+   ],
+   "answer": 1,
+   "explain": "Latimer rose from office boy to head draftsman at a patent law firm.",
+   "source": "Wikipedia, Lewis Howard Latimer, https://en.wikipedia.org/wiki/Lewis_Howard_Latimer"
+  },
+  {
+   "id": "s129",
+   "topic": "People and pathways",
+   "q": "Lewis Latimer improved the manufacture of which part of the electric light bulb?",
+   "options": [
+    "The carbon filament",
+    "The glass bulb",
+    "The metal screw base",
+    "The light switch"
+   ],
+   "answer": 0,
+   "explain": "His 1881 and 1882 patents improved how carbon filaments were made and attached, reducing breakage.",
+   "source": "Wikipedia, Lewis Howard Latimer, https://en.wikipedia.org/wiki/Lewis_Howard_Latimer"
+  },
+  {
+   "id": "s130",
+   "topic": "People and pathways",
+   "q": "In 1890, Lewis Latimer wrote one of the first books on what subject?",
+   "options": [
+    "Space travel",
+    "Radio",
+    "Electric lighting",
+    "Photography"
+   ],
+   "answer": 2,
+   "explain": "Latimer wrote Incandescent Electric Lighting, published in 1890.",
+   "source": "Wikipedia, Lewis Howard Latimer, https://en.wikipedia.org/wiki/Lewis_Howard_Latimer"
+  },
+  {
+   "id": "s131",
+   "topic": "People and pathways",
+   "q": "Granville Woods's multiplex railway telegraph let messages pass between stations and what?",
+   "options": [
+    "Ships at sea",
+    "Moving trains",
+    "Airplanes",
+    "Hot air balloons"
+   ],
+   "answer": 1,
+   "explain": "It used a magnetic field from a coil under the train so stations and moving trains could communicate.",
+   "source": "Wikipedia, Granville Woods, https://en.wikipedia.org/wiki/Granville_Woods"
+  },
+  {
+   "id": "s132",
+   "topic": "People and pathways",
+   "q": "About how many U.S. patents did self-taught inventor Granville Woods hold?",
+   "options": [
+    "Exactly 1",
+    "About 5",
+    "More than 5,000",
+    "More than 50"
+   ],
+   "answer": 3,
+   "explain": "Woods held more than 50 patents and was inducted into the National Inventors Hall of Fame in 2006.",
+   "source": "Wikipedia, Granville Woods, https://en.wikipedia.org/wiki/Granville_Woods"
+  },
+  {
+   "id": "s133",
+   "topic": "People and pathways",
+   "q": "Ada Lovelace's 1843 notes described a method for calculating numbers on which proposed machine?",
+   "options": [
+    "The ENIAC",
+    "The Harvard Mark I",
+    "Charles Babbage's Analytical Engine",
+    "The telegraph"
+   ],
+   "answer": 2,
+   "explain": "Her Note G is often called the first published computer algorithm.",
+   "source": "Wikipedia, Ada Lovelace, https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  {
+   "id": "s134",
+   "topic": "People and pathways",
+   "q": "Ada Lovelace imagined that computing machines might one day create what?",
+   "options": [
+    "Music",
+    "Electricity",
+    "Gold",
+    "Weather"
+   ],
+   "answer": 0,
+   "explain": "She wrote that the engine might compose elaborate pieces of music if harmony could be expressed in symbols.",
+   "source": "Wikipedia, Ada Lovelace, https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  {
+   "id": "s135",
+   "topic": "People and pathways",
+   "q": "Marie Curie is the only person to win Nobel Prizes in two different sciences. Which two?",
+   "options": [
+    "Medicine and physics",
+    "Chemistry and medicine",
+    "Physics and peace",
+    "Physics and chemistry"
+   ],
+   "answer": 3,
+   "explain": "Curie won the 1903 Nobel Prize in Physics and the 1911 Nobel Prize in Chemistry.",
+   "source": "Wikipedia, Marie Curie, https://en.wikipedia.org/wiki/Marie_Curie"
+  },
+  {
+   "id": "s136",
+   "topic": "People and pathways",
+   "q": "George Washington Carver, born enslaved in Missouri, taught for 47 years at which school?",
+   "options": [
+    "Howard University",
+    "Tuskegee Institute",
+    "Harvard University",
+    "Spelman College"
+   ],
+   "answer": 1,
+   "explain": "Carver led Tuskegee's agriculture department and promoted crops like peanuts to restore soil.",
+   "source": "Wikipedia, George Washington Carver, https://en.wikipedia.org/wiki/George_Washington_Carver"
+  },
+  {
+   "id": "s137",
+   "topic": "People and pathways",
+   "q": "George Washington Carver designed the Jesup wagon for what purpose?",
+   "options": [
+    "A mobile classroom for farmers",
+    "Hauling cotton",
+    "Racing",
+    "Delivering mail"
+   ],
+   "answer": 0,
+   "explain": "The Jesup wagon brought agricultural education directly to farmers.",
+   "source": "Wikipedia, George Washington Carver, https://en.wikipedia.org/wiki/George_Washington_Carver"
+  },
+  {
+   "id": "s138",
+   "topic": "People and pathways",
+   "q": "Benjamin Banneker helped survey the original boundaries of which place in 1791?",
+   "options": [
+    "New York City",
+    "The state of Florida",
+    "The District of Columbia",
+    "The Erie Canal"
+   ],
+   "answer": 2,
+   "explain": "Banneker assisted Andrew Ellicott, using astronomical observations to set reference points.",
+   "source": "Wikipedia, Benjamin Banneker, https://en.wikipedia.org/wiki/Benjamin_Banneker"
+  },
+  {
+   "id": "s139",
+   "topic": "People and pathways",
+   "q": "Around 1753, Benjamin Banneker carved by hand a working clock made mostly of what?",
+   "options": [
+    "Gold",
+    "Wood",
+    "Glass",
+    "Stone"
+   ],
+   "answer": 1,
+   "explain": "His wooden clock struck on the hour and ran for over fifty years.",
+   "source": "Wikipedia, Benjamin Banneker, https://en.wikipedia.org/wiki/Benjamin_Banneker"
+  },
+  {
+   "id": "s140",
+   "topic": "People and pathways",
+   "q": "Charles Drew's work made it possible to store and ship large amounts of what?",
+   "options": [
+    "Vaccines",
+    "Drinking water",
+    "Oxygen",
+    "Blood plasma"
+   ],
+   "answer": 3,
+   "explain": "Drew developed plasma banking and became the first director of the American Red Cross Blood Bank in 1941.",
+   "source": "Wikipedia, Charles R. Drew, https://en.wikipedia.org/wiki/Charles_R._Drew"
+  },
+  {
+   "id": "s141",
+   "topic": "People and pathways",
+   "q": "Claude Shannon's 1937 master's thesis showed that which kind of math could design electrical switching circuits?",
+   "options": [
+    "Geometry",
+    "Statistics",
+    "Boolean algebra",
+    "Calculus of variations"
+   ],
+   "answer": 2,
+   "explain": "Applying Boolean algebra to circuits laid groundwork for digital computers.",
+   "source": "Wikipedia, Claude Shannon, https://en.wikipedia.org/wiki/Claude_Shannon"
+  },
+  {
+   "id": "s142",
+   "topic": "People and pathways",
+   "q": "Claude Shannon's 1948 paper A Mathematical Theory of Communication founded which field?",
+   "options": [
+    "Information theory",
+    "Quantum physics",
+    "Plate tectonics",
+    "Genetics"
+   ],
+   "answer": 0,
+   "explain": "The paper established the mathematical foundations of modern communication.",
+   "source": "Wikipedia, Claude Shannon, https://en.wikipedia.org/wiki/Claude_Shannon"
+  },
+  {
+   "id": "s143",
+   "topic": "People and pathways",
+   "q": "Claude Shannon credited which colleague with shortening binary digit to the word bit?",
+   "options": [
+    "Alan Turing",
+    "John von Neumann",
+    "Grace Hopper",
+    "John Tukey"
+   ],
+   "answer": 3,
+   "explain": "Tukey contracted binary digit to bit in a 1947 Bell Labs memo.",
+   "source": "Wikipedia, Bit, https://en.wikipedia.org/wiki/Bit"
+  },
+  {
+   "id": "s144",
+   "topic": "People and pathways",
+   "q": "As a graduate student in 1967, Jocelyn Bell Burnell discovered the first pulsar. What is a pulsar?",
+   "options": [
+    "A comet's tail",
+    "A rapidly spinning neutron star",
+    "A signal from another civilization",
+    "A type of planet"
+   ],
+   "answer": 1,
+   "explain": "The regular pulses were briefly nicknamed Little Green Man 1 before being explained as a spinning neutron star.",
+   "source": "Wikipedia, Jocelyn Bell Burnell, https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"
+  },
+  {
+   "id": "s145",
+   "topic": "People and pathways",
+   "q": "What did Jocelyn Bell Burnell do with her $3 million Breakthrough Prize in 2018?",
+   "options": [
+    "Funded scholarships for underrepresented physics students",
+    "Built a telescope",
+    "Bought a research ship",
+    "Started a rocket company"
+   ],
+   "answer": 0,
+   "explain": "She donated the full prize to help women, minority and refugee students become physics researchers.",
+   "source": "Wikipedia, Jocelyn Bell Burnell, https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"
+  },
+  {
+   "id": "s146",
+   "topic": "People and pathways",
+   "q": "Actress Hedy Lamarr co-patented a radio system in 1942 that guarded against jamming by doing what?",
+   "options": [
+    "Using very loud signals",
+    "Sending only at night",
+    "Hopping between frequencies",
+    "Using light instead of radio"
+   ],
+   "answer": 2,
+   "explain": "Lamarr and composer George Antheil patented frequency hopping, an idea behind later wireless systems.",
+   "source": "Wikipedia, Hedy Lamarr, https://en.wikipedia.org/wiki/Hedy_Lamarr"
+  },
+  {
+   "id": "s147",
+   "topic": "People and pathways",
+   "q": "Lonnie Johnson, who worked on NASA's Galileo mission to Jupiter, also invented which popular toy?",
+   "options": [
+    "The Rubik's Cube",
+    "The Super Soaker",
+    "The Frisbee",
+    "The yo-yo"
+   ],
+   "answer": 1,
+   "explain": "Johnson invented the Super Soaker in 1989 and holds over 250 patents.",
+   "source": "Wikipedia, Lonnie Johnson (inventor), https://en.wikipedia.org/wiki/Lonnie_Johnson_(inventor)"
+  },
+  {
+   "id": "s148",
+   "topic": "People and pathways",
+   "q": "As a teenager, Lonnie Johnson won a science fair with Linex, which was what?",
+   "options": [
+    "A solar car",
+    "A model volcano",
+    "A radio telescope",
+    "A robot powered by compressed air"
+   ],
+   "answer": 3,
+   "explain": "His compressed-air robot Linex won first prize.",
+   "source": "Wikipedia, Lonnie Johnson (inventor), https://en.wikipedia.org/wiki/Lonnie_Johnson_(inventor)"
+  },
+  {
+   "id": "s149",
+   "topic": "People and pathways",
+   "q": "Percy Spencer, who never finished grammar school, taught himself electronics and later invented which kitchen appliance?",
+   "options": [
+    "The refrigerator",
+    "The toaster",
+    "The microwave oven",
+    "The dishwasher"
+   ],
+   "answer": 2,
+   "explain": "Spencer noticed a candy bar melt near a radar tube at Raytheon and developed the microwave oven.",
+   "source": "Wikipedia, Percy Spencer, https://en.wikipedia.org/wiki/Percy_Spencer"
+  },
+  {
+   "id": "s150",
+   "topic": "People and pathways",
+   "q": "Alan Turing proposed a test in 1950 for whether a machine shows intelligence. What does it involve?",
+   "options": [
+    "Whether a person can tell its answers from a human's",
+    "How fast it adds numbers",
+    "How much it weighs",
+    "How long its battery lasts"
+   ],
+   "answer": 0,
+   "explain": "In the Turing test, a machine passes if a human cannot reliably tell its conversation from a person's.",
+   "source": "Wikipedia, Alan Turing, https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  {
+   "id": "s151",
+   "topic": "Service and technology",
+   "q": "Grace Hopper joined which branch of the U.S. military during World War II?",
+   "options": [
+    "The Army Air Forces",
+    "The Marine Corps",
+    "The Coast Guard",
+    "The Navy Reserve"
+   ],
+   "answer": 3,
+   "explain": "Hopper joined the Navy Reserve in 1943 and was assigned to the Harvard Mark I computer.",
+   "source": "Wikipedia, Grace Hopper, https://en.wikipedia.org/wiki/Grace_Hopper"
+  },
+  {
+   "id": "s152",
+   "topic": "Service and technology",
+   "q": "In 1947, Grace Hopper's team found an actual moth stuck in a relay of the Harvard Mark II. What computing term does this story celebrate?",
+   "options": [
+    "Downloading",
+    "Debugging",
+    "Booting",
+    "Streaming"
+   ],
+   "answer": 1,
+   "explain": "The team logged the \"first actual case of bug being found,\" a favorite story behind debugging.",
+   "source": "Wikipedia, Grace Hopper, https://en.wikipedia.org/wiki/Grace_Hopper"
+  },
+  {
+   "id": "s153",
+   "topic": "Service and technology",
+   "q": "Grace Hopper played a key role in developing COBOL, a programming language designed to read like what?",
+   "options": [
+    "English",
+    "Musical notes",
+    "Pictures",
+    "Morse code"
+   ],
+   "answer": 0,
+   "explain": "Hopper believed most people find English statements easier than symbols, and COBOL is still in use.",
+   "source": "Wikipedia, Grace Hopper, https://en.wikipedia.org/wiki/Grace_Hopper"
+  },
+  {
+   "id": "s154",
+   "topic": "Service and technology",
+   "q": "What rank did Grace Hopper hold when she retired from the Navy in 1986?",
+   "options": [
+    "Ensign",
+    "Sergeant",
+    "Rear admiral",
+    "Captain of a submarine"
+   ],
+   "answer": 2,
+   "explain": "Hopper retired as a rear admiral, one of the Navy's oldest active-duty officers.",
+   "source": "Wikipedia, Grace Hopper, https://en.wikipedia.org/wiki/Grace_Hopper"
+  },
+  {
+   "id": "s155",
+   "topic": "Service and technology",
+   "q": "During World War II, Navajo Code Talkers served in which branch of the U.S. military?",
+   "options": [
+    "The Navy",
+    "The Marine Corps",
+    "The Army Air Forces",
+    "The Coast Guard"
+   ],
+   "answer": 1,
+   "explain": "Twenty-nine Navajo men were sworn into the Marine Corps on May 4, 1942, and created the code.",
+   "source": "Wikipedia, Code talker, https://en.wikipedia.org/wiki/Code_talker"
+  },
+  {
+   "id": "s156",
+   "topic": "Service and technology",
+   "q": "What is notable about the Navajo code used in World War II?",
+   "options": [
+    "It used only numbers",
+    "It was written in invisible ink",
+    "It was sent by carrier pigeon",
+    "It is the only spoken military code never deciphered"
+   ],
+   "answer": 3,
+   "explain": "The Navajo code was never broken and stayed classified until 1968.",
+   "source": "Wikipedia, Code talker, https://en.wikipedia.org/wiki/Code_talker"
+  },
+  {
+   "id": "s157",
+   "topic": "Service and technology",
+   "q": "Navajo Code Talkers made new terms for military words. Which object did they call iron fish?",
+   "options": [
+    "A tank",
+    "A bomber",
+    "A submarine",
+    "A rifle"
+   ],
+   "answer": 2,
+   "explain": "With no Navajo word for submarine, the code used iron fish.",
+   "source": "Wikipedia, Code talker, https://en.wikipedia.org/wiki/Code_talker"
+  },
+  {
+   "id": "s158",
+   "topic": "Service and technology",
+   "q": "In 2001, the original 29 Navajo Code Talkers received which honor?",
+   "options": [
+    "The Congressional Gold Medal",
+    "The Nobel Peace Prize",
+    "An Olympic medal",
+    "The Pulitzer Prize"
+   ],
+   "answer": 0,
+   "explain": "The original 29 received Congressional Gold Medals, and about 300 Navajo code talkers have been recognized.",
+   "source": "Wikipedia, Code talker, https://en.wikipedia.org/wiki/Code_talker"
+  },
+  {
+   "id": "s159",
+   "topic": "Service and technology",
+   "q": "Which Native American language was used to send secret messages during World War I, before the better-known Navajo program?",
+   "options": [
+    "Cherokee only",
+    "Hawaiian",
+    "Inuit",
+    "Choctaw"
+   ],
+   "answer": 3,
+   "explain": "Choctaw soldiers served as code talkers in World War I.",
+   "source": "Wikipedia, Code talker, https://en.wikipedia.org/wiki/Code_talker"
+  },
+  {
+   "id": "s160",
+   "topic": "Service and technology",
+   "q": "About how many American women served as codebreakers during World War II?",
+   "options": [
+    "About 100",
+    "More than 10,000",
+    "About 1,000",
+    "About 1 million"
+   ],
+   "answer": 1,
+   "explain": "Over 10,000 women broke German and Japanese codes, a story told in Liza Mundy's book Code Girls.",
+   "source": "Wikipedia, Code Girls, https://en.wikipedia.org/wiki/Code_Girls"
+  },
+  {
+   "id": "s161",
+   "topic": "Service and technology",
+   "q": "The WAVES were the women's branch of the U.S. Naval Reserve in World War II. What does the V in WAVES stand for?",
+   "options": [
+    "Volunteer",
+    "Victory",
+    "Vessel",
+    "Valor"
+   ],
+   "answer": 0,
+   "explain": "WAVES stood for Women Accepted for Volunteer Emergency Service.",
+   "source": "Wikipedia, WAVES, https://en.wikipedia.org/wiki/WAVES"
+  },
+  {
+   "id": "s162",
+   "topic": "Service and technology",
+   "q": "WAVES handled about what share of the message encoding and decoding in the Navy's Office of Naval Operations?",
+   "options": [
+    "About 5 percent",
+    "About 25 percent",
+    "About 75 percent",
+    "All of it"
+   ],
+   "answer": 2,
+   "explain": "WAVES were responsible for about 75 percent of the encoding and decoding there.",
+   "source": "Wikipedia, WAVES, https://en.wikipedia.org/wiki/WAVES"
+  },
+  {
+   "id": "s163",
+   "topic": "Service and technology",
+   "q": "ENIAC, one of the first general-purpose electronic computers, was built for the U.S. Army to calculate what?",
+   "options": [
+    "Weather forecasts",
+    "Artillery firing tables",
+    "Bank balances",
+    "Census counts"
+   ],
+   "answer": 1,
+   "explain": "The Army funded ENIAC to compute firing tables for the Ballistic Research Laboratory.",
+   "source": "Wikipedia, ENIAC, https://en.wikipedia.org/wiki/ENIAC"
+  },
+  {
+   "id": "s164",
+   "topic": "Service and technology",
+   "q": "Who did the essential first programming work on ENIAC?",
+   "options": [
+    "A single army general",
+    "A team of robots",
+    "The machine programmed itself",
+    "Six women programmers"
+   ],
+   "answer": 3,
+   "explain": "Betty Holberton, Kay McNulty, Marlyn Wescoff, Ruth Lichterman, Betty Jean Jennings and Fran Bilas programmed ENIAC.",
+   "source": "Wikipedia, ENIAC, https://en.wikipedia.org/wiki/ENIAC"
+  },
+  {
+   "id": "s165",
+   "topic": "Service and technology",
+   "q": "ENIAC used about how many vacuum tubes?",
+   "options": [
+    "About 18",
+    "About 180",
+    "About 18,000",
+    "About 18 million"
+   ],
+   "answer": 2,
+   "explain": "ENIAC held about 18,000 vacuum tubes and weighed more than 30 short tons.",
+   "source": "Wikipedia, ENIAC, https://en.wikipedia.org/wiki/ENIAC"
+  },
+  {
+   "id": "s166",
+   "topic": "Service and technology",
+   "q": "Alan Turing helped break the German Enigma code at which wartime site?",
+   "options": [
+    "Bletchley Park",
+    "Los Alamos",
+    "Pearl Harbor",
+    "Fort Knox"
+   ],
+   "answer": 0,
+   "explain": "Turing designed the bombe machine at Bletchley Park to test Enigma settings.",
+   "source": "Wikipedia, Alan Turing, https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  {
+   "id": "s167",
+   "topic": "Service and technology",
+   "q": "Marie Curie supported World War I medical care by creating what?",
+   "options": [
+    "Hospital ships",
+    "Field telephones",
+    "Gas masks",
+    "Mobile X-ray units"
+   ],
+   "answer": 3,
+   "explain": "Her mobile radiography units, called petites Curies, brought X-rays to battlefield surgeons.",
+   "source": "Wikipedia, Marie Curie, https://en.wikipedia.org/wiki/Marie_Curie"
+  },
+  {
+   "id": "s168",
+   "topic": "Service and technology",
+   "q": "In what year did President Franklin D. Roosevelt sign the GI Bill for returning veterans?",
+   "options": [
+    "1918",
+    "1944",
+    "1965",
+    "1990"
+   ],
+   "answer": 1,
+   "explain": "Roosevelt signed the Servicemen's Readjustment Act on June 22, 1944, just after D-Day.",
+   "source": "National Archives, Servicemen's Readjustment Act (1944), https://www.archives.gov/milestone-documents/servicemens-readjustment-act"
+  },
+  {
+   "id": "s169",
+   "topic": "Service and technology",
+   "q": "The original GI Bill helped veterans with which of these?",
+   "options": [
+    "College tuition and home loans",
+    "New cars",
+    "Lottery tickets",
+    "Vacation travel"
+   ],
+   "answer": 0,
+   "explain": "It offered education and training, mortgage loans and hospitalization.",
+   "source": "National Archives, Servicemen's Readjustment Act (1944), https://www.archives.gov/milestone-documents/servicemens-readjustment-act"
+  },
+  {
+   "id": "s170",
+   "topic": "Service and technology",
+   "q": "Within seven years of the GI Bill, about how many veterans received educational benefits?",
+   "options": [
+    "About 8,000",
+    "About 80,000",
+    "About 8 million",
+    "About 80 million"
+   ],
+   "answer": 2,
+   "explain": "About eight million veterans used the education benefits, and college degrees awarded more than doubled between 1940 and 1950.",
+   "source": "National Archives, Servicemen's Readjustment Act (1944), https://www.archives.gov/milestone-documents/servicemens-readjustment-act"
+  },
+  {
+   "id": "s171",
+   "topic": "Service and technology",
+   "q": "The ARPANET, a forerunner of the internet, was funded by an agency of which U.S. department?",
+   "options": [
+    "The Department of Agriculture",
+    "The Department of Defense",
+    "The Department of Education",
+    "The Postal Service"
+   ],
+   "answer": 1,
+   "explain": "ARPA, the Advanced Research Projects Agency of the Department of Defense, created the ARPANET.",
+   "source": "Wikipedia, ARPANET, https://en.wikipedia.org/wiki/ARPANET"
+  },
+  {
+   "id": "s172",
+   "topic": "Service and technology",
+   "q": "The Global Positioning System (GPS) began in 1973 as a project of which U.S. department?",
+   "options": [
+    "The Department of Transportation",
+    "NASA",
+    "The Department of Commerce",
+    "The Department of Defense"
+   ],
+   "answer": 3,
+   "explain": "GPS was started by the Department of Defense and later opened for civilian use.",
+   "source": "Wikipedia, Global Positioning System, https://en.wikipedia.org/wiki/Global_Positioning_System"
+  },
+  {
+   "id": "s173",
+   "topic": "Service and technology",
+   "q": "Air Force Colonel Bradford Parkinson is often called the father of what?",
+   "options": [
+    "The internet",
+    "The jet engine",
+    "GPS",
+    "The laser"
+   ],
+   "answer": 2,
+   "explain": "Parkinson led the Air Force program that developed GPS beginning in 1973.",
+   "source": "Wikipedia, Bradford Parkinson, https://en.wikipedia.org/wiki/Bradford_Parkinson"
+  },
+  {
+   "id": "s174",
+   "topic": "Service and technology",
+   "q": "After which 1983 event did President Reagan announce that GPS would be available for civilian use?",
+   "options": [
+    "A passenger airliner was shot down after straying off course",
+    "The first Space Shuttle launch",
+    "A hurricane in Florida",
+    "The Moon landing"
+   ],
+   "answer": 0,
+   "explain": "Korean Air Lines Flight 007 was shot down in 1983, and Reagan then authorized civilian GPS access.",
+   "source": "Wikipedia, Global Positioning System, https://en.wikipedia.org/wiki/Global_Positioning_System"
+  },
+  {
+   "id": "s175",
+   "topic": "Service and technology",
+   "q": "On May 1, 2000, civilian GPS became much more accurate because what was turned off?",
+   "options": [
+    "The Deep Space Network",
+    "Daylight saving time",
+    "AM radio",
+    "Selective Availability"
+   ],
+   "answer": 3,
+   "explain": "Selective Availability had degraded civilian accuracy to about 100 meters.",
+   "source": "Wikipedia, Global Positioning System, https://en.wikipedia.org/wiki/Global_Positioning_System"
+  },
+  {
+   "id": "s176",
+   "topic": "Service and technology",
+   "q": "Transit, the first operational satellite navigation system, was built for which military branch?",
+   "options": [
+    "The U.S. Army",
+    "The U.S. Navy",
+    "The U.S. Marine Corps",
+    "The National Guard"
+   ],
+   "answer": 1,
+   "explain": "The Navy and the Johns Hopkins Applied Physics Laboratory developed Transit, used from 1964 to 1996.",
+   "source": "Wikipedia, Transit (satellite), https://en.wikipedia.org/wiki/Transit_(satellite)"
+  },
+  {
+   "id": "s177",
+   "topic": "Service and technology",
+   "q": "The idea for the Transit navigation system came from scientists tracking which satellite's radio signals?",
+   "options": [
+    "Sputnik 1",
+    "Telstar 1",
+    "The Hubble Space Telescope",
+    "Voyager 1"
+   ],
+   "answer": 0,
+   "explain": "APL physicists found Sputnik's orbit from the Doppler shift of its signals, then reversed the idea to locate receivers.",
+   "source": "Wikipedia, Transit (satellite), https://en.wikipedia.org/wiki/Transit_(satellite)"
+  },
+  {
+   "id": "s178",
+   "topic": "Service and technology",
+   "q": "The word RADAR was coined in 1940 by which organization?",
+   "options": [
+    "NASA",
+    "The BBC",
+    "The United States Navy",
+    "The Wright Company"
+   ],
+   "answer": 2,
+   "explain": "The Navy coined RADAR as an acronym for radio detection and ranging.",
+   "source": "Wikipedia, Radar, https://en.wikipedia.org/wiki/Radar"
+  },
+  {
+   "id": "s179",
+   "topic": "Service and technology",
+   "q": "How does a radar find how far away an object is?",
+   "options": [
+    "By measuring the object's color",
+    "By timing how long its echo takes to return",
+    "By listening for its engine",
+    "By weighing the air"
+   ],
+   "answer": 1,
+   "explain": "Radar sends radio waves and measures the delay of the reflected echo.",
+   "source": "Wikipedia, Radar, https://en.wikipedia.org/wiki/Radar"
+  },
+  {
+   "id": "s180",
+   "topic": "Service and technology",
+   "q": "Before inventing the microwave oven, Percy Spencer learned wireless communication by serving in which branch?",
+   "options": [
+    "The U.S. Army",
+    "The Coast Guard",
+    "The Marine Corps",
+    "The U.S. Navy"
+   ],
+   "answer": 3,
+   "explain": "Spencer joined the Navy at 18 and taught himself while standing watch at night.",
+   "source": "Wikipedia, Percy Spencer, https://en.wikipedia.org/wiki/Percy_Spencer"
+  },
+  {
+   "id": "s181",
+   "topic": "Service and technology",
+   "q": "Lewis Latimer, later a key figure in electric lighting, served in which branch during the Civil War?",
+   "options": [
+    "The Union Army cavalry",
+    "The Marine Corps",
+    "The U.S. Navy",
+    "The Signal Corps"
+   ],
+   "answer": 2,
+   "explain": "Latimer enlisted in the Navy at 16 and served aboard the USS Massasoit.",
+   "source": "Wikipedia, Lewis Howard Latimer, https://en.wikipedia.org/wiki/Lewis_Howard_Latimer"
+  },
+  {
+   "id": "s182",
+   "topic": "Service and technology",
+   "q": "Before becoming the first African American in space in 1983, Guion Bluford flew 144 combat missions as a pilot in which service?",
+   "options": [
+    "The U.S. Air Force",
+    "The U.S. Navy",
+    "The U.S. Army",
+    "The Coast Guard"
+   ],
+   "answer": 0,
+   "explain": "Bluford was an Air Force fighter pilot and earned a PhD in aerospace engineering before flying on Challenger.",
+   "source": "Wikipedia, Guion Bluford, https://en.wikipedia.org/wiki/Guion_Bluford"
+  },
+  {
+   "id": "s183",
+   "topic": "Service and technology",
+   "q": "John Glenn, the first American to orbit Earth, was a pilot in which branch before joining NASA?",
+   "options": [
+    "The U.S. Coast Guard",
+    "The U.S. Army",
+    "The Merchant Marine",
+    "The U.S. Marine Corps"
+   ],
+   "answer": 3,
+   "explain": "Glenn flew in World War II and Korea as a Marine aviator before his 1962 Friendship 7 flight.",
+   "source": "Wikipedia, John Glenn, https://en.wikipedia.org/wiki/John_Glenn"
+  },
+  {
+   "id": "s184",
+   "topic": "Service and technology",
+   "q": "At what age did John Glenn return to space aboard the Space Shuttle Discovery in 1998?",
+   "options": [
+    "41",
+    "77",
+    "55",
+    "90"
+   ],
+   "answer": 1,
+   "explain": "Glenn flew on STS-95 at 77, then the oldest person to reach Earth orbit.",
+   "source": "Wikipedia, John Glenn, https://en.wikipedia.org/wiki/John_Glenn"
+  },
+  {
+   "id": "s185",
+   "topic": "Service and technology",
+   "q": "Lonnie Johnson worked for which service before joining NASA's Jet Propulsion Laboratory?",
+   "options": [
+    "The U.S. Air Force",
+    "The U.S. Navy",
+    "The U.S. Army",
+    "The Coast Guard"
+   ],
+   "answer": 0,
+   "explain": "Johnson worked on Air Force programs, then on projects such as the Galileo mission at JPL.",
+   "source": "Wikipedia, Lonnie Johnson (inventor), https://en.wikipedia.org/wiki/Lonnie_Johnson_(inventor)"
+  },
+  {
+   "id": "s186",
+   "topic": "Service and technology",
+   "q": "Gladys West spent her career at a naval base in which state, where her Earth models supported GPS?",
+   "options": [
+    "California",
+    "Florida",
+    "Virginia",
+    "Alaska"
+   ],
+   "answer": 2,
+   "explain": "West worked at the Naval Proving Ground in Dahlgren, Virginia, starting in 1956.",
+   "source": "Wikipedia, Gladys West, https://en.wikipedia.org/wiki/Gladys_West"
+  },
+  {
+   "id": "s187",
+   "topic": "Service and technology",
+   "q": "The Tuskegee Airmen, the first African American military aviators in the U.S. Army Air Forces, earned what nickname?",
+   "options": [
+    "The Blue Angels",
+    "The Red Tails",
+    "The Flying Tigers",
+    "The Night Owls"
+   ],
+   "answer": 1,
+   "explain": "Their aircraft carried distinctive red tail markings.",
+   "source": "Wikipedia, Tuskegee Airmen, https://en.wikipedia.org/wiki/Tuskegee_Airmen"
+  },
+  {
+   "id": "s188",
+   "topic": "Service and technology",
+   "q": "The U.S. Army Signal Corps was founded in 1860. Its first signal officer, Albert Myer, developed a system that signaled with what?",
+   "options": [
+    "Electric lights",
+    "Radio waves",
+    "Carrier pigeons",
+    "Waving flags"
+   ],
+   "answer": 3,
+   "explain": "Myer's wigwag system sent messages by waving a flag in set motions.",
+   "source": "Wikipedia, United States Army Signal Corps, https://en.wikipedia.org/wiki/United_States_Army_Signal_Corps"
+  },
+  {
+   "id": "s189",
+   "topic": "Service and technology",
+   "q": "In 1907, the Army Signal Corps created a new division that marked the start of U.S. military aviation. What was it?",
+   "options": [
+    "A Submarine Division",
+    "A Rocket Division",
+    "An Aeronautical Division",
+    "A Cavalry Division"
+   ],
+   "answer": 2,
+   "explain": "The Signal Corps oversaw Army aviation until 1918, and the Wright brothers flew tests at Fort Myer in 1908.",
+   "source": "Wikipedia, United States Army Signal Corps, https://en.wikipedia.org/wiki/United_States_Army_Signal_Corps"
+  },
+  {
+   "id": "s190",
+   "topic": "Service and technology",
+   "q": "Cher Ami, a decorated messenger with the U.S. Army Signal Corps in World War I, was what kind of animal?",
+   "options": [
+    "A homing pigeon",
+    "A dog",
+    "A horse",
+    "A dolphin"
+   ],
+   "answer": 0,
+   "explain": "Cher Ami was a homing pigeon, and its preserved body is displayed at the Smithsonian.",
+   "source": "Wikipedia, Cher Ami, https://en.wikipedia.org/wiki/Cher_Ami"
+  },
+  {
+   "id": "s191",
+   "topic": "Service and technology",
+   "q": "In the U.S. Army and Marine Corps, what does MOS stand for?",
+   "options": [
+    "Mission operations schedule",
+    "Main operating station",
+    "Military officer school",
+    "Military occupational specialty"
+   ],
+   "answer": 3,
+   "explain": "An MOS code identifies a service member's specific job, such as 11B for an Army infantryman.",
+   "source": "Wikipedia, Military occupational specialty, https://en.wikipedia.org/wiki/Military_occupational_specialty"
+  },
+  {
+   "id": "s192",
+   "topic": "Service and technology",
+   "q": "The U.S. Air Force uses its own job codes instead of MOS codes. What are they called?",
+   "options": [
+    "Navy ratings",
+    "Air Force Specialty Codes (AFSC)",
+    "Flight numbers",
+    "Squadron tags"
+   ],
+   "answer": 1,
+   "explain": "The Air Force uses AFSCs, and the Navy uses ratings with Navy Enlisted Classification codes.",
+   "source": "Wikipedia, Military occupational specialty, https://en.wikipedia.org/wiki/Military_occupational_specialty"
+  },
+  {
+   "id": "s193",
+   "topic": "Service and technology",
+   "q": "Hedy Lamarr offered her 1942 frequency hopping invention to help guide what?",
+   "options": [
+    "Torpedoes",
+    "Hot air balloons",
+    "Trains",
+    "Tractors"
+   ],
+   "answer": 0,
+   "explain": "Lamarr and Antheil designed it to keep radio-guided torpedoes from being jammed.",
+   "source": "Wikipedia, Hedy Lamarr, https://en.wikipedia.org/wiki/Hedy_Lamarr"
+  },
+  {
+   "id": "s194",
+   "topic": "How technical work happens",
+   "q": "In the scientific method, what must a good hypothesis be?",
+   "options": [
+    "Proven before any test",
+    "Kept secret",
+    "Testable, so an experiment could show it is wrong",
+    "Agreed on by everyone"
+   ],
+   "answer": 2,
+   "explain": "Falsifiability is essential: a hypothesis must be something experiments could disprove.",
+   "source": "Wikipedia, Scientific method, https://en.wikipedia.org/wiki/Scientific_method"
+  },
+  {
+   "id": "s195",
+   "topic": "How technical work happens",
+   "q": "Why do scientists want other researchers to repeat their experiments?",
+   "options": [
+    "To make the work slower",
+    "Results that can be reproduced are more trustworthy",
+    "To share the cost of supplies",
+    "To change the original results"
+   ],
+   "answer": 1,
+   "explain": "Reproducibility lets the scientific community check results before accepting them.",
+   "source": "Wikipedia, Scientific method, https://en.wikipedia.org/wiki/Scientific_method"
+  },
+  {
+   "id": "s196",
+   "topic": "How technical work happens",
+   "q": "What is the purpose of peer review in science?",
+   "options": [
+    "Students grade their teachers",
+    "Companies set prices",
+    "Writers check spelling only",
+    "Other experts check the work before it is published"
+   ],
+   "answer": 3,
+   "explain": "Publishing results for community review is part of how science verifies findings.",
+   "source": "Wikipedia, Scientific method, https://en.wikipedia.org/wiki/Scientific_method"
+  },
+  {
+   "id": "s197",
+   "topic": "How technical work happens",
+   "q": "In an experiment, why do scientists use a control?",
+   "options": [
+    "To make the experiment faster",
+    "To guarantee the hypothesis is right",
+    "To compare against and isolate the effect of one variable",
+    "To decorate the lab"
+   ],
+   "answer": 2,
+   "explain": "Controls let scientists compare conditions and isolate which variable matters.",
+   "source": "Wikipedia, Scientific method, https://en.wikipedia.org/wiki/Scientific_method"
+  },
+  {
+   "id": "s198",
+   "topic": "How technical work happens",
+   "q": "In the engineering design process, what usually comes first?",
+   "options": [
+    "Asking what the problem is and what limits apply",
+    "Building the final product",
+    "Selling the design",
+    "Testing the prototype"
+   ],
+   "answer": 0,
+   "explain": "Engineers start by identifying the need and its constraints, then research, imagine, plan, create, test and improve.",
+   "source": "TeachEngineering, Engineering Design Process, https://www.teachengineering.org/populartopics/designprocess"
+  },
+  {
+   "id": "s199",
+   "topic": "How technical work happens",
+   "q": "In engineering, what is a prototype?",
+   "options": [
+    "The final product sold in stores",
+    "A written complaint",
+    "A type of battery",
+    "An early model built to test an idea"
+   ],
+   "answer": 3,
+   "explain": "Engineers create a prototype to make ideas tangible and see whether they work.",
+   "source": "TeachEngineering, Engineering Design Process, https://www.teachengineering.org/populartopics/designprocess"
+  },
+  {
+   "id": "s200",
+   "topic": "How technical work happens",
+   "q": "Why is the engineering design process described as a cycle?",
+   "options": [
+    "It ends after one try",
+    "Teams repeat steps, improving the design each time",
+    "It must be done on a bicycle",
+    "Each step happens once a year"
+   ],
+   "answer": 1,
+   "explain": "Engineers repeat the steps as many times as needed, learning from failure along the way.",
+   "source": "TeachEngineering, Engineering Design Process, https://www.teachengineering.org/populartopics/designprocess"
+  },
+  {
+   "id": "s201",
+   "topic": "How technical work happens",
+   "q": "What do electrical and electronics engineers mainly do?",
+   "options": [
+    "Design, develop and test electrical and electronic equipment",
+    "Repair car bodies",
+    "Write news articles",
+    "Plan city parks"
+   ],
+   "answer": 0,
+   "explain": "They work on everything from power generation equipment to small circuits in consumer products.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Electrical and Electronics Engineers, https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm"
+  },
+  {
+   "id": "s202",
+   "topic": "How technical work happens",
+   "q": "What education do electrical and electronics engineers typically need to start their careers?",
+   "options": [
+    "A medical degree",
+    "A law degree",
+    "A bachelor's degree in engineering",
+    "No schooling past middle school"
+   ],
+   "answer": 2,
+   "explain": "A bachelor's degree is typical, and high school math and physics are good preparation.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Electrical and Electronics Engineers, https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm"
+  },
+  {
+   "id": "s203",
+   "topic": "How technical work happens",
+   "q": "Which school subjects does the U.S. Bureau of Labor Statistics recommend high school students take to prepare for electrical engineering?",
+   "options": [
+    "Only art and music",
+    "Math and physics",
+    "Only foreign languages",
+    "Only physical education"
+   ],
+   "answer": 1,
+   "explain": "Algebra, trigonometry, calculus and physics are recommended preparation.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Electrical and Electronics Engineers, https://www.bls.gov/ooh/architecture-and-engineering/electrical-and-electronics-engineers.htm"
+  },
+  {
+   "id": "s204",
+   "topic": "How technical work happens",
+   "q": "What is the main job of an information security analyst?",
+   "options": [
+    "Designing clothing",
+    "Inspecting restaurants",
+    "Teaching driving lessons",
+    "Protecting an organization's computer networks and systems"
+   ],
+   "answer": 3,
+   "explain": "They monitor networks for breaches, maintain firewalls and plan for recovery after emergencies.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Information Security Analysts, https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm"
+  },
+  {
+   "id": "s205",
+   "topic": "How technical work happens",
+   "q": "What do software quality assurance testers do?",
+   "options": [
+    "Sell computers in stores",
+    "Build roads",
+    "Design and run tests to find problems in software",
+    "Repair phone towers"
+   ],
+   "answer": 2,
+   "explain": "Testers find defects and document them so developers can fix them.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers, https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+  },
+  {
+   "id": "s206",
+   "topic": "How technical work happens",
+   "q": "What do software developers do first, according to the U.S. Bureau of Labor Statistics?",
+   "options": [
+    "Analyze users' needs, then design software to meet them",
+    "Manufacture computer chips",
+    "Install phone lines",
+    "Print books"
+   ],
+   "answer": 0,
+   "explain": "Developers start from what users need and design applications and systems around it.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers, https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
+  },
+  {
+   "id": "s207",
+   "topic": "How technical work happens",
+   "q": "What do telecommunications technicians do?",
+   "options": [
+    "Write movie scripts",
+    "Grow crops",
+    "Perform surgery",
+    "Install and repair equipment that carries communication signals"
+   ],
+   "answer": 3,
+   "explain": "They install and maintain lines, routers, modems and radio equipment, often learning on the job.",
+   "source": "U.S. Bureau of Labor Statistics, Occupational Outlook Handbook: Telecommunications Technicians, https://www.bls.gov/ooh/installation-maintenance-and-repair/telecommunications-equipment-installers-and-repairers-except-line-installers.htm"
+  },
+  {
+   "id": "s208",
+   "topic": "Signals in nature and systems",
+   "q": "Nerve cells (neurons) send messages using which two kinds of signals?",
+   "options": [
+    "Sound and light",
+    "Electrical and chemical",
+    "Magnetic and gravitational",
+    "Heat and cold"
+   ],
+   "answer": 1,
+   "explain": "Neurons fire electrical action potentials and pass chemical neurotransmitters across synapses.",
+   "source": "Wikipedia, Neuron, https://en.wikipedia.org/wiki/Neuron"
+  },
+  {
+   "id": "s209",
+   "topic": "Signals in nature and systems",
+   "q": "Which part of a neuron receives signals from other neurons?",
+   "options": [
+    "Dendrites",
+    "The axon tip",
+    "The skull",
+    "The myelin sheath"
+   ],
+   "answer": 0,
+   "explain": "Dendrites receive signals, and the axon carries signals away from the cell body.",
+   "source": "Wikipedia, Neuron, https://en.wikipedia.org/wiki/Neuron"
+  },
+  {
+   "id": "s210",
+   "topic": "Signals in nature and systems",
+   "q": "What does the myelin sheath around many nerve fibers do?",
+   "options": [
+    "Stores memories",
+    "Produces blood",
+    "Helps signals travel faster",
+    "Makes the nerve visible"
+   ],
+   "answer": 2,
+   "explain": "Myelin insulates axons so action potentials travel faster while using less energy.",
+   "source": "Wikipedia, Neuron, https://en.wikipedia.org/wiki/Neuron"
+  },
+  {
+   "id": "s211",
+   "topic": "Signals in nature and systems",
+   "q": "About how many neurons are in the human brain?",
+   "options": [
+    "About 86 thousand",
+    "About 86 billion",
+    "About 86 million",
+    "About 86 trillion"
+   ],
+   "answer": 1,
+   "explain": "The brain has about 86 billion neurons, each with thousands of connections.",
+   "source": "Wikipedia, Neuron, https://en.wikipedia.org/wiki/Neuron"
+  },
+  {
+   "id": "s212",
+   "topic": "Signals in nature and systems",
+   "q": "The chemicals that carry signals across the gap between neurons are called what?",
+   "options": [
+    "Hormones of the bone",
+    "Enzymes of the skin",
+    "Antibodies",
+    "Neurotransmitters"
+   ],
+   "answer": 3,
+   "explain": "Neurotransmitters cross the synaptic cleft and activate receptors on the next neuron.",
+   "source": "Wikipedia, Neuron, https://en.wikipedia.org/wiki/Neuron"
+  },
+  {
+   "id": "s213",
+   "topic": "Signals in nature and systems",
+   "q": "What does an electrocardiogram (ECG or EKG) record?",
+   "options": [
+    "The brain's temperature",
+    "The lungs' air pressure",
+    "The heart's electrical activity",
+    "Blood sugar levels"
+   ],
+   "answer": 2,
+   "explain": "An ECG uses electrodes on the skin to draw the heart's electrical activity over time.",
+   "source": "Wikipedia, Electrocardiography, https://en.wikipedia.org/wiki/Electrocardiography"
+  },
+  {
+   "id": "s214",
+   "topic": "Signals in nature and systems",
+   "q": "Willem Einthoven won the 1924 Nobel Prize for inventing an instrument that recorded which signals?",
+   "options": [
+    "Heartbeat signals",
+    "Earthquake signals",
+    "Radio signals from space",
+    "Bird songs"
+   ],
+   "answer": 0,
+   "explain": "Einthoven's string galvanometer made practical electrocardiograms possible.",
+   "source": "Wikipedia, Electrocardiography, https://en.wikipedia.org/wiki/Electrocardiography"
+  },
+  {
+   "id": "s215",
+   "topic": "Signals in nature and systems",
+   "q": "On an ECG, the tall spike called the QRS complex shows the electrical activation of which part of the heart?",
+   "options": [
+    "The valves only",
+    "The aorta",
+    "The lungs",
+    "The ventricles"
+   ],
+   "answer": 3,
+   "explain": "The QRS complex represents ventricular depolarization; the P wave shows the atria.",
+   "source": "Wikipedia, Electrocardiography, https://en.wikipedia.org/wiki/Electrocardiography"
+  },
+  {
+   "id": "s216",
+   "topic": "Signals in nature and systems",
+   "q": "Which small region of the heart acts as its natural pacemaker?",
+   "options": [
+    "The left ventricle",
+    "The sinoatrial (SA) node",
+    "The aorta",
+    "The tricuspid valve"
+   ],
+   "answer": 1,
+   "explain": "The SA node in the right atrium generates the electrical impulses that start each heartbeat.",
+   "source": "Wikipedia, Sinoatrial node, https://en.wikipedia.org/wiki/Sinoatrial_node"
+  },
+  {
+   "id": "s217",
+   "topic": "Signals in nature and systems",
+   "q": "What is a typical resting heart rate range for a healthy adult?",
+   "options": [
+    "60 to 100 beats per minute",
+    "10 to 20 beats per minute",
+    "150 to 200 beats per minute",
+    "300 to 400 beats per minute"
+   ],
+   "answer": 0,
+   "explain": "The SA node normally sets a resting rhythm of 60 to 100 beats per minute.",
+   "source": "Wikipedia, Sinoatrial node, https://en.wikipedia.org/wiki/Sinoatrial_node"
+  },
+  {
+   "id": "s218",
+   "topic": "Signals in nature and systems",
+   "q": "Honeybees perform a waggle dance to tell other bees what?",
+   "options": [
+    "The time of day",
+    "The hive's temperature",
+    "The direction and distance to food",
+    "Which bee is queen"
+   ],
+   "answer": 2,
+   "explain": "The dance's angle shows direction relative to the Sun, and the waggle's length shows distance.",
+   "source": "Wikipedia, Waggle dance, https://en.wikipedia.org/wiki/Waggle_dance"
+  },
+  {
+   "id": "s219",
+   "topic": "Signals in nature and systems",
+   "q": "In a honeybee's waggle dance, what does a longer waggle run mean?",
+   "options": [
+    "The food is sweeter",
+    "The food is farther away",
+    "Danger is near",
+    "It is about to rain"
+   ],
+   "answer": 1,
+   "explain": "The duration of the waggle encodes distance to the resource.",
+   "source": "Wikipedia, Waggle dance, https://en.wikipedia.org/wiki/Waggle_dance"
+  },
+  {
+   "id": "s220",
+   "topic": "Signals in nature and systems",
+   "q": "Karl von Frisch received a Nobel Prize in 1973 for decoding the communication of which animal?",
+   "options": [
+    "Dolphins",
+    "Chimpanzees",
+    "Parrots",
+    "Honeybees"
+   ],
+   "answer": 3,
+   "explain": "Von Frisch was instrumental in decoding the honeybee waggle dance.",
+   "source": "Wikipedia, Waggle dance, https://en.wikipedia.org/wiki/Waggle_dance"
+  },
+  {
+   "id": "s221",
+   "topic": "Signals in nature and systems",
+   "q": "Bats and dolphins find objects by making sounds and listening for echoes. What is this called?",
+   "options": [
+    "Photosynthesis",
+    "Hibernation",
+    "Echolocation",
+    "Migration"
+   ],
+   "answer": 2,
+   "explain": "Echolocation is a biological sonar: animals time the returning echoes to judge distance.",
+   "source": "Wikipedia, Animal echolocation, https://en.wikipedia.org/wiki/Animal_echolocation"
+  },
+  {
+   "id": "s222",
+   "topic": "Signals in nature and systems",
+   "q": "Besides bats and toothed whales, which animals also use a simpler form of echolocation?",
+   "options": [
+    "Oilbirds and swiftlets",
+    "Eagles and hawks",
+    "Frogs and toads",
+    "Cats and dogs"
+   ],
+   "answer": 0,
+   "explain": "A few bird species, oilbirds and swiftlets, echolocate in dark caves.",
+   "source": "Wikipedia, Animal echolocation, https://en.wikipedia.org/wiki/Animal_echolocation"
+  },
+  {
+   "id": "s223",
+   "topic": "Signals in nature and systems",
+   "q": "Fireflies are which kind of insect?",
+   "options": [
+    "Flies",
+    "Moths",
+    "Bees",
+    "Beetles"
+   ],
+   "answer": 3,
+   "explain": "Fireflies are soft-bodied beetles in the family Lampyridae.",
+   "source": "Wikipedia, Firefly, https://en.wikipedia.org/wiki/Firefly"
+  },
+  {
+   "id": "s224",
+   "topic": "Signals in nature and systems",
+   "q": "Fireflies make light through a chemical reaction. What is producing light from living things called?",
+   "options": [
+    "Photosynthesis",
+    "Bioluminescence",
+    "Fluorescent paint",
+    "Static electricity"
+   ],
+   "answer": 1,
+   "explain": "Firefly light comes from luciferin and the enzyme luciferase, and their main use is finding mates.",
+   "source": "Wikipedia, Firefly, https://en.wikipedia.org/wiki/Firefly"
+  },
+  {
+   "id": "s225",
+   "topic": "Signals in nature and systems",
+   "q": "Some female Photuris fireflies copy the flash patterns of another species. Why?",
+   "options": [
+    "To lure males of that species and eat them",
+    "To find water",
+    "To warn of rain",
+    "To guide lost fireflies home"
+   ],
+   "answer": 0,
+   "explain": "These femme fatale fireflies mimic Photinus signals to attract and eat their males.",
+   "source": "Wikipedia, Firefly, https://en.wikipedia.org/wiki/Firefly"
+  },
+  {
+   "id": "s226",
+   "topic": "Signals in nature and systems",
+   "q": "In humpback whales, which whales sing the long, complex songs?",
+   "options": [
+    "Only calves",
+    "Only females",
+    "Males",
+    "Only whales in captivity"
+   ],
+   "answer": 2,
+   "explain": "Male humpbacks sing structured songs, and whales in one region sing nearly the same version.",
+   "source": "Wikipedia, Whale vocalization, https://en.wikipedia.org/wiki/Whale_vocalization"
+  },
+  {
+   "id": "s227",
+   "topic": "Signals in nature and systems",
+   "q": "Which whale's low-frequency calls rank among the loudest sounds in the ocean?",
+   "options": [
+    "The beluga",
+    "The blue whale",
+    "The narwhal",
+    "The orca"
+   ],
+   "answer": 1,
+   "explain": "Blue whale calls are extremely loud and travel vast distances underwater.",
+   "source": "Wikipedia, Whale vocalization, https://en.wikipedia.org/wiki/Whale_vocalization"
+  },
+  {
+   "id": "s228",
+   "topic": "Signals in nature and systems",
+   "q": "How do ants guide nestmates to a food source they have found?",
+   "options": [
+    "By humming",
+    "By flashing light",
+    "By drawing maps",
+    "By laying a chemical trail"
+   ],
+   "answer": 3,
+   "explain": "Ants lay trail pheromones on the way back to the nest, and nestmates follow them.",
+   "source": "Wikipedia, Pheromone, https://en.wikipedia.org/wiki/Pheromone"
+  },
+  {
+   "id": "s229",
+   "topic": "Signals in nature and systems",
+   "q": "Pheromones are chemical signals that affect members of what?",
+   "options": [
+    "Only plants",
+    "Any species at all",
+    "The same species",
+    "Only bacteria"
+   ],
+   "answer": 2,
+   "explain": "Pheromones trigger social responses in members of the same species.",
+   "source": "Wikipedia, Pheromone, https://en.wikipedia.org/wiki/Pheromone"
+  },
+  {
+   "id": "s230",
+   "topic": "Signals in nature and systems",
+   "q": "Vervet monkeys give different alarm calls for leopards, eagles and snakes. Why does that matter?",
+   "options": [
+    "Each call triggers a different escape",
+    "The calls are all identical",
+    "Only adults can hear them",
+    "The calls attract the predators"
+   ],
+   "answer": 0,
+   "explain": "Each predator prompts an acoustically distinct call, and group members respond appropriately.",
+   "source": "Wikipedia, Vervet monkey, https://en.wikipedia.org/wiki/Vervet_monkey"
+  },
+  {
+   "id": "s231",
+   "topic": "Signals in nature and systems",
+   "q": "Bees, some birds and some reptiles can see which kind of light reflecting off plants?",
+   "options": [
+    "Microwave",
+    "Radio",
+    "X-ray",
+    "Near-ultraviolet"
+   ],
+   "answer": 3,
+   "explain": "These animals see near-ultraviolet light, invisible to human eyes.",
+   "source": "NASA Science, Tour of the Electromagnetic Spectrum: Ultraviolet Waves, https://science.nasa.gov/ems/10_ultravioletwaves/"
+  },
+  {
+   "id": "s232",
+   "topic": "Signals in nature and systems",
+   "q": "Elephants can hear very low sounds, called infrasound. Down to about what frequency?",
+   "options": [
+    "1,600 hertz",
+    "16 hertz",
+    "16,000 hertz",
+    "160 kilohertz"
+   ],
+   "answer": 1,
+   "explain": "Elephants hear infrasonic sounds as low as about 16 hertz.",
+   "source": "Wikipedia, Hearing range, https://en.wikipedia.org/wiki/Hearing_range"
+  },
+  {
+   "id": "s233",
+   "topic": "Signals in nature and systems",
+   "q": "Dogs can hear sounds up to about what frequency, well above human hearing?",
+   "options": [
+    "About 45,000 hertz",
+    "About 4,500 hertz",
+    "About 450 hertz",
+    "About 45 hertz"
+   ],
+   "answer": 0,
+   "explain": "Dogs typically hear up to about 45 kilohertz.",
+   "source": "Wikipedia, Hearing range, https://en.wikipedia.org/wiki/Hearing_range"
+  },
+  {
+   "id": "s234",
+   "topic": "Signals in nature and systems",
+   "q": "What does a barometer measure?",
+   "options": [
+    "Wind direction",
+    "Rainfall",
+    "Air pressure",
+    "Humidity only"
+   ],
+   "answer": 2,
+   "explain": "A barometer measures atmospheric pressure, and the name means weight measure in Greek.",
+   "source": "Wikipedia, Barometer, https://en.wikipedia.org/wiki/Barometer"
+  },
+  {
+   "id": "s235",
+   "topic": "Signals in nature and systems",
+   "q": "If a barometer's reading is falling, what kind of weather is often on the way?",
+   "options": [
+    "Clear skies for a week",
+    "A storm",
+    "An earthquake",
+    "A solar eclipse"
+   ],
+   "answer": 1,
+   "explain": "Falling pressure indicates approaching storms, while rising pressure suggests improving weather.",
+   "source": "Wikipedia, Barometer, https://en.wikipedia.org/wiki/Barometer"
+  },
+  {
+   "id": "s236",
+   "topic": "Signals in nature and systems",
+   "q": "Evangelista Torricelli built the first barometer in the 1640s using which liquid?",
+   "options": [
+    "Water",
+    "Olive oil",
+    "Honey",
+    "Mercury"
+   ],
+   "answer": 3,
+   "explain": "Mercury is about 14 times denser than water, so his tube could be much shorter.",
+   "source": "Wikipedia, Barometer, https://en.wikipedia.org/wiki/Barometer"
+  },
+  {
+   "id": "s237",
+   "topic": "Signals in nature and systems",
+   "q": "What is the average air pressure at sea level, in inches of mercury?",
+   "options": [
+    "2.99",
+    "100",
+    "29.92",
+    "14.7"
+   ],
+   "answer": 2,
+   "explain": "Average sea level pressure is about 1013 hectopascals, or 29.92 inches of mercury.",
+   "source": "Wikipedia, Barometer, https://en.wikipedia.org/wiki/Barometer"
+  },
+  {
+   "id": "s238",
+   "topic": "Signals in nature and systems",
+   "q": "The Saffir-Simpson scale rates hurricanes from Category 1 to 5 based on what?",
+   "options": [
+    "Maximum sustained wind speed",
+    "Total rainfall",
+    "Storm width",
+    "Number of tornadoes"
+   ],
+   "answer": 0,
+   "explain": "It is a pure wind scale, so storm surge and rain must be judged separately.",
+   "source": "Wikipedia, Saffir-Simpson scale, https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale"
+  },
+  {
+   "id": "s239",
+   "topic": "Signals in nature and systems",
+   "q": "Hurricanes of which categories are called major hurricanes?",
+   "options": [
+    "Category 1 only",
+    "Category 2 and above",
+    "Category 5 only",
+    "Category 3 and above"
+   ],
+   "answer": 3,
+   "explain": "Categories 3, 4 and 5 are designated major hurricanes.",
+   "source": "Wikipedia, Saffir-Simpson scale, https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale"
+  },
+  {
+   "id": "s240",
+   "topic": "Signals in nature and systems",
+   "q": "A Category 5 hurricane has sustained winds of at least about how fast?",
+   "options": [
+    "57 miles per hour",
+    "157 miles per hour",
+    "100 miles per hour",
+    "300 miles per hour"
+   ],
+   "answer": 1,
+   "explain": "Category 5 begins at sustained winds of 157 mph.",
+   "source": "Wikipedia, Saffir-Simpson scale, https://en.wikipedia.org/wiki/Saffir%E2%80%93Simpson_scale"
+  },
+  {
+   "id": "s241",
+   "topic": "Signals in nature and systems",
+   "q": "After an earthquake, which seismic waves arrive first at a distant station?",
+   "options": [
+    "P waves",
+    "S waves",
+    "Surface waves",
+    "Ocean waves"
+   ],
+   "answer": 0,
+   "explain": "P waves are the fastest seismic waves, so they are the first signal from an earthquake to arrive.",
+   "source": "Wikipedia, P wave, https://en.wikipedia.org/wiki/P_wave"
+  },
+  {
+   "id": "s242",
+   "topic": "Signals in nature and systems",
+   "q": "How can P waves give a warning before an earthquake's strongest shaking?",
+   "options": [
+    "They are louder than other waves",
+    "They only travel at night",
+    "They arrive before the more damaging waves",
+    "They glow in the sky"
+   ],
+   "answer": 2,
+   "explain": "Early warning systems detect the nondestructive P waves and alert people seconds before stronger shaking.",
+   "source": "Wikipedia, P wave, https://en.wikipedia.org/wiki/P_wave"
+  },
+  {
+   "id": "s243",
+   "topic": "Signals in nature and systems",
+   "q": "NOAA's DART buoys warn of tsunamis. What do their seafloor sensors measure?",
+   "options": [
+    "Fish movement",
+    "Changes in water pressure",
+    "Air temperature",
+    "Sunlight"
+   ],
+   "answer": 1,
+   "explain": "A bottom pressure recorder senses a passing tsunami and relays data through a surface buoy and satellite.",
+   "source": "Wikipedia, Deep-ocean Assessment and Reporting of Tsunamis, https://en.wikipedia.org/wiki/Deep-ocean_Assessment_and_Reporting_of_Tsunamis"
+  },
+  {
+   "id": "s244",
+   "topic": "Signals in nature and systems",
+   "q": "When a DART station detects a possible tsunami, how does its reporting change?",
+   "options": [
+    "It turns off to save power",
+    "It sinks to the seafloor",
+    "It stops sending data",
+    "It reports much more often"
+   ],
+   "answer": 3,
+   "explain": "In event mode it moves from reports every 15 minutes to readings every 15 seconds.",
+   "source": "Wikipedia, Deep-ocean Assessment and Reporting of Tsunamis, https://en.wikipedia.org/wiki/Deep-ocean_Assessment_and_Reporting_of_Tsunamis"
+  },
+  {
+   "id": "s245",
+   "topic": "Signals in nature and systems",
+   "q": "Pigeons can detect infrasound as low as 0.5 hertz. What might this help them sense?",
+   "options": [
+    "Radio stations",
+    "Television signals",
+    "Distant storms",
+    "Wi-Fi networks"
+   ],
+   "answer": 2,
+   "explain": "Their sensitivity to very low sounds may help pigeons sense distant storms.",
+   "source": "Wikipedia, Hearing range, https://en.wikipedia.org/wiki/Hearing_range"
+  },
+  {
+   "id": "s246",
+   "topic": "Signals in nature and systems",
+   "q": "The first pheromone ever chemically identified was bombykol. Which insect makes it?",
+   "options": [
+    "The silkworm moth",
+    "The honeybee",
+    "The housefly",
+    "The mosquito"
+   ],
+   "answer": 0,
+   "explain": "Bombykol is a mate attractant released by female silkworm moths.",
+   "source": "Wikipedia, Pheromone, https://en.wikipedia.org/wiki/Pheromone"
+  }
+ ]
+}
