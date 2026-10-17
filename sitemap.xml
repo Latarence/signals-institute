@@ -9,6 +9,8 @@
   <url><loc>https://thesignalsinstitute.com/donate.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://thesignalsinstitute.com/trivia</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://thesignalsinstitute.com/play</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://thesignalsinstitute.com/play/cadence/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+  <url><loc>https://thesignalsinstitute.com/play/relay/</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
   <url><loc>https://thesignalsinstitute.com/privacy</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://thesignalsinstitute.com/terms</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>

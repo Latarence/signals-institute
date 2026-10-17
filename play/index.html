@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Relay | The Signals Institute</title>
-<meta name="description" content="Connect every home in town to the community hub. A short game about signals, distance, and the strength of a connected network.">
+<title>Play | The Signals Institute</title>
+<meta name="description" content="Two short games from The Signals Institute: Cadence, about steady presence and next steps, and Relay, about how signals travel.">
 <meta name="author" content="The Signals Institute">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://thesignalsinstitute.com/play">
-<meta property="og:title" content="Relay | The Signals Institute">
-<meta property="og:description" content="Connect every home in town to the community hub. A short game about signals, distance, and the strength of a connected network.">
+<meta property="og:title" content="Play | The Signals Institute">
+<meta property="og:description" content="Two short games from The Signals Institute: Cadence, about steady presence and next steps, and Relay, about how signals travel.">
 <meta property="og:image" content="https://thesignalsinstitute.com/logo_far_dark.png">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:title" content="Relay | The Signals Institute">
-<meta property="twitter:description" content="Connect every home in town to the community hub. A short game about signals, distance, and the strength of a connected network.">
+<meta property="twitter:title" content="Play | The Signals Institute">
+<meta property="twitter:description" content="Two short games from The Signals Institute: Cadence, about steady presence and next steps, and Relay, about how signals travel.">
 <meta property="twitter:image" content="https://thesignalsinstitute.com/logo_far_dark.png">
 <link rel="canonical" href="https://thesignalsinstitute.com/play">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,13 @@
 .pg-more{margin-top:40px;padding-top:24px;border-top:1px solid var(--border);color:var(--text);font-size:16px;line-height:1.7}
 .pg-more a{color:var(--blue)}
 .pg-game{max-width:1180px;margin:0 auto;padding:0 16px 40px}
-#trivia{min-height:420px}
+.pg-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:0 0 8px}
+.pg-card{display:flex;flex-direction:column;gap:10px;border:1px solid var(--border);border-radius:4px;padding:22px 22px 20px;color:var(--text);text-decoration:none;background:transparent;transition:border-color .2s}
+.pg-card:hover,.pg-card:focus-visible{border-color:var(--blue)}
+.pg-card .k{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--text)}
+.pg-card h2{margin:0;font-size:24px;line-height:1.2;color:var(--text-bright);font-weight:var(--font-weight-display)}
+.pg-card p{margin:0;font-size:16px;line-height:1.6}
+.pg-card .go{margin-top:auto;padding-top:6px;color:var(--blue);font-size:15px}
 @media(max-width:640px){.pg-wrap{padding:110px 16px 60px}}
 </style>
 </head>
@@ -73,13 +79,26 @@
 </div>
 
 <main class="pg-wrap" style="padding-bottom:24px">
-  <div class="section-label">Play · Relay</div>
-  <h1 class="pg-title">Strength through connection.</h1>
-  <p class="pg-lead">Connect every home in town to the community hub by placing relay stations within a budget. A short game about how signals travel, how distance and buildings weaken them, and how a connected network reaches everyone. The model underneath is real radio physics, simplified for learning.</p>
+  <div class="section-label">Play</div>
+  <h1 class="pg-title">Two short games.</h1>
+  <p class="pg-lead">Each takes a few minutes, has one main level and a new level every day at 00:00 UTC, and explains the model behind it. Both run in your browser.</p>
+  <div class="pg-cards">
+    <a class="pg-card" href="/play/cadence/">
+      <span class="k">New · Engagement, exposure, transition</span>
+      <h2>Cadence</h2>
+      <p>Plan a year of sessions across a community's venues. Trust grows where you show up steadily, and every signal you notice needs a next step.</p>
+      <span class="go">Play Cadence →</span>
+    </a>
+    <a class="pg-card" href="/play/relay/">
+      <span class="k">Signals in science</span>
+      <h2>Relay</h2>
+      <p>Connect every home in town to the community hub with relay stations and a budget. Real radio physics, simplified for learning.</p>
+      <span class="go">Play Relay →</span>
+    </a>
+  </div>
 </main>
-<div class="pg-game"><div id="app"></div></div>
 <div class="pg-wrap" style="padding-top:0">
-  <p class="pg-more" style="margin-top:0">Today's <a href="/trivia/">trivia</a> has five new questions on signals and the people behind technology. To learn how the Institute is building pathways into technical fields, see the <a href="/pillars.html">pillars</a>.</p>
+  <p class="pg-more" style="margin-top:0">Today's <a href="/trivia/">trivia</a> has five new questions on signals and the people behind technology. To see how the Institute is building pathways into technical fields, read the <a href="/pillars.html">pillars</a>.</p>
 </div>
 
 <footer>
@@ -126,6 +145,5 @@
 </footer>
 
 <script src="/main.js"></script>
-<script src="/play/relay.js" defer></script>
 </body>
 </html>

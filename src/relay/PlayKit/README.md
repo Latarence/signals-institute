@@ -49,6 +49,10 @@ Then `src/app/play/page.tsx` (Banner + `<PlayGame />`), a "Play" footer link nex
 
 ## Rules
 
+- **TSI copy (2026-10-17, Principal):** How to play is closed on every page load and opens from a "How to play" button
+  beside the game's name (aria-expanded; Esc closes it). Headings: The goal, How to play, What things cost, How you
+  earn, The challenge, Quick tip. This copy of the kit serves both TSI games (Relay and Cadence).
+
 - Every game passes `howTo` to `createShell`: the plain-words How to play section, shown first above the board
   and re-opened from the header. Six headings in order (The goal, What you control, What things cost, How you earn,
   What makes it hard, Quick tip), complete sentences, everyday words. If nothing costs or earns anything, say so.

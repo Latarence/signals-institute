@@ -21,14 +21,16 @@ export interface AboutSection {
 /** The player-facing rules, in plain words and complete sentences. Shown first, above the board. */
 export interface HowTo {
   goal: string[]; // 1. The goal
-  control: string[]; // 2. What you control
+  control: string[]; // 2. How to play
   cost: string[]; // 3. What things cost
   earn: string[]; // 4. How you earn
-  hard: string[]; // 5. What makes it hard
+  hard: string[]; // 5. The challenge
   tip: string; // 6. Quick tip
 }
 
-export const HOWTO_HEADINGS = ["The goal", "What you control", "What things cost", "How you earn", "What makes it hard", "Quick tip"];
+// TSI headings (Principal, 2026-10-17): "How to play" in place of "What you control", "The challenge" in place of
+// "What makes it hard".
+export const HOWTO_HEADINGS = ["The goal", "How to play", "What things cost", "How you earn", "The challenge", "Quick tip"];
 
 export interface ResultCard {
   pass: boolean;
@@ -80,6 +82,9 @@ const CSS = (b: PlayBrand) => `
 .pk button{font:inherit;color:inherit;cursor:pointer}
 .pk .pk-head{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;padding:12px 14px;border-bottom:1px solid var(--ln)}
 .pk .pk-name{font-weight:700;font-size:16px;letter-spacing:.01em}
+.pk .pk-title{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.pk .pk-howbtn{border-color:var(--a);color:var(--a)}
+.pk .pk-howbtn[aria-expanded=true]{background:${withAlpha(b.accent, 0.1)}}
 .pk .pk-tag{color:var(--mu);font-size:12px;font-family:${MONO}}
 .pk .pk-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
 .pk .pk-tab,.pk .pk-btn,.pk .pk-seg button{border:1px solid var(--ln);background:var(--p2);border-radius:3px;padding:7px 12px;font-size:13px;min-height:36px}
@@ -169,7 +174,9 @@ export function createShell(host: HTMLElement, o: ShellOptions): Shell {
   // header
   const head = h("div", "pk-head");
   const nameBox = h("div");
-  nameBox.appendChild(h("div", "pk-name", o.name));
+  const titleRow = h("div", "pk-title");
+  titleRow.appendChild(h("div", "pk-name", o.name));
+  nameBox.appendChild(titleRow);
   nameBox.appendChild(h("div", "pk-tag", o.tagline));
   head.appendChild(nameBox);
   const tabs = h("div", "pk-tabs");
@@ -178,12 +185,13 @@ export function createShell(host: HTMLElement, o: ShellOptions): Shell {
   head.appendChild(tools);
   root.appendChild(head);
 
-  // How to play: shown first, open on a first visit, re-opened from the header button at any time
-  const howKey = "play.howto." + o.slug + ".hidden";
+  // How to play: closed on every page load (Principal, 2026-10-17), opened and closed by the "How to play"
+  // button beside the game's name; Esc closes it. It sits above the board when open.
   let how: HTMLElement | null = null;
   if (o.howTo) {
     const ht = o.howTo;
     how = h("section", "pk-how");
+    how.id = "pk-how-" + o.slug;
     how.setAttribute("aria-label", "How to play " + o.name);
     const top = h("div", "pk-how-top");
     top.appendChild(h("h2", "", "How to play " + o.name));
@@ -221,23 +229,12 @@ export function createShell(host: HTMLElement, o: ShellOptions): Shell {
     hf.appendChild(more);
     how.appendChild(hf);
     root.appendChild(how);
-    let hidden = false;
-    try {
-      hidden = window.localStorage.getItem(howKey) === "1";
-    } catch {
-      /* storage unavailable: show it */
-    }
-    how.hidden = hidden;
+    how.hidden = true;
   }
   function setHow(open: boolean) {
     if (!how) return;
     how.hidden = !open;
     if (howBtn) howBtn.setAttribute("aria-expanded", String(open));
-    try {
-      window.localStorage.setItem(howKey, open ? "0" : "1");
-    } catch {
-      /* storage unavailable */
-    }
   }
   let howBtn: HTMLButtonElement | null = null;
 
@@ -501,20 +498,32 @@ export function createShell(host: HTMLElement, o: ShellOptions): Shell {
       if (toastTimer) clearTimeout(toastTimer);
       if (shareW) shareW.destroy();
       audio.setMuted(true);
+      document.removeEventListener("keydown", onEsc);
       root.remove();
     },
   };
 
-  // header tools
+  // header tools; How to play sits beside the game's name
   if (how) {
-    howBtn = h("button", "pk-btn", "How to play");
-    howBtn.setAttribute("aria-expanded", String(!how.hidden));
+    howBtn = h("button", "pk-btn pk-howbtn", "How to play");
+    howBtn.setAttribute("aria-expanded", "false");
+    howBtn.setAttribute("aria-controls", how.id);
     howBtn.addEventListener("click", () => {
       if (how && !how.hidden) setHow(false);
       else shell.openHowTo();
     });
-    tools.appendChild(howBtn);
+    titleRow.appendChild(howBtn);
   }
+  // Esc closes the About panel first, then How to play
+  const onEsc = (e: KeyboardEvent) => {
+    if (e.key !== "Escape") return;
+    if (modal.classList.contains("on")) modal.classList.remove("on");
+    else if (how && !how.hidden) {
+      setHow(false);
+      if (howBtn) howBtn.focus();
+    }
+  };
+  document.addEventListener("keydown", onEsc);
   const about = h("button", "pk-btn", "About the science");
   about.addEventListener("click", () => shell.openAbout());
   tools.appendChild(about);
