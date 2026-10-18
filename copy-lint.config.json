@@ -1,0 +1,6 @@
+{
+  "skip": [
+    "index_original.html"
+  ],
+  "_why": "index_original.html is redirected to / in vercel.json (never served)"
+}
