@@ -1,0 +1,18 @@
+/* Member space pages. Uses the site tokens from styles.css; small corners, full even borders. */
+body.member { min-height: 100vh; display: flex; flex-direction: column; background: var(--near-black); color: var(--text); font-family: var(--font-sans); }
+.member-top { padding: 1.25rem 1.5rem; }
+.member-top img { height: 34px; width: auto; display: block; }
+.member-wrap { flex: 1; display: flex; align-items: flex-start; justify-content: center; padding: 2.5rem 1rem 4rem; }
+.member-card { width: 100%; max-width: 460px; background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 2rem 1.75rem; }
+.member-card h1 { font-family: var(--font-display); font-weight: var(--font-weight-display); letter-spacing: var(--ls-display); font-size: 1.6rem; color: var(--text-bright); margin-bottom: .5rem; }
+.member-card h2 { font-family: var(--font-display); font-size: 1rem; color: var(--text-bright); margin: 1.75rem 0 .5rem; }
+.member-card p { font-family: var(--font-accent); line-height: 1.6; margin-bottom: 1rem; }
+.member-card .quiet { color: var(--text-dim); font-size: .95rem; }
+.member-btn { display: block; width: 100%; font: inherit; font-weight: 600; letter-spacing: var(--ls-nav); padding: .8rem 1rem; margin-bottom: .75rem; border-radius: 4px; border: 1px solid var(--blue); background: var(--blue); color: var(--on-accent); cursor: pointer; }
+.member-btn.alt { background: transparent; color: var(--text-bright); border-color: var(--border); }
+.member-btn:disabled { opacity: .5; cursor: default; }
+.member-btn:focus-visible, .member-input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.member-input { width: 100%; font: inherit; padding: .75rem; margin-bottom: .75rem; border-radius: 4px; border: 1px solid var(--border); background: var(--near-black); color: var(--text-bright); }
+.member-status { min-height: 1.5rem; margin-top: 1rem; font-size: .95rem; color: var(--text); }
+.member-status.err { color: var(--amber); }
+.member-card a { color: var(--blue); }
