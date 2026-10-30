@@ -23,7 +23,7 @@ from fastapi import Cookie, FastAPI, HTTPException, Request, Response
 from pydantic import BaseModel
 
 from . import card as cardpolicy
-from . import webauthn_core as wa
+from . import webauthn_adapter as wa
 from .store import CHALLENGE_TTL, SESSION_TTL, Store, _h
 
 COOKIE = "tsi_member"

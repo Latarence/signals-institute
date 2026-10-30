@@ -11,7 +11,7 @@ from cryptography.hazmat.primitives.asymmetric import ec, padding, rsa
 from cryptography.x509.oid import NameOID
 from fastapi.testclient import TestClient
 
-from tsi_member_auth import admin, webauthn_core as wa
+from tsi_member_auth import admin, webauthn_adapter as wa
 from tsi_member_auth.service import create_app
 from tsi_member_auth.store import Store
 

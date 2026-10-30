@@ -1,0 +1,5 @@
+webauthn_core.py is vendored verbatim, never edited here.
+source: huntington repo, branch fix/huntington-webauthn-login-20261030, commit 7be802c847685cc1a40976d59a14afbe49d2ab46
+path:   backend/huntington/auth/webauthn_core.py
+sha256: f6c5e17493800ae6525b823b777721146a335d15f72d10880794cefe4ec1740c
+Re-vendor by copying the upstream file and updating this hash. Local behaviour changes go in webauthn_adapter.py.
