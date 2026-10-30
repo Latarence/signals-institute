@@ -8,7 +8,7 @@ sign-in of any kind. This directory adds the minimal member login, built as a do
 | Path | Role |
 |---|---|
 | `member-auth/tsi_member_auth/service.py` | FastAPI service, same-origin under `/member/*` |
-| `.../webauthn_core.py` | Passkey registration and assertion verification (see "Vendoring") |
+| `.../webauthn_core.py`, `.../webauthn_adapter.py` | Canonical passkey verifier (vendored) and the thin adapter this service calls |
 | `.../card.py` | Card path policy: tenant CA chain, currency, CRL (fail closed), RSA-PSS signature |
 | `.../store.py` | SQLite: members, credentials, cards, invites, challenges, sessions, lockout |
 | `.../admin.py` | Operator CLI: add-member, invite, recover, add-card, revoke-card, revoke-member |
@@ -31,11 +31,10 @@ sign-in of any kind. This directory adds the minimal member login, built as a do
   revoking its certificate at Chief (replace flow) and `admin revoke-card`.
 
 ## Interfaces coded against
-- `webauthn_core` (Huntington branch `fix/huntington-webauthn-login-20261030`): not yet pushed when this was written.
-  `webauthn_core.py` here is an interim implementation of the same four-function surface
-  (`registration_options`, `verify_registration`, `authentication_options`, `verify_authentication`). Swap in the
-  upstream file when it lands and re-run the tests.
-- `window.chiefCardBridge.sign(challenge)` (Chief branch `fix/chief-card-bridge-20261030`): returns
+- `webauthn_core.py` is the canonical Huntington core (branch `fix/huntington-webauthn-login-20261030`, commit 7be802c8) vendored
+  verbatim and pinned by `WEBAUTHN_CORE_VENDORED.txt` (a test fails on drift). `webauthn_adapter.py` keeps the four-function surface
+  this service uses (`registration_options`, `verify_registration`, `authentication_options`, `verify_authentication`).
+- `window.chiefCardBridge.sign(challenge)` (Chief branch `fix/chief-card-bridge-20261030`; client vendored as `chief-card-bridge.js`): returns
   `{ card_id, certificate_pem, signature }`, the same contract the Ridgefield member login uses.
 - CRL: Chief `GET /public/ca/crl` (branch `fix/chief-card-kit-gaps-20261030`), via `TSI_CRL_URL` or `TSI_CRL_PATH`.
 
