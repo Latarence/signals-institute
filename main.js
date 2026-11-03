@@ -109,7 +109,10 @@ if (nav) {
 
 // reveal on scroll
 const revealEls = Array.from(document.querySelectorAll('.reveal'));
-if (revealEls.length) {
+const reducedMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+if (revealEls.length && 'IntersectionObserver' in window && !reducedMotion) {
+  // Only hide .reveal sections once we know we can reveal them again (see .js-reveal in styles.css).
+  document.documentElement.classList.add('js-reveal');
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) e.target.classList.add('visible');
@@ -123,16 +126,24 @@ const menuBtn = document.getElementById('menuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 if (menuBtn && mobileMenu) {
   const mobileLinks = Array.from(document.querySelectorAll('.mobile-links a'));
-  const toggleMenu = () => {
-    const open = mobileMenu.getAttribute('data-open') === 'true';
-    mobileMenu.setAttribute('data-open', (!open).toString());
-    document.body.classList.toggle('menu-open', !open);
+  // One place keeps the visual state and the announced state (aria-expanded, label) in step.
+  const setMenuOpen = (open) => {
+    mobileMenu.setAttribute('data-open', open.toString());
+    document.body.classList.toggle('menu-open', open);
+    menuBtn.setAttribute('aria-expanded', open.toString());
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   };
+  menuBtn.setAttribute('aria-controls', 'mobileMenu');
+  setMenuOpen(mobileMenu.getAttribute('data-open') === 'true');
+  const toggleMenu = () => setMenuOpen(mobileMenu.getAttribute('data-open') !== 'true');
   menuBtn.addEventListener('click', toggleMenu);
-  mobileLinks.forEach(a => a.addEventListener('click', () => {
-    mobileMenu.setAttribute('data-open', 'false');
-    document.body.classList.remove('menu-open');
-  }));
+  mobileLinks.forEach(a => a.addEventListener('click', () => setMenuOpen(false)));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenu.getAttribute('data-open') === 'true') {
+      setMenuOpen(false);
+      menuBtn.focus();
+    }
+  });
 }
 
 // programs tabs
