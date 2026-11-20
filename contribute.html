@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Connect | The Signals Institute</title>
-<meta name="description" content="Connect with The Signals Institute. Volunteer, mentor, host programs, hire veterans, or stay informed about youth technical exposure and veteran transition programs in West Palm Beach, FL.">
+<meta name="description" content="Connect with The Signals Institute. Volunteer, mentor, host programs, hire veterans, or stay informed. West Palm Beach, Florida.">
 <meta name="keywords" content="volunteer, mentor, hire veterans, partner, youth programs, veteran transition, career pathways">
 <meta name="author" content="The Signals Institute">
 
@@ -19,18 +19,19 @@
 <link rel="canonical" href="https://thesignalsinstitute.com/contribute">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet"></noscript>
 
-<script src="https://js.stripe.com/v3/"></script>
 <link rel="icon" type="image/png" href="/favicon.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <nav id="nav">
   <a href="index.html" class="nav-logo" aria-label="The Signals Institute">
-      <img src="logo_light_transparent.png" data-logo-dark="logo_light_transparent.png" data-logo-light="logo_dark_transparent.png" alt="The Signals Institute">
+      <img src="/logo_light_transparent.png" data-logo-dark="/logo_light_transparent.png" data-logo-light="/logo_dark_transparent.png" alt="The Signals Institute" width="784" height="373">
     </a>
 
   <div class="nav-right">
@@ -60,6 +61,8 @@
     <li><a href="pillars.html"><span>02</span>Pillars</a></li>
     <li><a href="events.html"><span>03</span>Events</a></li>
     <li><a href="contribute.html"><span>04</span>Connect</a></li>
+    <li><a href="donate.html"><span>05</span>Donate</a></li>
+    <li><a href="contact.html"><span>06</span>Contact</a></li>
   </ul>
 </div>
 
@@ -74,10 +77,10 @@
 
 <section class="connect-section">
   <div class="connect-section-inner">
-    <div class="section-label" style="margin-bottom:1rem;">Get Involved</div>
+    <div class="section-label" style="margin-bottom:1rem;">Connect</div>
     <form class="connect-form" action="https://api.web3forms.com/submit" method="POST">
       <input type="hidden" name="access_key" value="458e4d03-b1b5-4c2f-9be2-65c54516742b">
-      <input type="hidden" name="subject" value="New Signals Institute Connection">
+      <input type="hidden" name="subject" value="New connection request for The Signals Institute">
       <input type="hidden" name="selection" id="combined-selection" value="">
 
       <div class="form-row">
@@ -85,7 +88,7 @@
           <label for="identity">I am a...</label>
           <select id="identity" name="identity" required>
             <option value="">Select who you are</option>
-            <option value="student">Student / Youth</option>
+            <option value="student">Student (13+)</option>
             <option value="veteran">Veteran</option>
             <option value="parent">Parent / Guardian</option>
             <option value="volunteer">Volunteer / Community Member</option>
@@ -94,6 +97,7 @@
             <option value="funder">Funder / Grant Writer</option>
             <option value="community">General Community</option>
           </select>
+          <div class="form-note" style="margin-top:0.4rem;">This site is for ages 13 and older. Parents and guardians are welcome to write on behalf of a younger student.</div>
         </div>
 
         <div class="field">
@@ -131,9 +135,9 @@
 <section class="donate-section" id="donate">
   <div class="donate-section-inner">
     <div class="section-label amber" style="margin-bottom:1rem;">Fund the Work</div>
-    <p class="donate-intro">Support our first programs. Every contribution goes directly toward building youth technical exposure, veteran transition, and community programs in West Palm Beach.</p>
+    <p class="donate-intro">Support our first programs. Contributions support curriculum, equipment, and event costs as we launch our first programs.</p>
     
-    <a href="https://buy.stripe.com/aFa28k2YCdaS6ey6Ku4Vy06" class="btn-donate" style="display:inline-block; padding:1rem 2rem; text-decoration:none; margin-top:1rem;">
+    <a href="https://buy.stripe.com/aFa28k2YCdaS6ey6Ku4Vy06?client_reference_id=tsi_site" class="btn-donate" style="display:inline-block; padding:1rem 2rem; text-decoration:none; margin-top:1rem;">
       Donate any amount
     </a>
   </div>
@@ -145,7 +149,7 @@
       <div class="section-label">Where it goes</div>
       <h2 class="section-title">Supporting our first programs.</h2>
       <p>
-        Every contribution goes directly toward curriculum, equipment, and event costs as we launch our first programs.
+        Contributions support curriculum, equipment, and event costs as we launch our first programs.
         We will be transparent about how funds are used as programming gets underway.
       </p>
 
@@ -177,7 +181,7 @@
     <p>Ready to explore how we work or learn more about our mission?</p>
     <div class="footer-cta-actions">
       <a href="about.html" class="btn-blue">Explore</a>
-      <a href="pillars.html" class="btn-ghost">Connect</a>
+      <a href="contribute.html" class="btn-ghost">Connect</a>
     </div>
   </div>
 </section>
@@ -187,28 +191,28 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="footer-logo">
-        <img src="logo_light_transparent.png" data-logo-dark="logo_light_transparent.png" data-logo-light="logo_dark_transparent.png" alt="The Signals Institute">
+        <img src="/logo_light_transparent.png" data-logo-dark="/logo_light_transparent.png" data-logo-light="/logo_dark_transparent.png" alt="The Signals Institute" width="784" height="373">
       </div>
       <p class="footer-tagline">Strength Through Connection</p>
     </div>
 
     <div class="footer-nav">
-      <h4>Discover</h4>
+      <h3>Discover</h3>
       <a href="about.html">About</a>
       <a href="pillars.html">Pillars</a>
       <a href="events.html">Events</a>
     </div>
 
     <div class="footer-nav">
-      <h4>Connect</h4>
-      <a href="contribute.html">Get Involved</a>
+      <h3>Connect</h3>
+      <a href="contribute.html">Connect</a>
       <a href="contact.html">Contact</a>
       <a href="donate.html">Donate</a>
     </div>
 
 <div class="footer-info-col">
-  <h4>Location</h4>
-  <p>West Palm Beach, FL</p>
+  <h3>Location</h3>
+  <p>West Palm Beach, Florida</p>
   <div class="footer-social">
         <a href="https://www.linkedin.com/company/the-signals-institute" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -224,7 +228,7 @@
   </div>
 </footer>
 
-<script src="main.js"></script>
-<script src="tsi-consent.js" defer></script>
+<script src="/main.js"></script>
+<script src="/tsi-consent.js" defer></script>
 </body>
 </html>

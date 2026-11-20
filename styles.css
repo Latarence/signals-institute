@@ -485,7 +485,7 @@
     position: absolute; right: 1.5rem; top: 1rem; line-height: 1;
     color: var(--text-bright);
   }
-  .pillar h3 {
+  .pillar h3, .pillar h2 {
     font-family: var(--font-display);
     font-size: 1.6rem; font-weight: 700; color: var(--text-bright); margin-bottom: 0.35rem;
   }
@@ -889,7 +889,7 @@
     flex-direction: column;
     gap: 0.75rem;
   }
-  .footer-nav h4 {
+  .footer-nav h4, .footer-nav h3, .footer-nav h2 {
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -909,7 +909,7 @@
     flex-direction: column;
     gap: 0.75rem;
   }
-  .footer-info-col h4 {
+  .footer-info-col h4, .footer-info-col h3, .footer-info-col h2 {
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;

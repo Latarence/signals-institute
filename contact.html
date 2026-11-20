@@ -19,17 +19,19 @@
 <link rel="canonical" href="https://thesignalsinstitute.com/contact">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,400&display=swap" rel="stylesheet"></noscript>
 
 <link rel="icon" type="image/png" href="/favicon.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <nav id="nav">
   <a href="index.html" class="nav-logo" aria-label="The Signals Institute">
-      <img src="logo_light_transparent.png" data-logo-dark="logo_light_transparent.png" data-logo-light="logo_dark_transparent.png" alt="The Signals Institute">
+      <img src="/logo_light_transparent.png" data-logo-dark="/logo_light_transparent.png" data-logo-light="/logo_dark_transparent.png" alt="The Signals Institute" width="784" height="373">
     </a>
 
   <div class="nav-right">
@@ -76,7 +78,7 @@
 <section class="contact">
   <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="458e4d03-b1b5-4c2f-9be2-65c54516742b">
-    <input type="hidden" name="subject" value="New Signals Institute Inquiry">
+    <input type="hidden" name="subject" value="New inquiry for The Signals Institute">
     <div class="field">
       <label for="name">Name</label>
       <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
@@ -107,7 +109,6 @@
     <div class="form-actions">
       <button class="btn-blue" type="submit">Send message</button>
       <a class="btn-ghost" href="index.html">Back to home</a>
-      <div class="form-note">Or email directly if your mail client blocks form submissions.</div>
     </div>
   </form>
 </section>
@@ -147,27 +148,27 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="footer-logo">
-        <img src="logo_light_transparent.png" data-logo-dark="logo_light_transparent.png" data-logo-light="logo_dark_transparent.png" alt="The Signals Institute">
+        <img src="/logo_light_transparent.png" data-logo-dark="/logo_light_transparent.png" data-logo-light="/logo_dark_transparent.png" alt="The Signals Institute" width="784" height="373">
       </div>
       <p class="footer-tagline">Strength Through Connection</p>
     </div>
 
     <div class="footer-nav">
-      <h4>Discover</h4>
+      <h3>Discover</h3>
       <a href="about.html">About</a>
       <a href="pillars.html">Pillars</a>
       <a href="events.html">Events</a>
     </div>
 
     <div class="footer-nav">
-      <h4>Connect</h4>
-      <a href="contribute.html">Get Involved</a>
+      <h3>Connect</h3>
+      <a href="contribute.html">Connect</a>
       <a href="contact.html">Contact</a>
       <a href="donate.html">Donate</a>
     </div>
 
     <div class="footer-info-col">
-      <h4>Location</h4>
+      <h3>Location</h3>
       <p>West Palm Beach, Florida</p>
       <div class="footer-social">
         <a href="https://www.linkedin.com/company/the-signals-institute" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -184,7 +185,7 @@
   </div>
 </footer>
 
-<script src="main.js"></script>
-<script src="tsi-consent.js" defer></script>
+<script src="/main.js"></script>
+<script src="/tsi-consent.js" defer></script>
 </body>
 </html>

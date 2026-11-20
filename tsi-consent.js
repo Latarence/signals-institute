@@ -24,7 +24,13 @@
   }
 
   function start() {
-    if (started) return; started = true;
+    if (started) {
+      // Accept after an earlier Decline in this same page view: re-grant and resume.
+      window['ga-disable-' + GA] = false;
+      if (window.gtag) window.gtag('consent', 'update', { analytics_storage: 'granted' });
+      return;
+    }
+    started = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
     window.gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
@@ -69,6 +75,8 @@
     d.id = 'tsi-consent';
     d.className = 'tsi-consent';
     d.setAttribute('role', 'dialog');
+    d.setAttribute('aria-modal', 'false');
+    d.setAttribute('tabindex', '-1');
     d.setAttribute('aria-label', 'Analytics choice');
     d.innerHTML =
       '<p>The Signals Institute would like to use Google Analytics to understand how visitors use this site. ' +
@@ -77,6 +85,7 @@
       '<div class="tsi-consent-row"><button type="button" id="tsi-consent-no">Decline</button>' +
       '<button type="button" id="tsi-consent-yes">Accept</button></div>';
     document.body.insertBefore(d, document.body.firstChild);
+    try { d.focus({ preventScroll: true }); } catch (e) {}
     document.getElementById('tsi-consent-no').onclick = function () { set('no'); stop(); d.remove(); };
     document.getElementById('tsi-consent-yes').onclick = function () { set('yes'); d.remove(); start(); };
     document.addEventListener('keydown', function esc(e) {
