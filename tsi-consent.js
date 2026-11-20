@@ -76,7 +76,7 @@
       'You can decline, and you can change your choice at any time. Details are in our <a href="/privacy#analytics">Privacy Policy</a>.</p>' +
       '<div class="tsi-consent-row"><button type="button" id="tsi-consent-no">Decline</button>' +
       '<button type="button" id="tsi-consent-yes">Accept</button></div>';
-    document.body.appendChild(d);
+    document.body.insertBefore(d, document.body.firstChild);
     document.getElementById('tsi-consent-no').onclick = function () { set('no'); stop(); d.remove(); };
     document.getElementById('tsi-consent-yes').onclick = function () { set('yes'); d.remove(); start(); };
     document.addEventListener('keydown', function esc(e) {

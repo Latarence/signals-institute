@@ -37,7 +37,7 @@
     --card2: #1A1A1A;
     --border: rgba(255,255,255,0.07);
     --text: #DDDDDD;
-    --text-dim: rgba(221,221,221,0.45);
+    --text-dim: rgba(221,221,221,0.62);
     --text-bright: #FFFFFF;
     --on-accent: #0A0A0A;
     --footer-bg: #060606;
@@ -65,7 +65,7 @@
     --card2: #33312C;
     --border: rgba(237,230,216,0.1);
     --text: #EDE6D8;
-    --text-dim: rgba(237,230,216,0.55);
+    --text-dim: rgba(237,230,216,0.62);
     --text-bright: #EDE6D8;
     --on-accent: #1F1E1B;
     --footer-bg: #181714;
@@ -92,7 +92,7 @@
     --card2: #E5DED0;
     --border: rgba(31,30,27,0.1);
     --text: #1F1E1B;
-    --text-dim: rgba(31,30,27,0.6);
+    --text-dim: rgba(31,30,27,0.7);
     --text-bright: #1F1E1B;
     --on-accent: #EDE6D8;
     --footer-bg: #E0D9CB;
@@ -106,7 +106,7 @@
     --card2: #efece6;
     --border: rgba(0,0,0,0.08);
     --text: rgba(10,10,10,0.88);
-    --text-dim: rgba(10,10,10,0.55);
+    --text-dim: rgba(10,10,10,0.65);
     --text-bright: rgba(10,10,10,0.94);
     --on-accent: #0A0A0A;
     --footer-bg: #f0eee8;
@@ -1773,3 +1773,9 @@
     .form-row { grid-template-columns: 1fr; }
     .impact-numbers { grid-template-columns: repeat(2, 1fr); }
   }
+
+/* a11y: skip link and visible keyboard focus (R1120-PX-TSI-A11Y, TSI-17) */
+.skip-link{position:absolute;left:8px;top:-60px;z-index:10000;padding:12px 16px;min-height:44px;background:var(--text-bright);color:var(--near-black);font-weight:700;text-decoration:none}
+.skip-link:focus{top:8px}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+#main:focus{outline:none}
