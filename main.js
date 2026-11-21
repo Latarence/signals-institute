@@ -128,10 +128,22 @@ if (menuBtn && mobileMenu) {
     mobileMenu.setAttribute('data-open', (!open).toString());
     document.body.classList.toggle('menu-open', !open);
   };
-  menuBtn.addEventListener('click', toggleMenu);
+  menuBtn.setAttribute('aria-controls', 'mobileMenu');
+  menuBtn.setAttribute('aria-expanded', 'false');
+  const syncExpanded = () => menuBtn.setAttribute('aria-expanded', mobileMenu.getAttribute('data-open') === 'true' ? 'true' : 'false');
+  menuBtn.addEventListener('click', () => { toggleMenu(); syncExpanded(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenu.getAttribute('data-open') === 'true') {
+      mobileMenu.setAttribute('data-open', 'false');
+      document.body.classList.remove('menu-open');
+      syncExpanded();
+      menuBtn.focus();
+    }
+  });
   mobileLinks.forEach(a => a.addEventListener('click', () => {
     mobileMenu.setAttribute('data-open', 'false');
     document.body.classList.remove('menu-open');
+    syncExpanded();
   }));
 }
 

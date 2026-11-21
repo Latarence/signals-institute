@@ -1086,8 +1086,11 @@
   }
   :root.light .mobile-menu { background: rgba(245,243,238,0.96); }
   .mobile-menu[data-open="true"] { display: block; }
-  .mobile-links { list-style: none; display: grid; gap: 0.85rem; }
+  .mobile-links { list-style: none; display: grid; gap: 0; }
   .mobile-links a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
     color: var(--text);
     text-decoration: none;
     font-size: 0.85rem;
